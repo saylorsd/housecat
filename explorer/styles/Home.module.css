@@ -1,0 +1,96 @@
+.wrapper {
+  @apply w-full;
+  @apply text-center;
+  @apply overflow-auto;
+}
+
+.wrapper a {
+  @apply font-medium text-blue-600 underline;
+}
+
+.wrapper > div {
+  @apply container py-24 mx-auto;
+}
+
+.infoTitle {
+  @apply font-medium;
+  @apply text-5xl;
+  @apply pb-7;
+}
+
+.infoText {
+}
+
+.bigButton {
+  @apply p-4;
+  @apply h-32;
+  @apply border border-zinc-400 rounded-lg;
+  @apply flex flex-col items-center;
+  @apply bg-amber-100;
+  @apply drop-shadow-md hover:drop-shadow-lg;
+  @apply hover:border-zinc-800 hover:bg-background-50;
+  @apply active:border-black active:bg-background-50 active:shadow-inner active:drop-shadow-none;
+}
+
+.buttonTitle {
+  @apply text-2xl font-semibold;
+}
+
+.buttonText {
+  @apply font-medium text-sm;
+  @apply m-3;
+}
+
+.buttonPicture {
+}
+
+.buttonSection {
+  @apply py-4;
+  @apply grid grid-cols-3 gap-12;
+  @apply max-w-3xl mx-auto;
+}
+
+.smallButtonSection {
+  @apply py-8;
+  @apply grid grid-cols-2 gap-12;
+  @apply max-w-lg mx-auto;
+}
+
+.content {
+  @apply overflow-auto;
+  @apply p-8 pb-8;
+  @apply max-w-4xl mx-auto text-left;
+}
+
+.content a,
+.content p,
+.content ul {
+  @apply font-serif;
+  @apply text-xl text-zinc-800;
+  @apply leading-relaxed;
+}
+
+.content a {
+  @apply font-medium text-blue-800 underline;
+  @apply hover:text-blue-400;
+}
+
+.content ul,
+.content p {
+  @apply mb-6;
+}
+
+.content p strong {
+  @apply text-xl font-semibold;
+}
+
+.logos {
+  @apply py-6;
+  @apply max-w-lg mx-auto;
+  @apply flex;
+}
+
+.logos > a {
+  @apply mx-4;
+  @apply h-24;
+}

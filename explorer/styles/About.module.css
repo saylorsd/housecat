@@ -1,0 +1,78 @@
+.wrapper {
+  @apply container mx-auto;
+  @apply flex flex-row-reverse;
+}
+
+.content {
+  @apply overflow-auto;
+  @apply p-8 pb-8;
+  @apply max-w-3xl;
+}
+
+.content a,
+.content p,
+.content ul {
+  @apply font-serif;
+  @apply text-xl text-zinc-800;
+  @apply leading-relaxed;
+}
+
+.content a {
+  @apply font-medium text-blue-800 underline;
+  @apply hover:text-blue-400;
+}
+
+.content h2 {
+  @apply font-thin text-5xl;
+}
+
+.content h3 {
+  @apply pt-8 mb-4;
+  @apply font-semibold text-3xl;
+  @apply border-b border-black;
+}
+
+.content h4 {
+  @apply mt-4 mb-2;
+  @apply font-semibold;
+}
+
+.content p,
+.content ul {
+  @apply mb-4;
+}
+
+.content ul {
+  @apply mt-2;
+}
+
+.content li {
+  @apply mb-2;
+}
+
+.content ul {
+  @apply pl-4;
+  @apply list-disc;
+}
+
+.sidebar {
+  @apply w-96;
+  @apply flex-shrink-0;
+  @apply hidden lg:block;
+  @apply p-4;
+}
+
+.sidebar h3 {
+  @apply font-semibold text-2xl;
+  @apply py-2;
+}
+
+.sidebar ul {
+  @apply ml-2;
+}
+.sidebar li {
+  @apply text-lg;
+  @apply my-2;
+  @apply font-medium underline;
+  @apply hover:text-amber-500;
+}

@@ -1,0 +1,59 @@
+.wrapper {
+  @apply flex flex-row justify-items-stretch;
+  @apply w-full;
+}
+
+.menuSection {
+  @apply p-3;
+  @apply lg:w-96;
+  @apply print:hidden;
+}
+
+.mapSection {
+  @apply flex-grow;
+  @apply print:hidden;
+}
+
+.dashboardSection {
+  @apply p-3;
+  @apply w-72 lg:w-[540px] print:w-full;
+  @apply overflow-auto;
+}
+
+.infoSection {
+  @apply p-5;
+}
+
+.infoSection a,
+.infoSection p,
+.infoSection ul {
+  @apply text-zinc-800;
+  @apply leading-relaxed;
+}
+
+.infoSection a {
+  @apply font-medium text-blue-800 underline;
+  @apply hover:text-blue-400;
+}
+
+.infoSection p,
+.infoSection ul {
+  @apply mb-4;
+}
+
+.infoTitle {
+  @apply font-medium;
+  @apply text-5xl;
+  @apply pb-7;
+}
+
+.infoText {
+}
+
+.filterTitle {
+  @apply text-2xl font-medium;
+}
+
+.cta {
+  @apply text-2xl font-medium;
+}

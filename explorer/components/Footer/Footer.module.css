@@ -1,0 +1,15 @@
+.wrapper {
+  @apply flex p-0.5 px-1;
+}
+
+.copyright {
+  @apply text-xs;
+}
+
+.spacer {
+  @apply flex-grow;
+}
+
+.links {
+  @apply text-xs;
+}

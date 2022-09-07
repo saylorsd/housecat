@@ -1,0 +1,53 @@
+.wrapper {
+  @apply flex flex-nowrap flex-col;
+  @apply justify-center items-stretch h-full;
+  @apply border-x border-black;
+}
+
+.mapSection {
+  @apply flex-grow self-auto;
+}
+
+.timeSection {
+  @apply flex-initial h-24 self-auto;
+}
+
+.menuSection {
+  @apply px-3 pb-1;
+  @apply flex;
+  @apply border-b border-zinc-400;
+}
+
+.menuLegend {
+  @apply text-sm;
+  flex: 0;
+}
+
+.zoomControls {
+  flex: 1;
+  padding: 0.5rem 0;
+  display: flex;
+  border: none;
+}
+
+.zoomLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+  flex: 0 1 15rem;
+}
+
+.zoomSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0.5rem;
+  flex: 1;
+}

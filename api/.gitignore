@@ -1,0 +1,9 @@
+# development
+.idea/
+.notes/
+
+# local stuff
+env/
+
+*.pyc
+__pycache__/

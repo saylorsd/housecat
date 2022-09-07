@@ -1,0 +1,43 @@
+.wrapper {
+  @apply flex flex-row justify-items-stretch;
+  @apply w-full;
+}
+
+.menuSection {
+  @apply p-3;
+
+  @apply lg:w-80;
+  @apply print:hidden;
+}
+
+.sectionHeader {
+  @apply text-2xl font-medium;
+}
+
+.mapSection {
+  @apply flex-grow;
+  @apply print:hidden;
+}
+
+.dashboardSection {
+  @apply p-3;
+  @apply w-72 lg:w-[640px] print:w-full;
+  @apply overflow-auto;
+}
+
+.infoSection {
+  @apply p-5;
+}
+
+.infoTitle {
+  @apply font-medium;
+  @apply text-5xl;
+  @apply pb-7;
+}
+
+.filterTitle {
+  @apply text-2xl font-medium;
+}
+
+.infoText {
+}

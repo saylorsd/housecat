@@ -1,0 +1,9 @@
+.wrapper {
+  @apply flex flex-col items-stretch;
+  @apply min-h-screen md:h-screen;
+}
+
+.main {
+  @apply border-t border-b border-black;
+  @apply flex-grow flex overflow-y-auto lg:overflow-y-hidden;
+}

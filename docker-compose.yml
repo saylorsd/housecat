@@ -1,0 +1,41 @@
+services:
+  api:
+    build: ./api
+    command: gunicorn housecat.wsgi:application --bind 0.0.0:8000
+    volumes:
+      - ./api:/code
+      - static_volume:/code/static
+    ports:
+      - 8000:8000
+    env_file: ./.env.api
+    networks:
+      main:
+        aliases:
+          - web
+
+  explorer:
+   build: ./explorer
+   volumes:
+     - ./explorer:/app
+   env_file: ./explorer/.env.local
+   ports:
+     - 3000:3000
+
+  nginx:
+    build: ./nginx
+    ports:
+      - 80:80
+    volumes:
+      - static_volume:/code/static
+    depends_on:
+      - api
+    networks:
+        main:
+            aliases:
+                - nginx
+
+volumes:
+  static_volume:
+
+networks:
+  main:

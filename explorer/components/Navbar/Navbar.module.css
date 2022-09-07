@@ -1,0 +1,37 @@
+.wrapper {
+  @apply w-full h-20 flex-none p-2 px-5 flex;
+  @apply bg-amber-600;
+  @apply text-white;
+  @apply print:hidden;
+}
+
+.branding {
+}
+
+.branding a {
+  @apply no-underline;
+}
+
+.filler {
+  @apply flex-grow;
+}
+
+.title {
+  @apply text-3xl font-semibold;
+}
+
+.subtitle {
+  @apply text-sm italic;
+  @apply text-gray-200;
+}
+
+.menu {
+  @apply flex justify-center align-middle flex items-center;
+}
+
+.menuItem {
+  @apply text-lg font-semibold uppercase;
+  @apply px-4;
+  @apply hover:text-gray-300;
+  @apply active:text-gray-500;
+}

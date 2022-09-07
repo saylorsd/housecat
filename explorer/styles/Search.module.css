@@ -1,0 +1,23 @@
+.wrapper {
+  @apply container mx-auto;
+  @apply flex flex-col;
+}
+
+.searchSection {
+  @apply print:hidden;
+  @apply py-8;
+  @apply border-b-2 border-black;
+}
+
+.cta {
+  @apply font-medium;
+  @apply text-5xl;
+  @apply pb-7;
+  @apply print:hidden;
+}
+
+.dataSection {
+  @apply pt-7 pr-3;
+  @apply overflow-auto;
+  @apply flex-grow;
+}
