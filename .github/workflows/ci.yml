@@ -15,4 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker-compose build
+      run: |
+        docker build -f api/Dockerfile
+        docker build -f explorer/Dockerfile
+   
