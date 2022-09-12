@@ -61,7 +61,7 @@ class UserProfileTests(APITransactionTestCase):
 
     def test_approve_profile(self):
         """
-        Only staff can approve accounts
+        Ensures staff, and only staff, can approve accounts
         """
         response = self.client.post(self.request_url, self.request_data, format='json')
 
@@ -86,7 +86,10 @@ class UserProfileTests(APITransactionTestCase):
         self.assertEqual(UserProfile.objects.get().approved, True)
 
     def test_revoke_profile(self):
-        # only users with is_staff = True can approve
+        """
+        Ensures staff, and only staff, can revoke accounts
+        """
+        # create and approve a request first
         self.client.post(self.request_url, self.request_data, format='json')
 
         self.client.login(
@@ -95,7 +98,7 @@ class UserProfileTests(APITransactionTestCase):
         )
         self.client.post(self.approve_url, {'user': "test@wprdc.edu"}, format='json')
 
-        # first without permissions
+        # first try to revoke without permissions
         self.client.logout()
         self.client.post(self.revoke_url, {'user': "test@wprdc.edu"}, format='json')
         self.assertEqual(UserProfile.objects.get().approved, True)
@@ -108,7 +111,7 @@ class UserProfileTests(APITransactionTestCase):
         self.client.post(self.revoke_url, {'user': "test@wprdc.edu"}, format='json')
         self.assertEqual(UserProfile.objects.get().approved, True)
 
-        # only users with is_staff = True can approve
+        # only users with is_staff = True can revoke
         self.client.login(
             username='staff',
             password='tH3@ssW0rd!'
