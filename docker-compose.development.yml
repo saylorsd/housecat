@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgis/postgis:14-3.2
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_NAME=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    expose:
+      - 5433
+    networks:
+      main:
+        aliases:
+          - db
+
+  api:
+    build:
+      context: ./api
+      dockerfile: dev.Dockerfile
+    volumes:
+      - type: bind
+        source: ./api
+        target: /code
+    ports:
+      - "8000:8000"
+    env_file: api/.env.development
+    restart: always
+    environment:
+      - DJANGO_DB_NAME=postgres
+      - DJANGO_DB_USER=postgres
+      - DJANGO_DB_PASSWORD=postgres
+      - DEBUG=True
+      - SECRET_KEY='django-insecure-devkey'
+    depends_on:
+      - db
+    networks:
+      main:
+
+networks:
+  main:

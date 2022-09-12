@@ -1,0 +1,44 @@
+### Get a list of profiles
+GET http://localhost:8000/accounts/profile
+
+
+### Get a single profile
+GET http://localhost:8000/accounts/profile/steve
+
+
+### Request an account
+POST http://localhost:8000/accounts/request/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "test2@wprdc.edu",
+  "category": "ADMIN",
+  "affiliation": "WPRDC",
+  "intended_use": "Testing stuff.",
+  "expected_account_tenure": "24",
+  "conflicts": "Investments in the testing industry.",
+  "agreed_to_terms": true
+}
+
+
+### Approve an account
+POST http://localhost:8000/accounts/approve/
+Content-Type: application/json
+Authorization: Basic {{auth_b64}}
+Accept: application/json
+
+{
+  "user": "test2@wprdc.edu"
+}
+
+
+### Revoke an account
+POST http://localhost:8000/accounts/revoke/
+Content-Type: application/json
+Authorization: Basic {{auth_b64}}
+Accept: application/json
+
+{
+  "user": "test2@wprdc.edu"
+}

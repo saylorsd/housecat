@@ -19,15 +19,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ['DEBUG']
+DEBUG = os.environ.get('DEBUG', False)
 
 ALLOWED_HOSTS = []
 
-# Application definition
+DJANGO_SUPERUSER_USERNAME = os.environ.get('DJANGO_SUPERUSER_USERNAME')
+DJANGO_SUPERUSER_PASSWORD = os.environ.get('DJANGO_SUPERUSER_PASSWORD')
+DJANGO_SUPERUSER_EMAIL = os.environ.get('DJANGO_SUPERUSER_EMAIL')
 
+# Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -81,19 +84,19 @@ DATABASE_ROUTERS = ['housecat.routers.DatastoreRouter', ]
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'HOST': os.environ['DJANGO_DB_HOST'],
-        'PORT': os.environ['DJANGO_DB_PORT'],
-        'NAME': os.environ['DJANGO_DB_NAME'],
-        'USER': os.environ['DJANGO_DB_USER'],
-        'PASSWORD': os.environ['DJANGO_DB_PASSWORD'],
+        'HOST': os.environ.get('DJANGO_DB_HOST', 'db'),
+        'PORT': os.environ.get('DJANGO_DB_PORT', 5432),
+        'NAME': os.environ.get('DJANGO_DB_NAME', 'housecat'),
+        'USER': os.environ.get('DJANGO_DB_USER', 'housecat_user'),
+        'PASSWORD': os.environ.get('DJANGO_DB_PASSWORD', 'housecatpassword'),
     },
     'datastore': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'HOST': os.environ['DATASTORE_HOST'],
-        'PORT': os.environ['DATASTORE_PORT'],
-        'NAME': os.environ['DATASTORE_NAME'],
-        'USER': os.environ['DATASTORE_USER'],
-        'PASSWORD': os.environ['DATASTORE_PASSWORD'],
+        'HOST': os.environ.get('DATASTORE_HOST', 'localhost'),
+        'PORT': os.environ.get('DATASTORE_PORT', 5432),
+        'NAME': os.environ.get('DATASTORE_NAME'),
+        'USER': os.environ.get('DATASTORE_USER'),
+        'PASSWORD': os.environ.get('DATASTORE_PASSWORD'),
     }
 }
 
@@ -148,3 +151,13 @@ AUTH_USER_MODEL = 'accounts.User'
 TIME_TO_STALE = 60  # days
 
 LOGIN_REDIRECT_URL = "/"
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ]
+}
+
+# Management Settings
+HELP_DESK_EMAIL = os.environ.get('HOUSECAT_HELP_DESK_EMAIL', 'wprdc@pitt.edu')

@@ -36,7 +36,7 @@ class UserProfile(models.Model):
         (MISSION_ALIGNED_DEVELOPER, _('Mission-aligned developers')),
         (FINANCIAL_INST, _('Financial Institutions')),
     )
-    # User attributes
+    # user attributes
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     # user category
     category = models.CharField(max_length=64, choices=USER_CATEGORY_CHOICES)
@@ -54,6 +54,8 @@ class UserProfile(models.Model):
     expiration_date = models.DateField(help_text='', null=True, blank=True)
     # have users agree to terms when they first log in
     agreed_to_terms = models.BooleanField(null=True, blank=True)
+
+    approved = models.BooleanField(default=False)
 
     def is_stale(self):
         return (datetime.now() - self.user.last_login) > timedelta(days=settings.TIME_TO_STALE)
