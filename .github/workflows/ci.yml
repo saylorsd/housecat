@@ -13,11 +13,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the Docker images
-      run: |
-        docker build -t api -f api/dev.Dockerfile ./api/ 
-        docker build -t explorer -f explorer/Dockerfile ./explorer/
-    - name: Run Django tests
-      run: docker exec api python manage.py test
-
+      - uses: actions/checkout@v3
+      - name: Build the Docker images
+        run: |
+          docker build -t api -f api/dev.Dockerfile ./api/ 
+          docker build -t explorer -f explorer/Dockerfile ./explorer/
+      - name: Run Django tests
+        run: |
+          docker up api
+          docker exec api python manage.py test
