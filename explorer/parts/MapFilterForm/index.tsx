@@ -22,7 +22,6 @@ interface Props {
 
 export function MapFilterForm({ onSubmit }: Props) {
   function handleSubmit(params: FilterFormValues) {
-    console.debug({ params });
     // clear out null values
     const cleanParams = Object.fromEntries(
       Object.entries(params).filter(([_, v]) => v !== null),

@@ -138,7 +138,7 @@ class ProjectVectorTileViewSet(views.APIView):
         circle_layer = {
             'id': f'{map_id}/marker',
             'source': map_id,
-            'source-layer': f'maps.v_{map_view}',
+            'source-layer': f'public.{map_view}',
             'type': 'circle',
             'paint': {
                 'circle-opacity': 0.8,
@@ -175,7 +175,7 @@ class ProjectVectorTileViewSet(views.APIView):
         text_layer = {
             'id': f'{map_id}/text',
             'source': map_id,
-            'source-layer': f'maps.v_{map_view}',
+            'source-layer': f'public.{map_view}',
             'type': 'symbol',
             'layout': {
                 'text-allow-overlap': True,
@@ -223,7 +223,7 @@ class ProjectVectorTileViewSet(views.APIView):
             'source': {
                 'id': map_id,
                 'type': 'vector',
-                'url': f'https://{request.META["SERVER_NAME"]}/tiles/maps.v_{map_view}.json'
+                'url': f'{settings.MARTIN_PUBLIC_HOST}/public.{map_view}.json'
             },
             'layers': [
                 circle_layer,

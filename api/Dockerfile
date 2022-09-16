@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3 as build
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
@@ -13,4 +13,12 @@ RUN pip install -r requirements.txt
 
 COPY . /code/
 
-CMD python manage.py runserver 0.0.0.0:8000
+
+FROM build as migrate
+
+COPY ./docker-entrypoint.sh /code/
+
+RUN ["chmod", "+x", "/code/docker-entrypoint.sh"]
+RUN ["chmod", "+x", "/code/bin/wait-for-it.sh"]
+
+ENTRYPOINT ["bash", "/code/docker-entrypoint.sh"]

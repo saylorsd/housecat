@@ -15,7 +15,6 @@ import {
 import { ProjectKey } from '@wprdc-types/shared';
 import { GeogBrief, GeographyType } from '@wprdc-types/geo';
 
-import { GeographyConnection } from '@wprdc-connections/geo';
 import {
   affordableHousingProjectMapConnection,
   defaultAffordableHousingProjectMapConnectionProps,
@@ -70,36 +69,7 @@ export function MapInterface({
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.menuSection}>
-        <fieldset className={styles.zoomControls}>
-          <div className={styles.zoomLabel}>
-            <legend className={styles.menuLegend}>
-              Zoom
-              <br />
-              Map To
-            </legend>
-          </div>
-          <div className={styles.zoomSection}>
-            <ConnectedSelect<GeogBrief>
-              label="Zip code"
-              aria-label="zoom to zip code"
-              id="zip-code-zoom"
-              connection={new GeographyConnection(GeographyType.ZCTA, 100)}
-              onSelection={handleZoom}
-            />
-          </div>
-          <div className={styles.zoomSection}>
-            <ConnectedSelect<GeogBrief>
-              label="Pittsburgh Neighborhood"
-              aria-label="zoom to neighborhood"
-              connection={
-                new GeographyConnection(GeographyType.Neighborhood, 100)
-              }
-              onSelection={handleZoom}
-            />
-          </div>
-        </fieldset>
-      </div>
+      <div className={styles.menuSection}></div>
       <div className={styles.mapSection}>
         {!!source && (
           <Map

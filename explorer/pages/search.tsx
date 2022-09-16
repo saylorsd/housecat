@@ -17,7 +17,7 @@ import { ConnectedSearchBox } from '@wprdc-components/search-box';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { ProjectView } from '../components/ProjectView';
+import { ProjectView } from '../parts/ProjectView';
 
 function SearchPage() {
   const [currentProject, setCurrentProject] = React.useState<ProjectIndex>();
@@ -26,7 +26,7 @@ function SearchPage() {
   const router = useRouter();
 
   function handlePress() {
-    router.push(`/housecat/map/${currentProject?.id}`);
+    router.push(`/map/${currentProject?.id}`);
   }
 
   return (

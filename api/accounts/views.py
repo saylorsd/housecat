@@ -81,14 +81,10 @@ def revoke_profile(request: Request):
 
 class UserProfileViewSet(viewsets.ModelViewSet):
     queryset = UserProfile.objects.all()
-    permission_classes = [permissions.IsAdminUser, ]
     lookup_field = 'user__username'
 
     def get_serializer_class(self, ):
         if self.request.method == 'POST':
             return UserProfileRequestSerializer
-
-        if self.action == 'list':
-            return UserProfileBriefSerializer
 
         return UserProfileSerializer

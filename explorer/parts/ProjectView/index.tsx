@@ -16,6 +16,7 @@ import {
 
 import {
   affordableHousingSchema,
+  ComplexItems,
   SchemaItem,
   SchemaSection,
 } from './housingSchema';
@@ -40,6 +41,8 @@ export const ProjectView: React.FC<ProjectViewProps> = ({
       window.print();
     }
   }
+
+  console.log({ project });
 
   return (
     <div id="data-dashboard" className={styles.wrapper}>
@@ -115,8 +118,10 @@ export const ProjectView: React.FC<ProjectViewProps> = ({
           <p className={styles.tocCta}>Jump to a dataset:</p>
           <ul role="directory" className={styles.toc}>
             {Object.entries(affordableHousingSchema).map(([key, { title }]) => {
-              // @ts-ignore\
-              if (!!project[key].length)
+              if (
+                !!project[key as keyof ComplexItems] &&
+                !!project[key as keyof ComplexItems].length
+              )
                 return (
                   <li key={key}>
                     <a href={`#${key}`}>{title}</a>
@@ -127,10 +132,9 @@ export const ProjectView: React.FC<ProjectViewProps> = ({
           </ul>
 
           {Object.entries(affordableHousingSchema).map(([key, section]) => {
-            // @ts-ignore
-            const recordData: any[] = project[key];
+            const recordData: any[] = project[key as keyof ComplexItems];
 
-            if (!recordData.length) return null;
+            if (!recordData || !recordData.length) return null;
 
             return (
               <section id={key} key={key} className={styles.sectionWrapper}>

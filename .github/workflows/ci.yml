@@ -7,18 +7,17 @@ on:
     branches: [ "main" ]
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-      - name: Build the Docker images
-        run: |
-          docker build -t api -f api/dev.Dockerfile ./api/ 
-          docker build -t explorer -f explorer/Dockerfile ./explorer/
+
+      - name: Build the API
+        run: docker compose -f docker-compose.testing.yml build
+
       - name: Run Django tests
         run: |
-          docker up api
-          docker exec api python manage.py test
+          docker compose -f docker-compose.testing.yml run api python manage.py test
+
+      - name: Build Frontend
+        run: docker build -t explorer -f explorer/Dockerfile ./explorer/

@@ -1,3 +1,5 @@
+name: housecat
+
 services:
   db:
     image: postgis/postgis:14-3.2
@@ -16,24 +18,10 @@ services:
         aliases:
           - db
 
-  martin:
-    image: urbica/martin
-    restart: unless-stopped
-    ports:
-      - "3001:3000"
-    environment:
-      - DATABASE_URL=postgres://mapper:mapp1nPswrd@db/postgres
-    depends_on:
-      - db
-    networks:
-      main:
-        aliases:
-          - martin
-
-
   api:
     build:
       context: ./api
+      target: migrate
     volumes:
       - type: bind
         source: ./api
@@ -42,12 +30,16 @@ services:
       - "8000:8000"
     env_file: api/.env.development
     restart: always
-    networks:
-      main:
+    environment:
+      - DJANGO_DB_NAME=postgres
+      - DJANGO_DB_USER=postgres
+      - DJANGO_DB_PASSWORD=postgres
+      - DEBUG=True
+      - SECRET_KEY='django-insecure-devkey'
     depends_on:
       - db
-      - martin
-
+    networks:
+      main:
 
 networks:
   main:

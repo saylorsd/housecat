@@ -52,7 +52,7 @@ function MapPage() {
   }
 
   function handleProjectSelect(id: number) {
-    router.push(`/housecat/map/${id}`);
+    router.push(`/map/${id}`);
   }
 
   if (!!boardRef && boardRef.current) {

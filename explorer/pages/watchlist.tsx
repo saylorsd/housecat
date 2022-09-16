@@ -17,7 +17,7 @@ import { LayerPanelVariant } from '@wprdc-types/map';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { ProjectView } from '../components/ProjectView';
+import { ProjectView } from '../parts/ProjectView';
 
 interface Props {}
 
