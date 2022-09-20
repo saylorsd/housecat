@@ -1,8 +1,14 @@
 .wrapper {
-  @apply w-full h-20 flex-none p-2 px-5 flex;
+  @apply w-full;
   @apply bg-amber-600;
   @apply text-white;
   @apply print:hidden;
+  @apply py-2;
+  @apply min-h-fit;
+}
+
+.top {
+  @apply w-full flex-none px-5 flex;
 }
 
 .branding {
@@ -34,4 +40,14 @@
   @apply px-4;
   @apply hover:text-gray-300;
   @apply active:text-gray-500;
+}
+
+.bottom {
+  @apply w-full flex px-5;
+  @apply text-xs text-gray-200;
+}
+
+.bottom > div:first-of-type {
+  @apply flex-grow;
+  @apply mb-2;
 }

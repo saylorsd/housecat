@@ -16,7 +16,7 @@ services:
         aliases:
           - db
 
-  martin:
+  tiles:
     image: urbica/martin
     restart: unless-stopped
     ports:
@@ -28,7 +28,7 @@ services:
     networks:
       main:
         aliases:
-          - martin
+          - tiles
 
 
   api:
@@ -46,7 +46,7 @@ services:
       main:
     depends_on:
       - db
-      - martin
+      - tiles
 
 
 networks:

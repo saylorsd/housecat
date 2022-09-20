@@ -129,7 +129,7 @@ function MapPage() {
 
 MapPage.getLayout = function getLayout(page: React.ReactChildren) {
   return (
-    <Layout Navbar={Navbar} Footer={Footer}>
+    <Layout Navbar={Navbar} Footer={Footer} protect={true}>
       {page}
     </Layout>
   );

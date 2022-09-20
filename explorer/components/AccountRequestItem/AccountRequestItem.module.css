@@ -1,0 +1,74 @@
+.wrapper {
+  @apply border-2 border-black bg-white;
+  @apply my-6;
+  @apply relative;
+}
+
+.wrapper > div:first-of-type {
+  @apply p-4;
+}
+
+.wrapper h3 {
+  @apply m-0;
+}
+
+.wrapper > p {
+  @apply m-0;
+}
+
+.timestamp {
+  @apply absolute top-4 right-4;
+}
+
+.timestamp > span:last-child {
+  @apply font-mono;
+}
+
+.category {
+  @apply uppercase font-semibold;
+  @apply text-sm;
+}
+
+.affiliation {
+  @apply text-sm;
+}
+
+.wrapper dl {
+  @apply mt-4;
+}
+
+.wrapper dl > div {
+  @apply my-2;
+}
+
+.wrapper dl dt {
+  @apply border-t;
+  @apply font-bold;
+}
+
+.wrapper dl dd {
+  @apply ml-5;
+}
+
+.actions {
+  @apply border-t border-black;
+  @apply p-4 flex;
+}
+
+.actions > div:first-of-type {
+  @apply flex-grow;
+}
+
+.buttons {
+  @apply space-x-4;
+}
+
+.buttons button.approve {
+  @apply bg-green-600;
+  @apply text-white;
+}
+
+.buttons button.deny {
+  @apply bg-red-600;
+  @apply text-white;
+}

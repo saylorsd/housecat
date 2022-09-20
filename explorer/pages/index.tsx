@@ -123,7 +123,7 @@ function HousecatHome() {
 
 HousecatHome.getLayout = function getLayout(page: React.ReactChildren) {
   return (
-    <Layout Navbar={Navbar} Footer={Footer}>
+    <Layout Navbar={Navbar} Footer={Footer} protect={false}>
       {page}
     </Layout>
   );

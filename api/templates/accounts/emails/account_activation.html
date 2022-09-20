@@ -1,0 +1,14 @@
+{% autoescape off %}
+Hi {{ user.first_name }},
+
+You recently requested access to HouseCat, the South-Western PA affordable housing data catalogue.
+
+We're happy to say that your request has been approved.
+
+Please click on the link below to active your account:
+
+http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+Please do not reply to this email as it is not monitored.  If you have any questions, please email wprdc@pitt.edu.
+
+{% endautoescape %}

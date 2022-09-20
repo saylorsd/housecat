@@ -24,7 +24,6 @@ class UserProfileSerializer(serializers.ModelSerializer):
             'category',
             'affiliation',
             'intended_use',
-            'expected_account_tenure',
             'conflicts',
             'expiration_date',
             'agreed_to_terms',
@@ -52,7 +51,7 @@ class UserProfileRequestSerializer(serializers.ModelSerializer):
             'category',
             'affiliation',
             'intended_use',
-            'expected_account_tenure',
             'conflicts',
             'agreed_to_terms',
         )
+

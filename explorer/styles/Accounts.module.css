@@ -2,7 +2,7 @@
   @apply overflow-y-auto w-full;
 }
 
-.wrapper > div {
+.innerWrapper {
   @apply container mx-auto max-w-3xl;
   @apply pb-24;
 }
@@ -12,14 +12,14 @@
   @apply font-bold text-4xl;
 }
 
-.wrapper > div > p {
+.container > p {
   @apply my-4;
 }
 
 .terms {
   @apply font-mono;
   @apply border border-gray-300 bg-gray-50;
-  @apply p-2;
+  @apply p-4;
   @apply mb-5;
 }
 
@@ -79,4 +79,55 @@
 .formSection button {
   @apply border-2 border-black;
   @apply shadow-md;
+}
+
+.message {
+  @apply border-black border shadow-xl;
+  @apply my-20 p-8;
+  @apply max-w-xl;
+  @apply mx-auto;
+  @apply text-center;
+}
+
+.message > p:first-of-type {
+  @apply font-thin text-7xl;
+  @apply mb-4;
+}
+
+.message > p:not(:first-of-type) {
+  @apply text-xl;
+  @apply mb-2;
+}
+
+.form button {
+  @apply px-2 py-1;
+  @apply disabled:shadow-none disabled:border-gray-500;
+  @apply disabled:bg-gray-200 disabled:cursor-not-allowed;
+}
+
+.login {
+  @apply my-20 p-8;
+  @apply max-w-xl;
+  @apply mx-auto;
+  @apply text-center;
+  @apply border-4 border-black shadow-2xl;
+}
+
+.login h2 {
+  @apply text-4xl font-bold;
+  @apply mb-4;
+}
+
+.login p {
+  @apply my-2;
+  @apply text-sm;
+}
+
+.login input {
+  @apply border-2 border-black;
+  @apply block;
+  @apply mx-auto;
+  @apply mb-2 py-1 px-2;
+  @apply outline-0;
+  @apply focus:border-blue-600 focus:ring-1 focus:ring-blue-600;
 }

@@ -172,8 +172,9 @@ function MiniTable<T>(props: TableProps<T>) {
       <tbody>
         {schemaEntry.items.map(({ accessor, label, format }) => {
           const displayValue = formatValue({ format, accessor, label }, record);
+          const key = typeof accessor === 'string' ? accessor : label;
           return (
-            <tr key={label}>
+            <tr key={key}>
               <td className={styles.fieldCell}>{label}</td>
               <td
                 className={classNames(styles.valueCell, {

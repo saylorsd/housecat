@@ -44,8 +44,6 @@ class UserProfile(models.Model):
     affiliation = models.CharField(max_length=128, null=True, blank=True)
     # what are your intended uses/target audiences for the data?
     intended_use = models.TextField(null=True, blank=True)
-    # how long do you anticipate needing/wanting access?
-    expected_account_tenure = models.IntegerField(help_text='in weeks', default=4)
     # do you have any potential COIs which would preclude access to the data?
     conflicts = models.TextField(null=True, blank=True)
 
@@ -82,3 +80,4 @@ class Watchlist(Described):
     @property
     def project_indices(self):
         return ProjectIndex.objects.filter(property_id__in=self.items)
+

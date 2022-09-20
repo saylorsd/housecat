@@ -1,29 +1,76 @@
 import { Field, Form, Formik, FormikHelpers } from 'formik';
 import styles from '../../styles/Accounts.module.css';
 import { useRouter } from 'next/router';
+import { useMutation } from 'react-query';
+import { getCookie } from '@wprdc-components/util';
+import * as Yup from 'yup';
+
+const headers = {
+  'Content-Type': 'application/json',
+  'X-CSRFToken': getCookie('csrftoken') || '',
+  Accept: 'application/json',
+};
 
 interface Values {
   email: string;
+  firstName: string;
+  lastName: string;
   category: string;
   affiliation: string;
   intended_use: string;
-  expected_account_tenure: number;
   conflicts: string;
   agreed_to_terms: boolean;
+  password: string;
+  confirmPassword: string;
 }
 
-function validateExists(value?: any) {
-  if (!value) return 'required';
+interface RequestMutationVariables {
+  values: Values;
 }
 
 const API_HOST = process.env.NEXT_PUBLIC_API_HOST || 'http://localhost:8000';
 
+const SignupSchema = Yup.object().shape({
+  email: Yup.string().email('Invalid email').required(),
+  firstName: Yup.string()
+    .max(64, 'Cannot be more than 64 characters')
+    .required(),
+  lastName: Yup.string()
+    .max(64, 'Cannot be more than 64 characters')
+    .required(),
+  category: Yup.string().required(),
+  affiliation: Yup.string()
+    .max(64, 'Cannot be more than 64 characters')
+    .required(),
+  intended_use: Yup.string().required(),
+  conflicts: Yup.string(),
+  agreed_to_terms: Yup.boolean().required(),
+  password: Yup.string().required(),
+  confirmPassword: Yup.string()
+    .oneOf([Yup.ref('password'), null], 'Passwords must match')
+    .required(),
+});
+
 function AccountRequestPage() {
   const router = useRouter();
 
+  const approvalMutation = useMutation(
+    ({ values }: RequestMutationVariables) => {
+      return fetch(`${API_HOST}/accounts/profile/`, {
+        method: 'POST',
+        body: JSON.stringify(values),
+        headers,
+        credentials: 'include',
+      });
+    },
+    {
+      onSuccess: () => router.push('accounts/submitted'),
+    },
+  );
+
   return (
     <div className={styles.wrapper}>
-      <div>
+      <div className={styles.innerWrapper}>
         <h2>Request an Account</h2>
         <p>
           To request access, please complete an access request and a member of
@@ -177,23 +224,28 @@ function AccountRequestPage() {
         </div>
         <div className={styles.formSection}>
           <Formik
+            validationSchema={SignupSchema}
             initialValues={{
               email: '',
               category: '',
+              firstName: '',
+              lastName: '',
               affiliation: '',
               intended_use: '',
-              expected_account_tenure: 3,
               conflicts: '',
+              password: '',
+              confirmPassword: '',
               agreed_to_terms: false,
             }}
             onSubmit={(
               values: Values,
               { setSubmitting }: FormikHelpers<Values>,
             ) => {
+              const { confirmPassword, ...sendValues } = values;
               fetch(`${API_HOST}/accounts/request/`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(values),
+                body: JSON.stringify(sendValues),
               }).then((r) => {
                 if (r.status >= 200 && r.status < 300) {
                   router.push('/accounts/submitted');
@@ -225,10 +277,61 @@ function AccountRequestPage() {
                     name="email"
                     placeholder="your@email.gov"
                     type="email"
-                    validate={validateExists}
                   />
                   {errors.email && touched.email && (
                     <div className={styles.error}>{errors.email}</div>
+                  )}
+                </div>
+
+                <div>
+                  <label htmlFor="password">Password</label>
+                  <Field
+                    disabled={!values.agreed_to_terms}
+                    id="password"
+                    name="password"
+                    type="password"
+                  />
+                  {errors.password && touched.password && (
+                    <div className={styles.error}>{errors.password}</div>
+                  )}
+                </div>
+
+                <div>
+                  <label htmlFor="confirmPassword">Confirm Password</label>
+                  <Field
+                    disabled={!values.agreed_to_terms}
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    type="password"
+                  />
+                  {errors.confirmPassword && touched.confirmPassword && (
+                    <div className={styles.error}>{errors.confirmPassword}</div>
+                  )}
+                </div>
+
+                <div>
+                  <label htmlFor="firstName">First Name</label>
+                  <Field
+                    disabled={!values.agreed_to_terms}
+                    id="firstName"
+                    name="firstName"
+                    type="text"
+                  />
+                  {errors.firstName && touched.firstName && (
+                    <div className={styles.error}>{errors.firstName}</div>
+                  )}
+                </div>
+
+                <div>
+                  <label htmlFor="lastName">Last Name</label>
+                  <Field
+                    disabled={!values.agreed_to_terms}
+                    id="lastName"
+                    name="lastName"
+                    type="text"
+                  />
+                  {errors.lastName && touched.lastName && (
+                    <div className={styles.error}>{errors.lastName}</div>
                   )}
                 </div>
 
@@ -241,8 +344,8 @@ function AccountRequestPage() {
                     id="category"
                     name="category"
                     as="select"
-                    validate={validateExists}
                   >
+                    <option value="">-----</option>
                     <option value="nonprofit">
                       Housing and community development-focused nonprofit
                       organizations{' '}
@@ -278,7 +381,6 @@ function AccountRequestPage() {
                     id="affiliation"
                     name="affiliation"
                     type="text"
-                    validate={validateExists}
                   />
                   {errors.affiliation && touched.affiliation && (
                     <div className={styles.error}>{errors.affiliation}</div>
@@ -294,31 +396,10 @@ function AccountRequestPage() {
                     name="intended_use"
                     component="textarea"
                     disabled={!values.agreed_to_terms}
-                    validate={validateExists}
                   />
                   {errors.intended_use && touched.intended_use && (
                     <div className={styles.error}>{errors.intended_use}</div>
                   )}
-                </div>
-
-                <div>
-                  <label htmlFor="expected_account_tenure">
-                    How long (in weeks) do you expect to need access to the
-                    data?
-                  </label>
-                  <Field
-                    disabled={!values.agreed_to_terms}
-                    validate={validateExists}
-                    id="expected_account_tenure"
-                    name="expected_account_tenure"
-                    type="number"
-                  />
-                  {errors.expected_account_tenure &&
-                    touched.expected_account_tenure && (
-                      <div className={styles.error}>
-                        {errors.expected_account_tenure}
-                      </div>
-                    )}
                 </div>
 
                 <div>

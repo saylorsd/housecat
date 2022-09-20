@@ -8,17 +8,19 @@ import styles from './Layout.module.css';
 export interface LayoutProps {
   Navbar?: React.FC<any>;
   Footer?: React.FC<any>;
+  protect?: boolean;
   children?: React.ReactNode | typeof React.Children;
 }
 
 export default function Layout({
   Navbar = DefaultNavbar,
   Footer = DefaultFooter,
+  protect,
   children,
 }: LayoutProps) {
   return (
     <div className={styles.wrapper}>
-      <Navbar />
+      <Navbar protect={protect} />
       <main className={styles.main}>{children as React.ReactNode}</main>
       <Footer />
     </div>

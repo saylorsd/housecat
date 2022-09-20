@@ -30,8 +30,8 @@ console.debug({
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   // default layout is components/Layout
-  const getLayout = Component.getLayout ?? ((page) => <Layout>{page}</Layout>);
-
+  const getLayout =
+    Component.getLayout ?? ((page) => <Layout protect>{page}</Layout>);
   return (
     <Provider
       usingSSR

@@ -94,7 +94,11 @@
 }
 
 .infoTable tr:nth-child(even) {
-  @apply bg-zinc-50;
+  @apply bg-amber-50;
+}
+
+.infoTable tr:nth-child(odd) {
+  @apply bg-white;
 }
 
 .fieldCell {
