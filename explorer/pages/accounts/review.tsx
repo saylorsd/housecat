@@ -79,6 +79,8 @@ export function AccountReviewPage() {
   );
 }
 
-export default AccountReviewPage.getLayout = (page: ReactElement) => (
+AccountReviewPage.getLayout = (page: ReactElement) => (
   <Layout protect={false}>{page}</Layout>
 );
+
+export default AccountReviewPage;
