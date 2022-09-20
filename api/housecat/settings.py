@@ -202,3 +202,5 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', '')
 DEFAULT_FROM_EMAIL='noreply@housecatpgh.com'
 
 LOGIN_REDIRECT_URL=os.environ.get(LOGIN_REDIRECT_URL, 'http://localhost:3000/map')
+
+BASE_URL_PREFIX=os.environ.get('BASE_URL_PREFIX')

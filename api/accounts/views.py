@@ -43,7 +43,7 @@ def request_new_profile(request: Request):
     user_fields = ['email', 'first_name', 'last_name', 'password']
     profile_params = {k: v for k, v in request.data.items() if k not in user_fields}
     user_email = request.data.get('email')
-    password = request.data.get('email')
+    password = request.data.get('password')
     first_name = request.data.get('first_name')
     last_name = request.data.get('last_name')
 

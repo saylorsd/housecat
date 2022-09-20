@@ -26,6 +26,9 @@ echo "📡 Connecting to CKAN datastore"
 echo "🚛 Collecting Housing Data"
 ./manage.py connect_housing_data
 
+echo "📦 Collecting static files"
+./manage.py collectstatic
+
 echo "🆙 Starting..."
 ./manage.py runserver 0.0.0.0:8000
 

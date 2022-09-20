@@ -4,6 +4,8 @@ import { useRouter } from 'next/router';
 import { useMutation } from 'react-query';
 import { getCookie } from '@wprdc-components/util';
 import * as Yup from 'yup';
+import { ReactElement } from 'react';
+import Layout from '../../components/Layout';
 
 const headers = {
   'Content-Type': 'application/json',
@@ -429,5 +431,9 @@ function AccountRequestPage() {
     </div>
   );
 }
+
+AccountRequestPage.getLayout = (page: ReactElement) => (
+  <Layout protect={false}>{page}</Layout>
+);
 
 export default AccountRequestPage;
