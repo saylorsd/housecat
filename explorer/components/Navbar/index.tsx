@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 const LOGOUT_URL =
-  process.env.NEXT_PUBLIC_LOGOUTURL || 'http://localhost:8000/accounts/logout';
+  process.env.NEXT_PUBLIC_LOGOUT_URL || 'http://localhost:8000/accounts/logout';
 const LOGIN_URL =
   process.env.NEXT_PUBLIC_LOGIN_URL || 'http://localhost:8000/accounts/login';
 
@@ -17,6 +17,8 @@ export default function Navbar({ protect = true }) {
   const router = useRouter();
 
   const onError = () => {
+    console.log('👋 see ya');
+
     if (protect) router.push(LOGIN_URL);
   };
   const { data: currentUser } = useLoggedIn(onError);

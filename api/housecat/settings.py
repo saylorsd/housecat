@@ -131,6 +131,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+STATIC_ROOT = os.environ.get('STATIC_ROOT', BASE_DIR / 'static')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
@@ -184,7 +186,7 @@ HELP_DESK_EMAIL = os.environ.get('HOUSECAT_HELP_DESK_EMAIL', 'wprdc@pitt.edu')
 MARTIN_HOST = os.environ.get('MARTIN_HOST', 'http://127.0.0.1:3000')
 MARTIN_PUBLIC_HOST = os.environ.get('MARTIN_PUBLIC_HOST', 'http://127.0.0.1:3000')
 
-HOME_URL = os.environ.get('HOME_URL', 'http://localhost:3000/map')
+HOME_URL = os.environ.get('HOME_URL', 'http://localhost:3000')
 
 DJANGO_SUPERUSER_USERNAME = os.environ.get('DJANGO_SUPERUSER_USERNAME')
 DJANGO_SUPERUSER_PASSWORD = os.environ.get('DJANGO_SUPERUSER_PASSWORD')
@@ -199,8 +201,8 @@ EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', True)
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', '')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', '')
 
-DEFAULT_FROM_EMAIL='noreply@housecatpgh.com'
+DEFAULT_FROM_EMAIL = 'noreply@housecatpgh.org'
 
-LOGIN_REDIRECT_URL=os.environ.get(LOGIN_REDIRECT_URL, 'http://localhost:3000/map')
+LOGIN_REDIRECT_URL = os.environ.get(LOGIN_REDIRECT_URL, 'http://localhost:3000/map')
 
-BASE_URL_PREFIX=os.environ.get('BASE_URL_PREFIX')
+BASE_URL_PREFIX = os.environ.get('BASE_URL_PREFIX')

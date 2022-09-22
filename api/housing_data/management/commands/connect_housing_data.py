@@ -42,7 +42,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         # create map view for use in tile server
         print('Adding map view of all public housing projects.')
-        view_name = f'{settings.PUBLIC_HOUSING_PROJECT_LAYER_VIEW}'
+        view_name = f'maps.{settings.PUBLIC_HOUSING_PROJECT_LAYER_VIEW}'
         source_table = ProjectIndex._meta.db_table
 
         view_query = as_tile_server_query(f"""
@@ -61,6 +61,7 @@ class Command(BaseCommand):
         """.lstrip())
 
         with connection.cursor() as cursor:
+            cursor.execute(f"""CREATE SCHEMA IF NOT EXISTS maps""")
             cursor.execute(f"""DROP MATERIALIZED VIEW IF EXISTS {view_name}""")
             cursor.execute(f"""CREATE MATERIALIZED VIEW {view_name} AS {view_query}""")
             cursor.execute(f"""GRANT SELECT ON {view_name} TO {os.environ.get('MAPS_DB_USER')};""")

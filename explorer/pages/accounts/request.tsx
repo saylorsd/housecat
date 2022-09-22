@@ -56,20 +56,6 @@ const SignupSchema = Yup.object().shape({
 function AccountRequestPage() {
   const router = useRouter();
 
-  const approvalMutation = useMutation(
-    ({ values }: RequestMutationVariables) => {
-      return fetch(`${API_HOST}/accounts/profile/`, {
-        method: 'POST',
-        body: JSON.stringify(values),
-        headers,
-        credentials: 'include',
-      });
-    },
-    {
-      onSuccess: () => router.push('accounts/submitted'),
-    },
-  );
-
   return (
     <div className={styles.wrapper}>
       <div className={styles.innerWrapper}>
@@ -246,7 +232,7 @@ function AccountRequestPage() {
               const { confirmPassword, ...sendValues } = values;
               fetch(`${API_HOST}/accounts/request/`, {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
+                headers,
                 body: JSON.stringify(sendValues),
               }).then((r) => {
                 if (r.status >= 200 && r.status < 300) {

@@ -27,7 +27,7 @@ echo "🚛 Collecting Housing Data"
 ./manage.py connect_housing_data
 
 echo "📦 Collecting static files"
-./manage.py collectstatic
+./manage.py collectstatic --noinput
 
 echo "🆙 Starting..."
 ./manage.py runserver 0.0.0.0:8000
