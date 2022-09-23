@@ -33,9 +33,6 @@ class Command(BaseCommand):
                 $do$;
             ''')
 
-            cur.execute()
-
-
             cur.execute(f'GRANT CONNECT ON DATABASE {os.environ.get("DJANGO_DB_NAME")} TO {os.environ.get("MAPS_DB_USER")}')
             cur.execute(f"""CREATE SCHEMA IF NOT EXISTS maps""")
             cur.execute(f'GRANT USAGE ON SCHEMA maps TO {os.environ.get("MAPS_DB_USER")}')

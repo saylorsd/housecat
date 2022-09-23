@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', False)
 
-ALLOWED_HOSTS = json.loads(os.environ.get('ALLOWED_HOSTS', '["housecatpgh.org"]'))
+ALLOWED_HOSTS = json.loads(os.environ.get('ALLOWED_HOSTS', '["www.housecatpgh.org", "localhost"]'))
 
 # Application definition
 INSTALLED_APPS = [
@@ -202,5 +202,6 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', '')
 DEFAULT_FROM_EMAIL = 'noreply@housecatpgh.org'
 
 LOGIN_REDIRECT_URL = os.environ.get('LOGIN_REDIRECT_URL', 'http://localhost:3000/map')
+LOGOUT_REDIRECT_URL = HOME_URL
 
 BASE_URL_PREFIX = os.environ.get('BASE_URL_PREFIX')
