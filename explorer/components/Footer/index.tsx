@@ -14,9 +14,9 @@ export default function Footer() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/wprdc/neighborhood-simulacrum"
+          href="https://github.com/wprdc/housecat"
         >
-          GitHub
+          Source Code
         </a>
       </div>
     </div>
