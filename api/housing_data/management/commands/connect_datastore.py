@@ -60,11 +60,16 @@ class Command(BaseCommand):
             cur.execute(query)
 
             query = """
-                CREATE TYPE public.nested AS
-                (
-                    json  json,
-                    extra text
-                );
+                DO $$
+                BEGIN
+                    IF NOT EXISTS (SELECT 1 FROM pg_type WHERE typname = 'nested') THEN
+                        CREATE TYPE public.nested AS
+                        (
+                            json  json,
+                            extra text
+                        );
+                    END IF;
+                END$$;
             """
             print(query)
             cur.execute(query)
