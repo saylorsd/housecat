@@ -94,3 +94,11 @@
   @apply mx-4;
   @apply h-24;
 }
+
+.applyLink > span {
+  @apply text-2xl mr-2;
+}
+
+.applyLink a {
+  @apply text-2xl font-bold;
+}

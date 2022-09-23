@@ -17,8 +17,6 @@ export default function Navbar({ protect = true }) {
   const router = useRouter();
 
   const onError = () => {
-    console.log('👋 see ya');
-
     if (protect) router.push(LOGIN_URL);
   };
   const { data: currentUser } = useLoggedIn(onError);

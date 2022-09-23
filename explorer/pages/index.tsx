@@ -10,6 +10,8 @@ import Footer from '../components/Footer';
 import CREATELogo from '../assets/logos/create_logo.png';
 import WPRDCLogo from '../assets/logos/wprdc-square.png';
 
+const signupLink = process.env.NEXT_PUBLIC_REQUEST_URL || '/accounts/request';
+
 function HousecatHome() {
   return (
     <div className={styles.wrapper}>
@@ -66,6 +68,12 @@ function HousecatHome() {
           </Link>
         </div>
         <div className={styles.content}>
+          <p className={styles.applyLink}>
+            <span>🗳</span>
+            <Link href={signupLink}>
+              <a>Apply for access here</a>
+            </Link>
+          </p>
           <p>
             <strong>
               Affordable housing is a growing issue of regional importance in
