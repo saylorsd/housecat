@@ -149,8 +149,6 @@ AUTH_USER_MODEL = 'accounts.User'
 
 TIME_TO_STALE = 60  # days
 
-LOGIN_REDIRECT_URL = "/"
-
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.SessionAuthentication',
@@ -203,6 +201,6 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', '')
 
 DEFAULT_FROM_EMAIL = 'noreply@housecatpgh.org'
 
-LOGIN_REDIRECT_URL = os.environ.get(LOGIN_REDIRECT_URL, 'http://localhost:3000/map')
+LOGIN_REDIRECT_URL = os.environ.get('LOGIN_REDIRECT_URL', 'http://localhost:3000/map')
 
 BASE_URL_PREFIX = os.environ.get('BASE_URL_PREFIX')
