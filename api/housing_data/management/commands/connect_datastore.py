@@ -33,6 +33,9 @@ class Command(BaseCommand):
                 $do$;
             ''')
 
+            cur.execute()
+
+
             cur.execute(f'GRANT CONNECT ON DATABASE {os.environ.get("DJANGO_DB_NAME")} TO {os.environ.get("MAPS_DB_USER")}')
             cur.execute(f"""CREATE SCHEMA IF NOT EXISTS maps""")
             cur.execute(f'GRANT USAGE ON SCHEMA maps TO {os.environ.get("MAPS_DB_USER")}')
@@ -75,16 +78,21 @@ class Command(BaseCommand):
             cur.execute(query)
 
             query = f"""
-                 -- import (or refresh) the datastore's public shema into a local one
-                DROP SCHEMA IF EXISTS datastore CASCADE;
-                CREATE SCHEMA IF NOT EXISTS datastore; -- the local one
-                IMPORT FOREIGN SCHEMA public
-                FROM SERVER datastore INTO datastore;
-                
-                -- give the django db user privileges to the linked schema
-                GRANT USAGE ON FOREIGN SERVER datastore TO {os.environ.get('DJANGO_DB_USER')};
-                GRANT USAGE ON SCHEMA datastore TO {os.environ.get('DJANGO_DB_USER')};
-                GRANT ALL ON ALL TABLES IN SCHEMA datastore TO {os.environ.get('DJANGO_DB_USER')};
+                DO $$
+                BEGIN
+                    IF NOT EXISTS (SELECT 1 FROM information_schema.schemata WHERE schema_name = 'datastore') THEN
+                         -- import (or refresh) the datastore's public shema into a local one
+                        DROP SCHEMA IF EXISTS datastore CASCADE;
+                        CREATE SCHEMA IF NOT EXISTS datastore; -- the local one
+                        IMPORT FOREIGN SCHEMA public
+                        FROM SERVER datastore INTO datastore;
+                        
+                        -- give the django db user privileges to the linked schema
+                        GRANT USAGE ON FOREIGN SERVER datastore TO {os.environ.get('DJANGO_DB_USER')};
+                        GRANT USAGE ON SCHEMA datastore TO {os.environ.get('DJANGO_DB_USER')};
+                        GRANT ALL ON ALL TABLES IN SCHEMA datastore TO {os.environ.get('DJANGO_DB_USER')};
+                    END IF;
+                END$$;
             """
             print(query)
             cur.execute(query)
