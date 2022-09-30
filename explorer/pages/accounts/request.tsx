@@ -401,6 +401,10 @@ function AccountRequestPage() {
                     component="textarea"
                     disabled={!values.agreed_to_terms}
                   />
+                  <div className={styles.example}>
+                    Example: for-profit real estate developer who is also on the
+                    board of a community organization
+                  </div>
                   {errors.conflicts && touched.conflicts && (
                     <div className={styles.error}>{errors.conflicts}</div>
                   )}

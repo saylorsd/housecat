@@ -12,4 +12,5 @@
 
 .links {
   @apply text-xs;
+  @apply space-x-2;
 }

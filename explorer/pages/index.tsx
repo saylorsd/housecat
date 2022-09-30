@@ -69,6 +69,11 @@ function HousecatHome() {
         </div>
         <div className={styles.content}>
           <p className={styles.applyLink}>
+            <Link href="/terms">
+              <a>Terms of Service</a>
+            </Link>
+          </p>
+          <p className={styles.applyLink}>
             <span>🗳</span>
             <Link href={signupLink}>
               <a>Apply for access here</a>

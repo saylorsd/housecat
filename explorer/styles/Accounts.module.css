@@ -76,6 +76,10 @@
   @apply text-red-600 font-medium;
 }
 
+.formSection .example {
+  @apply text-gray-700 text-xs italic;
+}
+
 .formSection button {
   @apply border-2 border-black;
   @apply shadow-md;
@@ -100,7 +104,7 @@
 }
 
 .form button {
-  @apply px-2 py-1;
+  @apply px-2 py-1 mt-3;
   @apply disabled:shadow-none disabled:border-gray-500;
   @apply disabled:bg-gray-200 disabled:cursor-not-allowed;
 }
