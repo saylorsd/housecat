@@ -1,6 +1,13 @@
-<h2>Log In</h2>
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Log In</button>
-</form>
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Log In</h2>
+    <form method="post" id="login-form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Log In</button>
+    </form>
+    <a href="/accounts/password_reset/">
+        Forgot your password?
+    </a>
+{% endblock %}

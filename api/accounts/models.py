@@ -55,6 +55,7 @@ class UserProfile(models.Model):
 
     approved = models.BooleanField(default=False)
 
+
     def is_stale(self):
         return (datetime.now() - self.user.last_login) > timedelta(days=settings.TIME_TO_STALE)
 

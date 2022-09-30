@@ -8,6 +8,7 @@ class DatastoreDataset(models.Model):
     USE_DATASTORE = True
     id = models.IntegerField(db_column='_id', primary_key=True)
 
+
     class Meta:
         abstract = True
         db_table: str

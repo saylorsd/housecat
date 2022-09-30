@@ -1,1 +1,29 @@
-{% block content %}{% endblock content %}
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="{% static "output.css" %}">
+</head>
+
+
+<nav id="navbar">
+    <div class="wrapper">
+        <div class="top">
+            <div class="branding">
+                <div class="title">
+                    <Link href="/">
+                    <a>HouseCat</a>
+                </div>
+                <div class="subtitle">
+                    affordable housing information catalogue
+                </div>
+            </div>
+            <div class="filler"></div>
+        </div>
+    </div>
+</nav>
+
+<div id="content">
+    <div id="wrapper">
+        {% block content %}{% endblock content %}
+    </div>
+</div>

@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+
+}
+
+a {
+    @apply underline font-semibold;
+    @apply hover:text-primary-400 active:text-secondary-400;
+}
+
+/* external links */
+a[href*="//"]:not([href*="profiles.wprdc.org"]) {
+    @apply underline font-semibold;
+    @apply hover:text-primary-400 active:text-secondary-400;
+}
+
+
+#content h2 {
+    @apply text-4xl font-bold;
+    @apply text-center;
+    @apply mb-8;
+}
+
+#content button,
+#content input[type=submit]
+{
+    @apply border border-black;
+    @apply m-4 shadow-lg;
+    @apply mx-auto;
+    @apply p-1;
+    @apply cursor-pointer;
+}
+
+#content form {
+    @apply w-full flex flex-col;
+}
+
+#content form > p {
+    @apply flex;
+    @apply my-3;
+}
+
+#content form > p > label {
+    @apply flex-grow;
+    @apply font-bold text-right;
+}
+
+#content form > p > input {
+    @apply ml-2 py-0.5 px-1.5;
+    @apply flex-grow;
+    @apply border border-black rounded-none;
+    @apply focus:border-blue-600 focus:outline focus:outline-blue-600 focus:rounded-none;
+}
+
+#content {
+    @apply bg-gray-50;
+    @apply h-screen;
+}
+
+#wrapper {
+    @apply pt-16;
+    @apply container max-w-sm mx-auto;
+}
+
+
+#wrapper > a {
+    @apply text-center block;
+}
+
+/* NavBar*/
+#navbar {
+    @apply w-full;
+}
+
+#navbar .wrapper {
+    @apply w-full;
+    @apply bg-amber-600;
+    @apply text-white;
+    @apply print:hidden;
+    @apply py-2;
+    @apply min-h-fit;
+}
+
+#navbar .top {
+    @apply w-full flex-none px-5 flex;
+}
+
+#navbar .branding {
+}
+
+#navbar .branding a {
+    @apply no-underline;
+}
+
+#navbar .filler {
+    @apply flex-grow;
+}
+
+#navbar .title {
+    @apply text-3xl font-semibold;
+}
+
+#navbar .subtitle {
+    @apply text-sm italic;
+    @apply text-gray-200;
+}
