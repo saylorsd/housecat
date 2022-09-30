@@ -42,8 +42,6 @@ export const ProjectView: React.FC<ProjectViewProps> = ({
     }
   }
 
-  console.log({ project });
-
   return (
     <div id="data-dashboard" className={styles.wrapper}>
       <div className={styles.heading}>
