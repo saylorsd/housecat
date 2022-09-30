@@ -1,12 +1,10 @@
 from django.conf import settings
-from django.contrib.auth import logout, login, authenticate
+from django.contrib.auth import login
 from django.contrib.sites.shortcuts import get_current_site
 from django.core.exceptions import BadRequest
 from django.core.mail import send_mail
-from django.http import JsonResponse
 from django.shortcuts import redirect
 from django.template.loader import render_to_string
-from django.urls import reverse
 from django.utils.encoding import force_text, force_bytes
 from django.utils.http import urlsafe_base64_decode, urlsafe_base64_encode
 from rest_framework import viewsets, permissions, status
@@ -57,6 +55,15 @@ def request_new_profile(request: Request):
             password=password
         )
         new_profile = UserProfile.objects.create(user=user, **profile_params)
+        message = render_to_string('accounts/emails/request_alert.html', {
+            'user': user,
+        })
+        send_mail(
+            "New HouseCat account request",
+            message,
+            settings.DEFAULT_FROM_EMAIL,
+            settings.ALERT_EMAILS
+        )
         return Response(
             UserProfileSerializer(new_profile).data,
             status=status.HTTP_201_CREATED

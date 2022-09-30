@@ -63,6 +63,11 @@ export default function Navbar({ protect = true }) {
             </Link>
           </div>
           <div className={styles.menuItem}>
+            <Link href="/terms">
+              <a>Terms of Use</a>
+            </Link>
+          </div>
+          <div className={styles.menuItem}>
             <Link href="/about">
               <a>About</a>
             </Link>

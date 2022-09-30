@@ -209,3 +209,5 @@ LOGIN_REDIRECT_URL = os.environ.get('LOGIN_REDIRECT_URL', 'http://localhost:3000
 LOGOUT_REDIRECT_URL = HOME_URL
 
 BASE_URL_PREFIX = os.environ.get('BASE_URL_PREFIX')
+
+ALERT_EMAILS = json.loads(os.environ.get('ALERT_EMAILS', '[]'))

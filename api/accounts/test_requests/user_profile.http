@@ -12,13 +12,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "email": "test2@wprdc.edu",
+  "email": "test6@example.gov",
   "category": "ADMIN",
   "affiliation": "WPRDC",
   "intended_use": "Testing stuff.",
-  "expected_account_tenure": "24",
   "conflicts": "Investments in the testing industry.",
-  "agreed_to_terms": true
+  "agreed_to_terms": true,
+  "password": "@ssW0rd",
+  "first_name": "test",
+  "last_name": "tester"
 }
 
 
