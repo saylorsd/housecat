@@ -182,6 +182,8 @@ CORS_ALLOW_ALL_ORIGINS = bool(os.environ.get('CORS_ALLOW_ALL_ORIGINS', False))
 CORS_ALLOWED_ORIGINS = json.loads(os.environ.get('CORS_ALLOWED_ORIGINS', ''))
 CORS_ALLOW_CREDENTIALS = True
 
+CSRF_TRUSTED_ORIGINS = CORS_ALLOWED_ORIGINS or []
+
 # Management Settings
 HELP_DESK_EMAIL = os.environ.get('HOUSECAT_HELP_DESK_EMAIL', 'wprdc@pitt.edu')
 

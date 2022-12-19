@@ -40,7 +40,7 @@ function MapPage() {
     usePublicHousingProject(currentProject);
 
   const onError = () => {
-    router.push(LOGIN_URL);
+    Lqrouter.push(LOGIN_URL);
   };
   const { data: currentUser } = useLoggedIn(onError);
 
