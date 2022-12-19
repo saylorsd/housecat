@@ -16,8 +16,6 @@ export default function Navbar({ protect = true }) {
   };
   const { data: currentUser } = useLoggedIn(onError);
 
-  console.log(currentUser);
-
   return (
     <div className={styles.wrapper}>
       <div className={styles.top}>

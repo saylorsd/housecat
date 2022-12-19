@@ -21,10 +21,12 @@ import styles from '../../styles/Map.module.css';
 
 import {
   useHousingProjectMap,
+  useLoggedIn,
   usePublicHousingProject,
 } from '@wprdc-connections/housecat';
 
 import { LoadingMessage } from '@wprdc-components/loading-message';
+import { LOGIN_URL } from '../../settings';
 
 function MapPage() {
   const boardRef = React.useRef<HTMLDivElement>(null);
@@ -36,6 +38,11 @@ function MapPage() {
 
   const { data: affordableHousingProject, isLoading } =
     usePublicHousingProject(currentProject);
+
+  const onError = () => {
+    router.push(LOGIN_URL);
+  };
+  const { data: currentUser } = useLoggedIn(onError);
 
   const router = useRouter();
 
