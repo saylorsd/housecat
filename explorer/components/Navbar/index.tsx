@@ -1,13 +1,8 @@
 import Link from 'next/link';
 import styles from './Navbar.module.css';
 import { useLoggedIn } from '@wprdc-connections/housecat';
-import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-
-const LOGOUT_URL =
-  process.env.NEXT_PUBLIC_LOGOUT_URL || 'http://localhost:8000/accounts/logout';
-const LOGIN_URL =
-  process.env.NEXT_PUBLIC_LOGIN_URL || 'http://localhost:8000/accounts/login';
+import { LOGIN_URL, LOGOUT_URL } from '../../settings';
 
 interface Props {
   protect?: boolean;
@@ -20,6 +15,8 @@ export default function Navbar({ protect = true }) {
     if (protect) router.push(LOGIN_URL);
   };
   const { data: currentUser } = useLoggedIn(onError);
+
+  console.log(currentUser);
 
   return (
     <div className={styles.wrapper}>
@@ -84,6 +81,11 @@ export default function Navbar({ protect = true }) {
             </div>
           ) : (
             <a href={LOGIN_URL}>login </a>
+          )}
+        </div>
+        <div className="ml-4 mr-4">
+          {currentUser && currentUser.category === 'ADMIN' && (
+            <Link href="/accounts/review">Review</Link>
           )}
         </div>
       </div>

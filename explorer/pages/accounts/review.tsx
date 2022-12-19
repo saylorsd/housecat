@@ -80,7 +80,7 @@ export function AccountReviewPage() {
 }
 
 AccountReviewPage.getLayout = (page: ReactElement) => (
-  <Layout protect={false}>{page}</Layout>
+  <Layout protect={true}>{page}</Layout>
 );
 
 export default AccountReviewPage;

@@ -5,7 +5,7 @@ from django.core.exceptions import BadRequest
 from django.core.mail import send_mail
 from django.shortcuts import redirect
 from django.template.loader import render_to_string
-from django.utils.encoding import force_text, force_bytes
+from django.utils.encoding import force_str, force_bytes
 from django.utils.http import urlsafe_base64_decode, urlsafe_base64_encode
 from rest_framework import viewsets, permissions, status
 from rest_framework.decorators import api_view, permission_classes
@@ -119,7 +119,7 @@ def revoke_profile(request: Request):
 def activate(request, uidb64, token):
     """  The view the user requests when activating their approved profile. """
     try:
-        uid = force_text(urlsafe_base64_decode(uidb64))
+        uid = force_str(urlsafe_base64_decode(uidb64))
         user = User.objects.get(pk=uid)
     except (TypeError, ValueError, OverflowError, User.DoesNotExist):
         user = None
