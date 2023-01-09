@@ -1580,10 +1580,10 @@
     "@wprdc-types/shared" "^0.0.16"
     "@wprdc-types/viz" "^0.0.27"
 
-"@wprdc-connections/housecat@^0.0.68":
-  version "0.0.68"
-  resolved "https://registry.yarnpkg.com/@wprdc-connections/housecat/-/housecat-0.0.68.tgz#fe72ecd6674173d7c4e80f66ca4e023a1a9d1f63"
-  integrity sha512-w1jAEiMlnTf2pi7VT2J8nkk+PLPoxC7+rRwOGwvJ0UL2m4oosNV0pNaLvzLcbHvXiSfgEppNI44EPhM1v3+u8w==
+"@wprdc-connections/housecat@^0.0.69":
+  version "0.0.69"
+  resolved "https://registry.yarnpkg.com/@wprdc-connections/housecat/-/housecat-0.0.69.tgz#b2033c3b94e75bbb1bb7824fe1fa6ef10f531302"
+  integrity sha512-8V6ztbY3yradXttf3ljc10w8n/8bchsR+/RxgjJOwO0N3rax2LSiC/VDFyh2mFSgLYMXADyykTV29gjB84gAVA==
   dependencies:
     "@wprdc-components/list-box" "^0.0.22"
     "@wprdc-components/map" "^0.0.41"

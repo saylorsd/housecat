@@ -19,7 +19,7 @@
     "@wprdc-components/select": "^0.0.25",
     "@wprdc-components/util": "^0.0.15",
     "@wprdc-connections/geo": "^0.0.57",
-    "@wprdc-connections/housecat": "^0.0.68",
+    "@wprdc-connections/housecat": "^0.0.69",
     "@wprdc-connections/util": "^0.0.44",
     "@wprdc-types/connections": "^0.0.29",
     "@wprdc-types/geo": "^0.0.18",
