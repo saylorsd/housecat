@@ -552,7 +552,8 @@ def get_ids(project_ids=list) -> tuple:
     index_ids = random.sample(range(0, multiplier * num_projects), num_ids)
     return num_ids, index_ids, random.sample(project_ids, num_ids)
 
-# Helper function to 
+
+# Helper function for generating lookup tables
 def generate_table(num_ids=int, project_ids=list, index_ids=list) -> pd.DataFrame:
     table = []
     for i in range(num_ids):
@@ -563,6 +564,7 @@ def generate_table(num_ids=int, project_ids=list, index_ids=list) -> pd.DataFram
         table.append(row)
     
     return pd.DataFrame.from_dict(table)
+
 
 # house_cat_projectindex_lihtc_project_id - 239
 lihtc_ids = LIHTC_df['lihtc_project_id'].to_list()
