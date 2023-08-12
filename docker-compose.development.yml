@@ -9,12 +9,35 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-    expose:
-      - 5433
+      - MAPS_DB_USER=${MAPS_DB_USER}
+      - MAPS_DB_PASSWORD=${MAPS_DB_PASSWORD}
     networks:
       main:
         aliases:
           - db
+
+  datastore-db:
+    image: postgis/postgis:14-3.2
+    volumes:
+      - ./data/datastore-db:/var/lib/postgresql/data
+    ports:
+      - "${DATASTORE_PORT}:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - DATASTORE_HOST=${DATASTORE_HOST}
+      - DATASTORE_NAME=${DATASTORE_NAME}
+      - DATASTORE_PORT=${DATASTORE_PORT}
+      - DATASTORE_USER=${DATASTORE_USER}
+      - DATASTORE_PASSWORD=${DATASTORE_PASSWORD}
+      - MANAGE_DATASTORE=${MANAGE_DATASTORE}
+      - MAPS_DB_USER=${MAPS_DB_USER}
+      - MAPS_DB_PASSWORD=${MAPS_DB_PASSWORD}
+    networks:
+      main:
+        aliases:
+          - datastore-db
 
   tiles:
     image: urbica/martin
@@ -24,7 +47,7 @@ services:
     environment:
       - DATABASE_URL=postgres://mapper:mapp1nPswrd@db/postgres
     depends_on:
-      - db
+      - datastore-db
       - api
     networks:
       main:
@@ -45,7 +68,7 @@ services:
     networks:
       main:
     depends_on:
-      - db
+      - datastore-db
 
 
 networks:
