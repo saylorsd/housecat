@@ -6,3 +6,8 @@ djangorestframework-camel-case
 djangorestframework-gis
 gunicorn
 psycopg2
+mimesis
+numpy
+pandas
+pyproj
+shapely

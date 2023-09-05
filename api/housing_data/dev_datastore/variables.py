@@ -1,3 +1,5 @@
+""" Variables for Mock Datastore """
+
 municipalities = ['Clairton', 'Duquesne', 'McKeesport', 'Pittsburgh', 
                   'Aspinwall', 'Avalon', 'Baldwin', 'Bell Acres', 'Bellevue', 
                   'Ben Avon', 'Ben Avon Heights', 'Bethel Park', 'Blawnox', 

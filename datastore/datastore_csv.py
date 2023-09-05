@@ -1,8 +1,17 @@
 from mimesis import Generic
-from polygons import *
-from variables import *
 from math import ceil
 import pandas as pd
+import os
+import sys
+# Validate current working directory
+cwd = os.getcwd()
+if not os.path.split(cwd)[-1] == 'datastore':
+  sys.exit("You must navigate to the housecat\datastore directory to run this script.")
+# Add parent dir to path to enable absolute import
+parent = os.path.dirname(cwd)
+sys.path.append(parent)
+from api.housing_data.dev_datastore.polygons import *
+from api.housing_data.dev_datastore.variables import *
 
 
 # Create Generic provider object 
