@@ -1,5 +1,6 @@
 .wrapper {
   @apply overflow-y-auto w-full;
+  @apply px-2;
 }
 
 .innerWrapper {
