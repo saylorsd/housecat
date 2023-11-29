@@ -9,6 +9,8 @@ import Footer from '../components/Footer';
 
 import CREATELogo from '../assets/logos/create_logo.png';
 import WPRDCLogo from '../assets/logos/wprdc-square.png';
+import { clamp } from '@react-stately/utils';
+import classNames from 'classnames';
 
 const signupLink = process.env.NEXT_PUBLIC_REQUEST_URL || '/accounts/request';
 
@@ -19,61 +21,69 @@ function HousecatHome() {
         <h2 className={styles.infoTitle}>
           Find information on subsidized housing
         </h2>
-        <div className={styles.buttonSection}>
-          <Link href="/map">
-            <button className={styles.bigButton}>
-              <div className={styles.buttonTitle}>🗺 Map</div>
-              <div className={styles.buttonText}>
-                Explore all the data on a map
-              </div>
-            </button>
-          </Link>
-          <Link href="/watchlist">
-            <button className={styles.bigButton}>
-              <div className={styles.buttonTitle}>✔️ Watchlist</div>
-              <div className={styles.buttonText}>
-                Limit to selected projects
-              </div>
-            </button>
-          </Link>
-          <Link href="/search">
-            <button className={styles.bigButton}>
-              <div className={styles.buttonTitle}>🔍 Search</div>
-              <div className={styles.buttonText}>
-                Find information on subsidized housing
-              </div>
-            </button>
-          </Link>
-        </div>
-        <div className={styles.smallButtonSection}>
-          <Link href="https://profiles.wprdc.org/housing">
-            <a
-              target="_blank"
-              rel="noreferrer noopener"
-              className={styles.bigButton}
-            >
-              <div className={styles.buttonTitle}>📊 Indicators</div>
-              <div className={styles.buttonText}>
-                Community-level housing statistics.
-              </div>
-            </a>
-          </Link>
-          <Link href="/about">
-            <button className={styles.bigButton}>
-              <div className={styles.buttonTitle}>📜 About</div>
-              <div className={styles.buttonText}>
-                Information about the data and process
-              </div>
-            </button>
-          </Link>
+        <div className="flex flex-col-reverse lg:flex-col">
+          <div>
+            <div className={styles.buttonSection}>
+              <Link href="/map">
+                <button
+                  className={classNames(styles.bigButton, styles.mainButton)}
+                >
+                  <div className={styles.buttonTitle}>🗺 Map</div>
+                  <div className={styles.buttonText}>
+                    Explore all the data on a map
+                  </div>
+                </button>
+              </Link>
+              {/*<Link href="/watchlist">*/}
+              {/*  <button className={styles.bigButton}>*/}
+              {/*    <div className={styles.buttonTitle}>✔️ Watchlist</div>*/}
+              {/*    <div className={styles.buttonText}>*/}
+              {/*      Limit to selected projects*/}
+              {/*    </div>*/}
+              {/*  </button>*/}
+              {/*</Link>*/}
+              <Link href="/search">
+                <button className={styles.bigButton}>
+                  <div className={styles.buttonTitle}>🔍 Search</div>
+                  <div className={styles.buttonText}>
+                    Find information on subsidized housing
+                  </div>
+                </button>
+              </Link>
+            </div>
+            <div className={styles.smallButtonSection}>
+              <Link href="https://profiles.wprdc.org/housing">
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className={styles.bigButton}
+                >
+                  <div className={styles.buttonTitle}>📊 Indicators</div>
+                  <div className={styles.buttonText}>
+                    Community-level housing statistics.
+                  </div>
+                </a>
+              </Link>
+              <Link href="/about">
+                <button className={styles.bigButton}>
+                  <div className={styles.buttonTitle}>📜 About</div>
+                  <div className={styles.buttonText}>
+                    Information about the data and process
+                  </div>
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div>
+            <p className={styles.applyLink}>
+              <span>🗳</span>
+              <Link href={signupLink}>
+                <a>Click here to apply for access</a>
+              </Link>
+            </p>
+          </div>
         </div>
         <div className={styles.content}>
-          <p className={styles.applyLink}>
-            <span>🗳</span>
-            <Link href={signupLink}>
-              <a>Apply for access here</a>
-            </Link>
-          </p>
           <p>
             <strong>
               Affordable housing is a growing issue of regional importance in

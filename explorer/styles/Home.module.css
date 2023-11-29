@@ -1,4 +1,5 @@
 .wrapper {
+  @apply px-2;
   @apply w-full;
   @apply text-center;
   @apply overflow-auto;
@@ -9,12 +10,12 @@
 }
 
 .wrapper > div {
-  @apply container py-24 mx-auto;
+  @apply container py-8 md:py-24 mx-auto;
 }
 
 .infoTitle {
-  @apply font-medium;
-  @apply text-5xl;
+  @apply font-semibold md:font-medium;
+  @apply text-4xl md:text-5xl;
   @apply pb-7;
 }
 
@@ -22,12 +23,13 @@
 }
 
 .bigButton {
+  @apply max-w-xs w-full mx-auto lg:mx-0;
   @apply p-4;
-  @apply h-32;
+  @apply h-32 md:h-24;
   @apply border border-zinc-400 rounded-lg;
   @apply flex flex-col items-center;
   @apply bg-amber-100;
-  @apply drop-shadow-md hover:drop-shadow-lg;
+  @apply drop-shadow-lg hover:drop-shadow-xl;
   @apply hover:border-zinc-800 hover:bg-background-50;
   @apply active:border-black active:bg-background-50 active:shadow-inner active:drop-shadow-none;
 }
@@ -45,15 +47,23 @@
 }
 
 .buttonSection {
-  @apply py-4;
-  @apply grid grid-cols-3 gap-12;
-  @apply max-w-3xl mx-auto;
+  @apply w-fit;
+  @apply py-4 mx-auto;
+  @apply grid lg:grid-cols-1 gap-6 lg:gap-6;
+}
+
+.buttonSection .bigButton {
+  @apply border-2 border-amber-800;
 }
 
 .smallButtonSection {
   @apply py-8;
-  @apply grid grid-cols-2 gap-12;
+  @apply grid grid-cols-1 lg:grid-cols-2  gap-6 lg:gap-12;
   @apply max-w-lg mx-auto;
+}
+
+.smallButtonSection .bigButton {
+  @apply h-32 md:h-24 lg:h-32;
 }
 
 .content {
@@ -66,7 +76,7 @@
 .content p,
 .content ul {
   @apply font-serif;
-  @apply text-xl text-zinc-800;
+  @apply md:text-xl text-zinc-800;
   @apply leading-relaxed;
 }
 
@@ -87,18 +97,21 @@
 .logos {
   @apply py-6;
   @apply max-w-lg mx-auto;
-  @apply flex;
+  @apply flex flex-col md:flex-row;
 }
 
 .logos > a {
   @apply mx-4;
-  @apply h-24;
+  @apply md:h-24;
 }
 
 .applyLink > span {
-  @apply text-2xl mr-2;
+  @apply text-lg md:text-2xl mr-2;
 }
 
+.applyLink {
+  @apply pb-4;
+}
 .applyLink a {
-  @apply text-2xl font-bold;
+  @apply text-lg md:text-2xl font-bold;
 }

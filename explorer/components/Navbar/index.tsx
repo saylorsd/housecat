@@ -3,13 +3,21 @@ import styles from './Navbar.module.css';
 import { useLoggedIn } from '@wprdc-connections/housecat';
 import { useRouter } from 'next/router';
 import { LOGIN_URL, LOGOUT_URL } from '../../settings';
+import { Menu } from './Menu';
+import { useState } from 'react';
+import { HiChevronDown, HiChevronUp } from 'react-icons/hi';
 
 interface Props {
   protect?: boolean;
 }
 
 export default function Navbar({ protect = true }) {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const router = useRouter();
+
+  function handleButtonClick() {
+    setIsOpen(!isOpen);
+  }
 
   const onError = () => {
     if (protect) router.push(LOGIN_URL);
@@ -18,58 +26,7 @@ export default function Navbar({ protect = true }) {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.top}>
-        <div className={styles.branding}>
-          <div className={styles.title}>
-            <Link href="/">
-              <a>HouseCat</a>
-            </Link>
-          </div>
-          <div className={styles.subtitle}>
-            affordable housing information catalogue
-          </div>
-        </div>
-        <div className={styles.filler} />
-        <div className={styles.menu}>
-          <div className={styles.menuItem}>
-            <Link href="/map">
-              <a>Map</a>
-            </Link>
-          </div>
-          <div className={styles.menuItem}>
-            <Link href="/watchlist">
-              <a>Watchlist</a>
-            </Link>
-          </div>
-          <div className={styles.menuItem}>
-            <Link href="/search">
-              <a>Search</a>
-            </Link>
-          </div>
-          <div className={styles.menuItem}>
-            <Link
-              href="https://profiles.wprdc.org/housing"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <a target="_blank" rel="noreferrer noopener">
-                Indicators
-              </a>
-            </Link>
-          </div>
-          <div className={styles.menuItem}>
-            <Link href="/terms">
-              <a>Terms of Use</a>
-            </Link>
-          </div>
-          <div className={styles.menuItem}>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className={styles.bottom}>
+      <div className={styles.accountLine}>
         <div></div>
         <div>
           {currentUser ? (
@@ -85,6 +42,33 @@ export default function Navbar({ protect = true }) {
           {currentUser && currentUser.category === 'ADMIN' && (
             <Link href="/accounts/review">Review</Link>
           )}
+        </div>
+      </div>
+      <div className={styles.top}>
+        <div>
+          <div className={styles.branding}>
+            <div className={styles.title}>
+              <Link href="/">
+                <a>HouseCat</a>
+              </Link>
+            </div>
+            <div className={styles.subtitle}>
+              affordable housing information catalogue
+            </div>
+          </div>
+          <div className={styles.filler} />
+
+          <div>
+            <button onClick={handleButtonClick} className={styles.menuButton}>
+              {isOpen ? <HiChevronUp /> : <HiChevronDown />}
+              Menu
+            </button>
+          </div>
+        </div>
+        <div className={styles.filler} />
+
+        <div>
+          <Menu isOpen={isOpen} />
         </div>
       </div>
     </div>

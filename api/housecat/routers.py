@@ -5,7 +5,7 @@ class DatastoreRouter(object):
     """ Router for reading from the CKAN datastore """
 
     def db_for_read(self, model, **hints):
-        """ For select models, route queries to the CKAN datastore """
+        """ For certain models, route queries to the CKAN datastore """
         if hasattr(model, 'USE_DATASTORE') and getattr(model, 'USE_DATASTORE'):
             return 'datastore'
         return None

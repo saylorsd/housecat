@@ -3,12 +3,28 @@
   @apply bg-amber-600;
   @apply text-white;
   @apply print:hidden;
-  @apply py-2;
   @apply min-h-fit;
 }
 
+.accountLine {
+  @apply w-full flex px-5 py-1;
+  @apply text-xs text-gray-200;
+  @apply bg-amber-900 text-white;
+}
+
+.accountLine > div:first-of-type {
+  @apply flex-grow;
+  @apply mb-2;
+}
+
 .top {
-  @apply w-full flex-none px-5 flex;
+  @apply px-5 items-center;
+  @apply py-4;
+  @apply lg:flex;
+}
+
+.top > div:first-of-type {
+  @apply flex;
 }
 
 .branding {
@@ -19,7 +35,7 @@
 }
 
 .filler {
-  @apply flex-grow;
+  @apply block flex-grow;
 }
 
 .title {
@@ -31,23 +47,36 @@
   @apply text-gray-200;
 }
 
-.menu {
-  @apply flex justify-center align-middle flex items-center;
+.menuButton {
+  @apply mt-4 mx-auto;
+  @apply flex items-center uppercase font-bold;
+  @apply border-2 pr-2 pl-1 py-1;
+  @apply md:hidden;
 }
 
 .menuItem {
-  @apply text-lg font-semibold uppercase;
-  @apply px-4;
+  @apply text-base lg:text-lg font-semibold uppercase;
+  @apply px-3 py-1 md:py-0;
   @apply hover:text-gray-300;
   @apply active:text-gray-500;
+  @apply list-none;
+  @apply text-right;
 }
 
-.bottom {
-  @apply w-full flex px-5;
-  @apply text-xs text-gray-200;
+.menu {
+  @apply md:pt-4 lg:pt-0;
+  @apply md:flex justify-center align-middle items-center;
+  @apply mx-auto lg:mx-0;
 }
 
-.bottom > div:first-of-type {
-  @apply flex-grow;
-  @apply mb-2;
+.menu > nav > ul {
+  @apply md:flex;
+}
+
+.openMenu {
+  @apply block;
+}
+
+.closedMenu {
+  @apply hidden md:flex;
 }
