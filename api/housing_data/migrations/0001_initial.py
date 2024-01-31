@@ -5,7 +5,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -39,8 +38,7 @@ class Migration(migrations.Migration):
                 ('servicer_state', models.TextField(blank=True, null=True)),
                 ('section_of_act_code', models.TextField(blank=True, null=True)),
                 ('program_category', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': '931d45da-f791-46c4-998b-60bafa904b36',
@@ -60,8 +58,7 @@ class Migration(migrations.Migration):
                 ('state', models.TextField(blank=True, null=True)),
                 ('zip_code', models.TextField(blank=True, null=True)),
                 ('state_id', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': 'ad49ed19-1122-4f9d-a3c2-491f36a293f4',
@@ -106,8 +103,7 @@ class Migration(migrations.Migration):
                 ('owner_representative', models.TextField(blank=True, null=True)),
                 ('property_manager_company', models.TextField(blank=True, null=True)),
                 ('scattered_sites', models.BooleanField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': 'fcb7cd5d-71f6-4f38-bb78-a3002be47ed6',
@@ -171,8 +167,7 @@ class Migration(migrations.Migration):
                 ('inspection_date', models.DateField(blank=True, null=True)),
                 ('participant_code', models.TextField(blank=True, null=True)),
                 ('formal_participant_name', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': 'a768bb6b-9d1e-463f-9711-651fedf971fb',
@@ -217,8 +212,7 @@ class Migration(migrations.Migration):
                 ('client_group_type', models.TextField(blank=True, null=True)),
                 ('section_of_act_code', models.TextField(blank=True, null=True)),
                 ('servicing_site_name_loan', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': 'c099b5b9-df5d-4380-9cb3-6c45b03ac8b4',
@@ -244,8 +238,7 @@ class Migration(migrations.Migration):
                 ('date_of_firm_issue', models.DateField(blank=True, null=True)),
                 ('firm_commitment_lender', models.TextField(blank=True, null=True)),
                 ('holder_name', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('the_geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': 'b3ff057c-1518-4a34-a004-39d3d49a5ad7',
@@ -265,8 +258,7 @@ class Migration(migrations.Migration):
                 ('inspection_id', models.TextField(blank=True, null=True)),
                 ('inspection_score', models.TextField(blank=True, null=True)),
                 ('inspection_date', models.DateField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': '7d4ad5ee-7229-4aa6-b3a2-69779fe5c52a',
@@ -328,8 +320,7 @@ class Migration(migrations.Migration):
                 ('eldly_prcnt', models.TextField(blank=True, null=True)),
                 ('pct_disabled_lt62_all', models.TextField(blank=True, null=True)),
                 ('national_building_id', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': '6269354d-bac6-4c2e-ad07-2dd7e2ab252e',
@@ -391,8 +382,7 @@ class Migration(migrations.Migration):
                 ('pct_disabled_lt62_all', models.TextField(blank=True, null=True)),
                 ('scattered_site_ind', models.TextField(blank=True, null=True)),
                 ('pd_status_type_code', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': '7cc60ad7-b209-46f2-bdda-9755d8a42461',
@@ -435,8 +425,7 @@ class Migration(migrations.Migration):
                 ('fmha_515_loan', models.BooleanField(blank=True, null=True)),
                 ('fmha_538_loan', models.BooleanField(blank=True, null=True)),
                 ('scattered_site_ind', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': 'd5275180-13f1-460b-b933-aab6afc2966e',
@@ -457,8 +446,7 @@ class Migration(migrations.Migration):
                 ('lihtc_year_allocated', models.IntegerField(blank=True, null=True)),
                 ('lihtc_year_in_service', models.IntegerField(blank=True, null=True)),
                 ('last_year_of_rca', models.IntegerField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': 'f6a77bc1-e3c1-403a-86bc-40b906124af6',
@@ -496,8 +484,7 @@ class Migration(migrations.Migration):
                 ('subsidy_start_date', models.DateField(blank=True, null=True)),
                 ('subsidy_expiration_date', models.TextField(blank=True, null=True)),
                 ('contract_duration_months', models.IntegerField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': '438a732d-c86f-4a06-bff8-61eb6ebe7328',
@@ -533,12 +520,18 @@ class Migration(migrations.Migration):
                 ('count_5br', models.IntegerField(blank=True, null=True)),
                 ('count_6br', models.IntegerField(blank=True, null=True)),
                 ('plus_1_manager_unit', models.IntegerField(blank=True, null=True)),
-                ('number_20percent_ami_limit', models.IntegerField(blank=True, db_column='20percent_ami_limit', null=True)),
-                ('number_30percent_ami_limit', models.IntegerField(blank=True, db_column='30percent_ami_limit', null=True)),
-                ('number_40percent_ami_limit', models.IntegerField(blank=True, db_column='40percent_ami_limit', null=True)),
-                ('number_50percent_ami_limit', models.IntegerField(blank=True, db_column='50percent_ami_limit', null=True)),
-                ('number_60percent_ami_limit', models.IntegerField(blank=True, db_column='60percent_ami_limit', null=True)),
-                ('number_80percent_ami_limit', models.IntegerField(blank=True, db_column='80percent_ami_limit', null=True)),
+                ('number_20percent_ami_limit',
+                 models.IntegerField(blank=True, db_column='20percent_ami_limit', null=True)),
+                ('number_30percent_ami_limit',
+                 models.IntegerField(blank=True, db_column='30percent_ami_limit', null=True)),
+                ('number_40percent_ami_limit',
+                 models.IntegerField(blank=True, db_column='40percent_ami_limit', null=True)),
+                ('number_50percent_ami_limit',
+                 models.IntegerField(blank=True, db_column='50percent_ami_limit', null=True)),
+                ('number_60percent_ami_limit',
+                 models.IntegerField(blank=True, db_column='60percent_ami_limit', null=True)),
+                ('number_80percent_ami_limit',
+                 models.IntegerField(blank=True, db_column='80percent_ami_limit', null=True)),
                 ('market_rate', models.IntegerField(blank=True, null=True)),
                 ('other_income_limit', models.IntegerField(blank=True, null=True)),
                 ('uncategorized_income_limit', models.IntegerField(blank=True, null=True)),
@@ -549,8 +542,6 @@ class Migration(migrations.Migration):
                 ('units_w_other_subsidy_type', models.IntegerField(blank=True, null=True)),
                 ('units_w_project_based_section_8_certificate', models.IntegerField(blank=True, null=True)),
                 ('units_w_uncategorized_subsidy', models.IntegerField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
             ],
             options={
                 'db_table': 'a6b93b7b-e04e-42c9-96f9-ee788e4f0978',
@@ -641,8 +632,7 @@ class Migration(migrations.Migration):
                 ('inspection_score', models.TextField(blank=True, null=True)),
                 ('client_group_name', models.TextField(blank=True, null=True)),
                 ('client_group_type', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': '7eeabaa5-bd27-4df0-9459-d56acd826451',
@@ -680,8 +670,7 @@ class Migration(migrations.Migration):
                 ('property_manager_email', models.TextField(blank=True, null=True)),
                 ('property_manager_type', models.TextField(blank=True, null=True)),
                 ('servicing_site_name', models.TextField(blank=True, null=True)),
-                ('geom', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_geom', null=True, srid=4326)),
-                ('geom_webmercator', django.contrib.gis.db.models.fields.PointField(blank=True, db_column='_the_geom_webmercator', null=True, srid=3857)),
+
             ],
             options={
                 'db_table': '127d12cd-9718-4b44-9cc1-2673a1a50dba',
