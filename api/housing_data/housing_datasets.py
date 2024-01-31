@@ -95,8 +95,6 @@ class ActiveHUDMultifamilyInsuredMortgages(HousingDataset):
     servicer_state = models.TextField(blank=True, null=True)
     section_of_act_code = models.TextField(blank=True, null=True)
     program_category = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('fha_loan_id',)
 
@@ -121,8 +119,6 @@ class HUDMultifamilyFiscalYearProduction(HousingDataset):
     date_of_firm_issue = models.DateField(blank=True, null=True)
     firm_commitment_lender = models.TextField(blank=True, null=True)
     holder_name = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    the_geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('fha_loan_id',)
 
@@ -165,8 +161,6 @@ class LIHTC(HousingDataset):
     fmha_515_loan = models.BooleanField(blank=True, null=True)
     fmha_538_loan = models.BooleanField(blank=True, null=True)
     scattered_site_ind = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('lihtc_project_id', 'normalized_state_id',)
 
@@ -186,8 +180,7 @@ class AllBuildingsFromLIHTCProjects(HousingDataset):
     state = models.TextField(blank=True, null=True)
     zip_code = models.TextField(blank=True, null=True)
     state_id = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
+
 
     hc_index_fields = ('lihtc_project_id', 'normalized_state_id',)
 
@@ -213,8 +206,6 @@ class HUDInspectionScores(HousingDataset):
     inspection_date = models.DateField(blank=True, null=True)
     participant_code = models.TextField(blank=True, null=True)
     formal_participant_name = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('development_code',)
 
@@ -277,8 +268,6 @@ class HUDPublicHousingDevelopments(HousingDataset):
     pct_disabled_lt62_all = models.TextField(blank=True, null=True)
     scattered_site_ind = models.TextField(blank=True, null=True)
     pd_status_type_code = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('development_code',)
 
@@ -339,8 +328,6 @@ class HUDPublicHousingBuildings(HousingDataset):
     eldly_prcnt = models.TextField(blank=True, null=True)
     pct_disabled_lt62_all = models.TextField(blank=True, null=True)
     national_building_id = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('development_code',)
 
@@ -391,8 +378,6 @@ class SubsidyExtractFromHUDInsuredMultifamilyProperties(HousingDataset):
     inspection_score = models.TextField(blank=True, null=True)
     client_group_name = models.TextField(blank=True, null=True)
     client_group_type = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('property_id',)
 
@@ -430,8 +415,6 @@ class SubsidyExtractFromMultifamilyAssistanceAndSection8Contracts(HousingDataset
     property_manager_email = models.TextField(blank=True, null=True)
     property_manager_type = models.TextField(blank=True, null=True)
     servicing_site_name = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('property_id',)
 
@@ -458,9 +441,6 @@ class MultifamilyAssistanceAndSection8Contracts(HousingDataset):
     subsidy_start_date = models.DateField(blank=True, null=True)
     subsidy_expiration_date = models.TextField(blank=True, null=True)
     contract_duration_months = models.IntegerField(blank=True, null=True)
-
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('property_id',)
 
@@ -505,8 +485,6 @@ class HUDInsuredMultifamilyProperties(HousingDataset):
     client_group_type = models.TextField(blank=True, null=True)
     section_of_act_code = models.TextField(blank=True, null=True)
     servicing_site_name_loan = models.TextField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('property_id', 'fha_loan_id',)
 
@@ -527,8 +505,6 @@ class HUDMultifamilyInspectionScores(HousingDataset):
     inspection_id = models.TextField(blank=True, null=True)
     inspection_score = models.TextField(blank=True, null=True)
     inspection_date = models.DateField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('property_id',)
 
@@ -550,8 +526,6 @@ class LIHTCDataFromPHFA(HousingDataset):
     lihtc_year_allocated = models.IntegerField(blank=True, null=True)
     lihtc_year_in_service = models.IntegerField(blank=True, null=True)
     last_year_of_rca = models.IntegerField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('pmindx',)
 
@@ -584,8 +558,6 @@ class DemographicsByHousingProjectFromPHFA(HousingDataset):
     owner_representative = models.TextField(blank=True, null=True)
     property_manager_company = models.TextField(blank=True, null=True)
     scattered_sites = models.BooleanField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('property_id', 'pmindx', 'normalized_state_id', 'fha_loan_id',)
 
@@ -624,8 +596,6 @@ class PHFAStats(HousingDataset):
     units_w_other_subsidy_type = models.IntegerField(blank=True, null=True)
     units_w_project_based_section_8_certificate = models.IntegerField(blank=True, null=True)
     units_w_uncategorized_subsidy = models.IntegerField(blank=True, null=True)
-    geom = models.PointField(db_column='_geom', blank=True, null=True)
-    geom_webmercator = models.PointField(db_column='_the_geom_webmercator', srid=3857, blank=True, null=True)
 
     hc_index_fields = ('pmindx',)
 
