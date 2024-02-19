@@ -46,31 +46,30 @@ def request_new_profile(request: Request):
     first_name = request.data.get('first_name')
     last_name = request.data.get('last_name')
 
+    user = User.objects.create_user(
+        user_email,
+        email=user_email,
+        first_name=first_name,
+        last_name=last_name,
+        password=password
+    )
+    new_profile = UserProfile.objects.create(user=user, **profile_params)
+    message = render_to_string('accounts/emails/request_alert.html', {
+        'user': user,
+    })
     try:
-        user = User.objects.create_user(
-            user_email,
-            email=user_email,
-            first_name=first_name,
-            last_name=last_name,
-            password=password
-        )
-        new_profile = UserProfile.objects.create(user=user, **profile_params)
-        message = render_to_string('accounts/emails/request_alert.html', {
-            'user': user,
-        })
         send_mail(
             "New HouseCat account request",
             message,
             settings.DEFAULT_FROM_EMAIL,
             settings.ALERT_EMAILS
         )
-        return Response(
-            UserProfileSerializer(new_profile).data,
-            status=status.HTTP_201_CREATED
-        )
-
     except Exception as e:
-        raise e
+        print(e)
+    return Response(
+        UserProfileSerializer(new_profile).data,
+        status=status.HTTP_201_CREATED
+    )
 
 
 @api_view(['POST'])
