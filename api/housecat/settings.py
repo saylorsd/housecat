@@ -213,3 +213,5 @@ LOGOUT_REDIRECT_URL = HOME_URL
 BASE_URL_PREFIX = os.environ.get('BASE_URL_PREFIX')
 
 ALERT_EMAILS = json.loads(os.environ.get('ALERT_EMAILS', '[]'))
+
+MANAGE_DATASTORE = bool(int(os.environ.get('MANAGE_DATASTORE', 0)))

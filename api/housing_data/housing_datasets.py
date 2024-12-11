@@ -1,4 +1,5 @@
 from django.contrib.gis.db import models
+from django.conf import settings
 
 from housecat.abstract_models import DatastoreDataset
 
@@ -13,37 +14,37 @@ class LookupTable(DatastoreDataset):
 
 class ContractID(LookupTable):
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'ba6b156f-82fe-41b0-83b9-c17540836598'
 
 
 class DevelopmentCode(LookupTable):
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '25c0e399-0ad8-42cf-8899-e6f35faf1187'
 
 
 class FHALoanID(LookupTable):
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '64449027-404c-48fb-a9a4-75e9e8d14188'
 
 
 class LIHTCProjectID(LookupTable):
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'e5b27187-b134-4050-8101-db4e19ffdb30'
 
 
 class NormalizeStateID(LookupTable):
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'f71eb9f3-c413-47a3-8592-af447fe93020'
 
 
 class PMIndx(LookupTable):
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '6234dd27-79f4-43d3-b098-19f12692ce55'
 
 
@@ -66,7 +67,7 @@ class HouseCatSubsidyListing(HousingDataset):
     hc_index_fields = ('property_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '6803b4c9-df5d-4ef0-8c33-43e9feaff0a2'
 
 
@@ -99,7 +100,7 @@ class ActiveHUDMultifamilyInsuredMortgages(HousingDataset):
     hc_index_fields = ('fha_loan_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '931d45da-f791-46c4-998b-60bafa904b36'
 
 
@@ -123,7 +124,7 @@ class HUDMultifamilyFiscalYearProduction(HousingDataset):
     hc_index_fields = ('fha_loan_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'b3ff057c-1518-4a34-a004-39d3d49a5ad7'
 
 
@@ -165,7 +166,7 @@ class LIHTC(HousingDataset):
     hc_index_fields = ('lihtc_project_id', 'normalized_state_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'd5275180-13f1-460b-b933-aab6afc2966e'
 
 
@@ -185,7 +186,7 @@ class AllBuildingsFromLIHTCProjects(HousingDataset):
     hc_index_fields = ('lihtc_project_id', 'normalized_state_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'ad49ed19-1122-4f9d-a3c2-491f36a293f4'
 
 
@@ -210,7 +211,7 @@ class HUDInspectionScores(HousingDataset):
     hc_index_fields = ('development_code',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'a768bb6b-9d1e-463f-9711-651fedf971fb'
         ordering = ['-inspection_date']
 
@@ -272,7 +273,7 @@ class HUDPublicHousingDevelopments(HousingDataset):
     hc_index_fields = ('development_code',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '7cc60ad7-b209-46f2-bdda-9755d8a42461'
 
 
@@ -332,7 +333,7 @@ class HUDPublicHousingBuildings(HousingDataset):
     hc_index_fields = ('development_code',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '6269354d-bac6-4c2e-ad07-2dd7e2ab252e'
 
 
@@ -382,7 +383,7 @@ class SubsidyExtractFromHUDInsuredMultifamilyProperties(HousingDataset):
     hc_index_fields = ('property_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '7eeabaa5-bd27-4df0-9459-d56acd826451'
         ordering = ['-subsidy_expiration_date']
 
@@ -419,7 +420,7 @@ class SubsidyExtractFromMultifamilyAssistanceAndSection8Contracts(HousingDataset
     hc_index_fields = ('property_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '127d12cd-9718-4b44-9cc1-2673a1a50dba'
         ordering = ['-owner_effective_date']
 
@@ -445,7 +446,7 @@ class MultifamilyAssistanceAndSection8Contracts(HousingDataset):
     hc_index_fields = ('property_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '438a732d-c86f-4a06-bff8-61eb6ebe7328'
         ordering = ['-subsidy_expiration_date']
 
@@ -489,7 +490,7 @@ class HUDInsuredMultifamilyProperties(HousingDataset):
     hc_index_fields = ('property_id', 'fha_loan_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'c099b5b9-df5d-4380-9cb3-6c45b03ac8b4'
         ordering = ['-initial_endorsement_date']
 
@@ -509,7 +510,7 @@ class HUDMultifamilyInspectionScores(HousingDataset):
     hc_index_fields = ('property_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = '7d4ad5ee-7229-4aa6-b3a2-69779fe5c52a'
         ordering = ['-inspection_date']
 
@@ -530,7 +531,7 @@ class LIHTCDataFromPHFA(HousingDataset):
     hc_index_fields = ('pmindx',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'f6a77bc1-e3c1-403a-86bc-40b906124af6'
 
 
@@ -562,7 +563,7 @@ class DemographicsByHousingProjectFromPHFA(HousingDataset):
     hc_index_fields = ('property_id', 'pmindx', 'normalized_state_id', 'fha_loan_id',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'fcb7cd5d-71f6-4f38-bb78-a3002be47ed6'
 
 
@@ -600,5 +601,5 @@ class PHFAStats(HousingDataset):
     hc_index_fields = ('pmindx',)
 
     class Meta:
-        managed = False
+        managed = settings.MANAGE_DATASTORE
         db_table = 'a6b93b7b-e04e-42c9-96f9-ee788e4f0978'

@@ -1,0 +1,658 @@
+fha_loan_id,hud_property_name,city,state,initial_endorsement_date,original_mortgage_amount,program_category,units,basic_fha_risk_share_or_other,current_status_of_loan,date_of_firm_issue,firm_commitment_lender,holder_name
+062324,Walt Disney Company,Fountain,PA,2017-04-07,78151127,202/8 NC,454,Risk Sharing,Finally Endorsed,2022-04-26,The Weinstein Company,Journal Communications
+315906,660 Rodriguez Rapids,Anchorage,PA,2016-04-30,10791916,223(a)(7) Refi of 223f Nursing/ ICF,151,Hospitals & Group Practice,Initially Endorsed,2023-11-09,BlackRock,Rockford Fosgate
+511885,First Choice Yard Help,Perth Amboy,PA,2015-03-01,139680938,223(a)(7) Refi of 223f Nursing/ ICF,60,Basic FHA,Initially Endorsed,2021-09-17,Magnavox,Capitalcorp
+277064,389 Minnesota Grove,Fall River,PA,2019-02-27,105895976,202/8 NC,382,Hospitals & Group Practice,Finally Endorsed,2021-06-20,AGL Resources,American Financial Group
+275143,1086 Charter Oak Boulevard,Shoreline,PA,2006-08-08,48485178,202/8 NC,357,Hospitals & Group Practice,Finally Endorsed,2020-08-30,SanDisk,Multi-Systems Merchant Services
+673895,Stratagee,Maryland Heights,PA,2018-01-03,131262482,223(a)(7) Refi of 223f ALF,4,Hospitals & Group Practice,Initially Endorsed,2021-07-17,Electronic Geek,Hunt Petroleum
+536271,553 Otis Trail,Hillsboro,PA,1990-02-15,15149428,223(a)(7) Refi of 223f Nursing/ ICF,335,Basic FHA,Initially Endorsed,2020-10-22,"DivX, Inc.",Strength Gurus
+255678,Locost Accessories,Savannah,PA,2005-06-13,46717038,223(a)(7) Refi of 223f ALF,296,Basic FHA,Finally Endorsed,2021-07-16,Raytheon,Cartoon Network Studios
+837478,237 Harney Rapids,Americus,PA,2022-08-18,13477480,202/8 SR,343,Risk Sharing,Initially Endorsed,2023-11-19,Balanced Fortune,Bain & Company
+128381,1146 Butte Crossing,Birmingham,PA,2019-09-06,118035976,202/8 SR,381,Risk Sharing,Initially Endorsed,2021-08-31,AECOM,DaVita
+337082,875 Castillo Crescent,Beloit,PA,2016-03-22,64650189,223(a)(7) Refi of 223f Nursing/ ICF,409,Basic FHA,Finally Endorsed,2021-04-10,Tupperware Brands Corporation,Reliable Guidance
+020666,552 Payson Run,St. George,PA,2013-03-19,46864658,202/8 SR,191,Hospitals & Group Practice,Finally Endorsed,2023-05-23,Office Depot,Fisker Automotive
+713791,1078 Legion Extension,Bellevue,PA,1991-09-18,47354905,223(a)(7) Refi of 223f ALF,172,Risk Sharing,Initially Endorsed,2023-02-16,ACN Inc.,Viacom
+263758,Body Toning,Neenah,PA,2017-03-06,88078060,202/8 SR,9,Hospitals & Group Practice,Initially Endorsed,2020-11-19,ExxonMobil,Garden Guru
+724695,Boston Acoustics,Madison,PA,2001-04-17,57645536,202/8 NC,349,Basic FHA,Finally Endorsed,2022-06-25,Autoliv,Red River Broadcasting
+577725,Body Toning,Topeka,PA,1981-11-16,121211752,202/8 SR,13,Hospitals & Group Practice,Initially Endorsed,2022-12-27,Washburn Guitars,Apache Software Foundation
+161853,341 Oakwood Place,South Elgin,PA,1996-08-15,132071990,202/8 NC,413,Basic FHA,Finally Endorsed,2022-04-10,ABM Industries,Converse
+817086,1301 Rausch Walk,Parkland,PA,1996-09-02,134020811,202/8 NC,144,Risk Sharing,Initially Endorsed,2020-06-15,Oreck Corporation,Tanadgusix Corporation
+400075,Intuit,Shreveport,PA,2011-10-18,131249608,223(a)(7) Refi of 223f ALF,308,Risk Sharing,Finally Endorsed,2020-01-23,Future Bright,Edge Garden Services
+602499,Darden Restaurants,New Orleans,PA,2002-07-27,137749289,202/8 SR,196,Hospitals & Group Practice,Finally Endorsed,2023-12-29,Zig Zag Children Clothes,Greyvoid
+129677,1075 Seminole Crescent,Pasadena,PA,2020-12-29,71052555,202/8 NC,157,Hospitals & Group Practice,Finally Endorsed,2021-10-06,Sauer-Danfoss,Hornbeck Offshore Services
+411014,R. R. Donnelley & Sons,Evanston,PA,2018-10-08,91037846,223(a)(7) Refi of 223f ALF,414,Basic FHA,Initially Endorsed,2021-12-02,Superior Interior Design,Pantone
+016791,450 Kezar Court,Tustin,PA,2000-10-29,69256116,223(a)(7) Refi of 223f Nursing/ ICF,5,Risk Sharing,Finally Endorsed,2022-03-07,Aflac,Home Depot
+447630,Webcom Business Services,Franklin,PA,2023-09-27,130959560,223(a)(7) Refi of 223f ALF,64,Risk Sharing,Finally Endorsed,2023-01-24,Rite Aid Corporation,Liz Claiborne
+379251,Brinker International,Loveland,PA,2003-03-16,19219114,223(a)(7) Refi of 223f Nursing/ ICF,489,Risk Sharing,Initially Endorsed,2022-02-15,Victoria's Secret,Vantec
+593970,Verbatim Corporation,Mauldin,PA,2000-10-26,115516078,223(a)(7) Refi of 223f Nursing/ ICF,499,Basic FHA,Finally Endorsed,2023-02-10,Visa Inc.,VF Corporation
+186440,Eureka,Fayetteville,PA,2015-01-15,63107235,202/8 NC,384,Hospitals & Group Practice,Initially Endorsed,2022-06-19,Tanadgusix Corporation,Kurzweil Educational Systems
+339128,296 Van Keuren Crossing,Lubbock,PA,2012-02-06,107412210,202/8 SR,220,Hospitals & Group Practice,Initially Endorsed,2023-12-08,Energy East,ArvinMeritor
+250158,200 Napier Road,Fuquay-Varina,PA,1983-07-15,107684500,202/8 NC,210,Basic FHA,Finally Endorsed,2021-10-23,Microcat,Locost Accessories
+278055,948 Antonio Highway,Palestine,PA,2001-02-28,32399767,223(a)(7) Refi of 223f Nursing/ ICF,202,Risk Sharing,Initially Endorsed,2020-07-07,Popeyes Chicken & Biscuits,Helios Air
+859935,Lucasfilm,Montclair,PA,1985-05-29,81733761,202/8 NC,307,Basic FHA,Finally Endorsed,2022-01-10,Energizer Holdings,Pizza Hut
+938180,Bonanza Produce Stores,Bonita Springs,PA,1983-08-26,85111996,202/8 SR,143,Hospitals & Group Practice,Finally Endorsed,2023-01-12,The High Heelers,NetDNA
+367874,Jarden,Dearborn,PA,2004-11-01,13410452,223(a)(7) Refi of 223f ALF,136,Risk Sharing,Initially Endorsed,2023-07-08,Vocera Communications,Strong Life
+494662,229 Moneta Walk,Sandy Springs,PA,2021-03-22,112656260,223(a)(7) Refi of 223f Nursing/ ICF,386,Basic FHA,Initially Endorsed,2020-10-15,Amgen,Ariba
+537638,Bose Corporation,Kokomo,PA,1989-12-11,146697827,223(a)(7) Refi of 223f Nursing/ ICF,37,Basic FHA,Finally Endorsed,2022-05-30,Adapt,Houlihan's
+213265,Deere & Company,Somerville,PA,1980-11-04,3147571,202/8 SR,202,Hospitals & Group Practice,Initially Endorsed,2020-08-30,Dr Pepper Snapple Group,Quanta Services
+483104,ViewSonic,Grandview,PA,2020-06-29,32459341,202/8 SR,107,Hospitals & Group Practice,Finally Endorsed,2022-12-07,Taco Tico,Life Plan Counselling
+077735,Imation,Cleveland,PA,2016-05-19,40797908,223(a)(7) Refi of 223f Nursing/ ICF,130,Basic FHA,Finally Endorsed,2021-10-12,Altria Group,Conseco
+053213,J. C. Penny,St. Clair Shores,PA,1982-12-07,6460695,223(a)(7) Refi of 223f Nursing/ ICF,181,Risk Sharing,Finally Endorsed,2022-02-13,Zune,Aloha Airlines
+498743,BlackRock,Elmwood Park,PA,1992-01-19,99210559,223(a)(7) Refi of 223f ALF,47,Risk Sharing,Initially Endorsed,2022-12-29,Dresser Inc.,Control Data Corporation
+081846,Columbia Pictures,Denver,PA,2008-07-17,80038087,223(a)(7) Refi of 223f Nursing/ ICF,162,Hospitals & Group Practice,Initially Endorsed,2020-08-02,Entergy,Payless ShoeSource
+606844,515 Cranleigh Canyon,Cocoa,PA,1993-06-20,30150172,202/8 SR,435,Basic FHA,Initially Endorsed,2020-09-04,Autodesk,Grey Fade
+057530,489 North View Pass,Atascadero,PA,1987-05-01,73721284,202/8 SR,336,Hospitals & Group Practice,Initially Endorsed,2023-07-08,Beazer Homes USA,New Era Tickets
+743873,323 Zanowitz Bridge,North Lauderdale,PA,1991-06-11,93249728,202/8 SR,373,Basic FHA,Initially Endorsed,2020-05-31,Opticomp,Onvia
+223764,905 Camp Spur,North Plainfield,PA,2004-11-09,114462990,202/8 SR,222,Basic FHA,Initially Endorsed,2022-06-01,GTECH,Ashland Inc.
+918813,Fisher Electronics,Merced,PA,1987-02-14,29921366,223(a)(7) Refi of 223f ALF,269,Hospitals & Group Practice,Initially Endorsed,2020-06-11,Best Buy,Costco
+552037,1124 Tenny Expressway,New Brunswick,PA,2001-12-20,68591300,223(a)(7) Refi of 223f ALF,131,Hospitals & Group Practice,Initially Endorsed,2022-06-03,Castle Realty,Monk Real Estate Service
+853044,The Vanguard Group,Centerville,PA,1988-11-10,105745631,202/8 NC,185,Basic FHA,Finally Endorsed,2020-05-06,American Apparel,Northern Star
+196793,Bob Evans Restaurants,Somerville,PA,1987-03-06,36790140,202/8 NC,455,Hospitals & Group Practice,Finally Endorsed,2021-01-11,Dun Rite Lawn Care,Vivitar
+658522,Aon Corporation,Oklahoma City,PA,2001-07-01,33680839,202/8 NC,234,Risk Sharing,Finally Endorsed,2023-12-19,Hasbro,Mars Incorporated
+222171,Stewart-Warner,Muscatine,PA,2023-12-24,81737281,223(a)(7) Refi of 223f ALF,122,Basic FHA,Finally Endorsed,2022-08-28,Jackpot Consultant,Omnicare
+194878,Eden Lawn Service,Imperial Beach,PA,1997-09-19,109995005,202/8 SR,270,Basic FHA,Initially Endorsed,2021-01-17,Growmark,XPAC
+615544,957 Pinehurst Path,Corpus Christi,PA,1996-11-18,29830130,202/8 SR,336,Risk Sharing,Initially Endorsed,2022-09-03,Automatic Data Processing,Ejecta
+554897,901 Front Spur,Morton Grove,PA,1986-04-26,89880711,223(a)(7) Refi of 223f ALF,157,Basic FHA,Initially Endorsed,2023-09-29,Intuit,Eddie Bauer
+818113,Baker Hughes,Watauga,PA,1981-11-12,57007600,223(a)(7) Refi of 223f Nursing/ ICF,294,Risk Sharing,Finally Endorsed,2020-12-14,Strategic Profit,W. R. Berkley
+987073,Erie Insurance Group,Olympia,PA,2023-04-30,130003965,223(a)(7) Refi of 223f Nursing/ ICF,58,Basic FHA,Initially Endorsed,2022-10-30,Exact Realty,Marshall Pottery
+878751,American Eagle Outfitters,La Puente,PA,2020-05-18,30997399,223(a)(7) Refi of 223f ALF,369,Hospitals & Group Practice,Finally Endorsed,2021-11-25,Asian Solutions,Citigroup
+029677,1132 Gorgas Hill,Grand Island,PA,2011-12-11,16954978,223(a)(7) Refi of 223f ALF,368,Risk Sharing,Initially Endorsed,2023-07-22,Orion,Dynegy
+908747,202 Bluestone Trace,Costa Mesa,PA,2004-07-31,48891130,202/8 NC,318,Basic FHA,Initially Endorsed,2021-07-19,The Weinstein Company,Bank of America
+629059,Safeco Corporation,Livonia,PA,1981-07-30,66002461,202/8 SR,448,Risk Sharing,Finally Endorsed,2021-11-02,Paramount Pictures,Gold Touch
+662108,Office Depot,Colonial Heights,PA,2021-07-02,38361597,202/8 NC,342,Basic FHA,Initially Endorsed,2023-09-23,Practi-Plan,Morgan Stanley
+797421,Columbia Pictures,Fargo,PA,1981-12-22,115900454,223(a)(7) Refi of 223f Nursing/ ICF,250,Risk Sharing,Initially Endorsed,2022-08-28,Asian Solutions,Air Products & Chemicals
+175368,Advanced Micro Devices,South Portland,PA,1987-08-20,119174235,223(a)(7) Refi of 223f Nursing/ ICF,264,Basic FHA,Initially Endorsed,2020-08-13,General Dynamics,American Greetings
+810646,694 Franconia Viaduct,Eagle Mountain,PA,1993-04-22,35197321,202/8 NC,39,Risk Sharing,Finally Endorsed,2022-06-01,Atlas Realty,Visa Inc.
+792606,993 Ahern Estate,Caldwell,PA,1983-01-09,26358108,202/8 SR,116,Risk Sharing,Finally Endorsed,2021-03-25,Modern Realty,Lazysize
+587650,Multi-Systems Merchant Services,Royal Oak,PA,1996-08-15,42065527,223(a)(7) Refi of 223f ALF,357,Hospitals & Group Practice,Finally Endorsed,2023-05-06,Netcore,Airgas
+654182,Bob Evans Restaurants,Dubuque,PA,2002-02-17,68447119,223(a)(7) Refi of 223f Nursing/ ICF,203,Hospitals & Group Practice,Finally Endorsed,2023-11-24,Audiovox,Cougar Investment
+213857,1143 Estero Center,Carpentersville,PA,1990-09-16,90777773,202/8 SR,337,Risk Sharing,Finally Endorsed,2022-06-21,Lee,Raytheon
+183825,546 Coral Freeway,Mentor,PA,2005-11-04,126337464,223(a)(7) Refi of 223f ALF,296,Risk Sharing,Finally Endorsed,2020-09-25,World Airways,Fiserv
+171515,Converse,Riviera Beach,PA,2018-12-08,61343089,223(a)(7) Refi of 223f Nursing/ ICF,89,Basic FHA,Initially Endorsed,2021-07-05,American International Group,Koch Industries
+965529,1260 Williar Loop,Carlsbad,PA,1991-07-04,96915998,223(a)(7) Refi of 223f ALF,179,Basic FHA,Initially Endorsed,2022-09-13,VitaGrey,SBC Communications
+157579,The Walt Disney Company,Monroeville,PA,1988-11-06,46216259,223(a)(7) Refi of 223f Nursing/ ICF,359,Risk Sharing,Finally Endorsed,2022-09-13,Northwest Airlines,Amerigroup
+978900,Hunt Petroleum,Brunswick,PA,1981-01-22,116525825,202/8 SR,379,Risk Sharing,Initially Endorsed,2020-04-27,Control Data Corporation,Journal Communications
+462859,Avant Garde Appraisal,Cleveland Heights,PA,2017-01-04,142600586,202/8 NC,180,Hospitals & Group Practice,Initially Endorsed,2022-06-14,Bradley Pharmaceuticals,Cartoon Network Studios
+505846,930 Ccsf Parking Lot Bend,Frederick,PA,1994-02-24,81288609,202/8 SR,5,Risk Sharing,Finally Endorsed,2021-09-28,Seattle's Best Coffee,Brilliant Home Designs
+137899,Perdue Farms,Jackson,PA,1980-06-11,137344899,202/8 NC,78,Basic FHA,Finally Endorsed,2020-07-10,Uwajimaya,CNET
+467029,United Parcel Service,Anderson,PA,1981-05-13,59773726,223(a)(7) Refi of 223f ALF,463,Hospitals & Group Practice,Initially Endorsed,2022-08-24,Chugach Alaska Corporation,Becton Dickinson
+630455,Gartner,Simpsonville,PA,1994-02-27,113900558,223(a)(7) Refi of 223f ALF,114,Risk Sharing,Initially Endorsed,2023-04-29,Werner Enterprises,Magna Wealth
+842300,W. L. Gore & Associates,Murray,PA,1986-03-27,68105926,223(a)(7) Refi of 223f Nursing/ ICF,245,Risk Sharing,Finally Endorsed,2022-06-16,Zenith Electronics,Accord Investments
+704102,RCA,Duluth,PA,2015-04-06,136192558,202/8 NC,256,Risk Sharing,Initially Endorsed,2023-11-17,Ameriprise Financial,Nordstrom
+617475,AECOM,Cathedral City,PA,1985-09-16,122978050,223(a)(7) Refi of 223f ALF,318,Basic FHA,Initially Endorsed,2021-08-10,Baldor Electric Company,Rockstar Games
+793964,188 Casitas Center,Pinellas Park,PA,2022-11-10,25310683,223(a)(7) Refi of 223f ALF,379,Risk Sharing,Initially Endorsed,2023-03-22,Taco Tico,Rayovac
+194540,American Apparel,Norwalk,PA,1998-11-05,28608820,223(a)(7) Refi of 223f Nursing/ ICF,278,Hospitals & Group Practice,Finally Endorsed,2020-06-23,BlueLinx Holdings,Iron Mountain
+380884,Sunny Delight Beverages,Soledad,PA,2016-05-30,6947539,223(a)(7) Refi of 223f ALF,166,Basic FHA,Finally Endorsed,2022-01-10,Dream Home Real Estate Service,Universal Studios
+530414,Energy East,Delaware,PA,1988-10-05,97544791,202/8 SR,270,Basic FHA,Finally Endorsed,2021-04-18,Frontier Airlines,Lockheed Martin
+249947,Belle Ladi,Highland Park,PA,2003-06-20,60335575,223(a)(7) Refi of 223f Nursing/ ICF,385,Hospitals & Group Practice,Initially Endorsed,2021-12-29,General Communication,Asian Fusion
+845698,Berry Plastics,Enid,PA,2008-07-24,63495001,202/8 NC,49,Basic FHA,Initially Endorsed,2020-03-27,Integra Wealth,Simply Save
+915999,1064 Seal Cove Arcade,San Francisco,PA,2014-10-15,99606093,223(a)(7) Refi of 223f ALF,197,Hospitals & Group Practice,Initially Endorsed,2023-08-27,Sunoco,Federal National Mortgage Association
+816569,111 Burritt Mews,Norfolk,PA,1985-05-01,138197112,223(a)(7) Refi of 223f ALF,467,Basic FHA,Finally Endorsed,2020-10-30,Magna Wealth,Plan Smart Partner
+295894,Liberty Wealth Planners,Bay City,PA,1990-08-28,61433308,202/8 NC,300,Basic FHA,Initially Endorsed,2021-03-02,Payless ShoeSource,Seattle's Best Coffee
+456807,647 Kingston Canyon,Goldsboro,PA,1992-03-23,68664925,223(a)(7) Refi of 223f Nursing/ ICF,280,Risk Sharing,Initially Endorsed,2022-07-03,Zune,CVS Pharmacy
+059083,723 Concord Annex,Beloit,PA,2021-07-22,69146676,223(a)(7) Refi of 223f ALF,156,Hospitals & Group Practice,Initially Endorsed,2020-04-07,JCPenney,RadioShack
+456478,XPLANE,Maryville,PA,1984-12-09,90107643,202/8 NC,71,Risk Sharing,Finally Endorsed,2021-08-27,Muscle Factory,Lazysize
+226027,379 Spencer Bypass,Upper Arlington,PA,1987-06-14,114702278,223(a)(7) Refi of 223f Nursing/ ICF,366,Hospitals & Group Practice,Initially Endorsed,2020-05-09,Casco Bay Lines,"Springfield Armory, Inc."
+756014,485 Paul Cove,Kenmore,PA,1998-11-03,37854197,202/8 NC,345,Risk Sharing,Finally Endorsed,2021-12-17,Life Map Planners,Abbott Laboratories
+388312,Sauer-Danfoss,Baton Rouge,PA,1991-04-25,146190546,202/8 NC,465,Hospitals & Group Practice,Finally Endorsed,2022-09-08,Monk House Sales,Kohler Company
+736641,1242 Vine Path,Muskego,PA,1996-05-03,98715288,223(a)(7) Refi of 223f Nursing/ ICF,118,Risk Sharing,Finally Endorsed,2022-01-17,Pro-Care Garden Maintenance,Safeco Corporation
+779730,691 Roemer Boulevard,Whitehall,PA,1993-03-04,137329930,223(a)(7) Refi of 223f ALF,224,Risk Sharing,Finally Endorsed,2021-11-06,Spectrum Brands,A+ Electronics
+844395,897 Webster Arcade,Fort Myers,PA,1993-08-31,6198805,223(a)(7) Refi of 223f ALF,445,Risk Sharing,Initially Endorsed,2020-05-16,Office Depot,Berry Plastics
+996865,Albertsons LLC,Buffalo,PA,1994-12-13,28055729,202/8 SR,390,Basic FHA,Finally Endorsed,2022-06-17,Prospa-Pal,Alliant Energy
+207591,Awthentikz,Fitchburg,PA,2019-07-03,54425744,202/8 SR,99,Hospitals & Group Practice,Initially Endorsed,2020-08-07,General Communication,GHD Inc.
+716600,Hyland Software,Woodstock,PA,2001-07-04,87215032,202/8 SR,424,Hospitals & Group Practice,Initially Endorsed,2022-06-18,Millenia Life,Taco Tico
+701778,CNA,Anderson,PA,2010-09-26,132257264,223(a)(7) Refi of 223f ALF,296,Basic FHA,Initially Endorsed,2021-03-25,Plan Smart,Rockwell Automation
+975641,Emerson Electric Company,Casselberry,PA,2014-03-02,91105315,223(a)(7) Refi of 223f Nursing/ ICF,421,Risk Sharing,Finally Endorsed,2021-07-15,"Ryder System, Inc.",Garden Master
+392427,1059 Lori Heights,Shoreview,PA,2003-01-11,91250564,202/8 SR,74,Risk Sharing,Finally Endorsed,2022-10-06,Allegheny Energy,Bain & Company
+488786,604 Marlin Circle,Anderson,PA,2004-04-28,127557222,202/8 SR,448,Risk Sharing,Initially Endorsed,2021-07-25,Alert Alarm Company,Monk Home Improvements
+032705,1264 Lucky Pine,Christiansburg,PA,2003-06-01,134337351,223(a)(7) Refi of 223f ALF,218,Basic FHA,Initially Endorsed,2023-06-09,Copeland's,Union Oil Company of California
+383254,187 Galilee Lodge,Crest Hill,PA,2010-09-14,106890505,223(a)(7) Refi of 223f Nursing/ ICF,333,Hospitals & Group Practice,Finally Endorsed,2021-05-20,Textron Inc.,Agilent Technologies
+383486,1265 Cortes Walk,Spring Valley,PA,1985-10-09,65000361,202/8 NC,266,Risk Sharing,Initially Endorsed,2022-04-22,World of Fun,Full Color
+713907,564 Second Viaduct,Lewiston,PA,1986-01-03,131649174,223(a)(7) Refi of 223f Nursing/ ICF,72,Hospitals & Group Practice,Initially Endorsed,2020-09-30,Avant Garde Interior Designs,"Olan Mills, Inc."
+489516,Just For Fun,Clearwater,PA,2014-09-03,38788009,223(a)(7) Refi of 223f Nursing/ ICF,362,Risk Sharing,Initially Endorsed,2023-02-26,Clear Channel Communications,U.S. Steel
+919501,1033 Nellie Grove,El Dorado,PA,2014-11-01,46569276,223(a)(7) Refi of 223f Nursing/ ICF,250,Risk Sharing,Finally Endorsed,2020-03-04,Bob Evans Restaurants,System Star
+568177,1244 Rosenkranz Cove,Mukilteo,PA,1991-11-14,141933420,223(a)(7) Refi of 223f ALF,417,Basic FHA,Initially Endorsed,2021-01-10,Verizon Wireless,America Online
+289114,175 Polk Motorway,Rosenberg,PA,1999-02-17,92010898,223(a)(7) Refi of 223f ALF,230,Risk Sharing,Finally Endorsed,2020-04-12,Just For Fun,GTECH
+556323,829 Hayward Alley,Greenwood,PA,1981-08-09,128086382,202/8 NC,331,Hospitals & Group Practice,Initially Endorsed,2020-11-02,Star Merchant Services,JCPenney
+022192,Monlinks,Syracuse,PA,1982-05-07,88634854,223(a)(7) Refi of 223f ALF,88,Basic FHA,Finally Endorsed,2023-08-07,Mozilla Foundation,Sexy Babe
+825571,920 Camellia Avenue,La Habra,PA,2006-03-07,145812732,223(a)(7) Refi of 223f Nursing/ ICF,164,Hospitals & Group Practice,Finally Endorsed,2020-01-17,Eureka,Magna Gases
+501294,NetDNA,Merced,PA,1996-11-01,18933099,223(a)(7) Refi of 223f Nursing/ ICF,440,Basic FHA,Finally Endorsed,2020-10-03,QCR Holdings,Dreamscape Garden Care
+899925,Chugach Alaska Corporation,DeSoto,PA,2012-07-02,89593236,223(a)(7) Refi of 223f ALF,18,Hospitals & Group Practice,Finally Endorsed,2023-09-06,Aéropostale,Rainbow Life
+183053,Avis Budget Group,San Gabriel,PA,2001-07-24,114314603,223(a)(7) Refi of 223f ALF,360,Hospitals & Group Practice,Finally Endorsed,2022-07-19,Baldor Electric Company,Energizer Holdings
+900085,Liz Claiborne,Belton,PA,1994-09-23,99524630,202/8 NC,63,Risk Sharing,Initially Endorsed,2020-10-13,Maxtor Corporation,NetZero
+553107,Castle Realty,Ballwin,PA,2019-05-14,29485683,223(a)(7) Refi of 223f Nursing/ ICF,468,Hospitals & Group Practice,Finally Endorsed,2020-10-14,PC Power and Cooling,Visa Inc.
+487807,Garden Guru,Homewood,PA,1983-08-17,148982475,202/8 SR,162,Basic FHA,Finally Endorsed,2020-09-05,Microcat,"Ryder System, Inc."
+880872,370 Dolphin Parkway,Colorado Springs,PA,1995-08-14,8753070,223(a)(7) Refi of 223f ALF,247,Risk Sharing,Initially Endorsed,2023-06-15,Kerr-McGee,Black & Decker
+223082,Digi-Key,Balch Springs,PA,1989-10-24,30139769,223(a)(7) Refi of 223f Nursing/ ICF,277,Hospitals & Group Practice,Finally Endorsed,2023-02-18,Magna Consulting,Black & Decker
+586662,Custom Lawn Care,Denver,PA,1999-08-28,65683812,223(a)(7) Refi of 223f ALF,182,Basic FHA,Initially Endorsed,2023-12-23,SanDisk,Zune
+465917,Price Waterhouse Coopers,Jefferson City,PA,2020-03-29,121918331,223(a)(7) Refi of 223f ALF,245,Risk Sharing,Initially Endorsed,2023-02-15,American Express,B/E Aerospace
+196900,776 Ashwood Point,Des Plaines,PA,2017-05-15,127385720,223(a)(7) Refi of 223f ALF,19,Hospitals & Group Practice,Initially Endorsed,2020-01-06,Kmart,Orion
+982106,867 Battery Dynamite Bayou,Thousand Oaks,PA,2017-11-25,32091603,202/8 NC,400,Risk Sharing,Initially Endorsed,2021-06-26,Planet Profit,Arryx
+656572,456 Steuben Boulevard,Culver City,PA,2017-10-04,97559449,223(a)(7) Refi of 223f Nursing/ ICF,359,Risk Sharing,Initially Endorsed,2020-01-04,Target Source,PG&E
+506397,839 Edgemont Pike,Southlake,PA,1996-11-17,78290775,202/8 NC,337,Risk Sharing,Initially Endorsed,2023-04-01,Ace Hardware,Esselte
+602887,780 Cardenas Road,Maple Heights,PA,2011-12-11,78062222,223(a)(7) Refi of 223f Nursing/ ICF,367,Basic FHA,Initially Endorsed,2023-11-07,Armstrong World Industries,The Flying Bear
+612133,570 Broadmoor Annex,Hagerstown,PA,1996-06-24,72124790,202/8 NC,327,Hospitals & Group Practice,Initially Endorsed,2023-11-06,ASARCO,Ameren
+617015,994 Stratford Estate,Mineola,PA,1981-04-09,15088449,223(a)(7) Refi of 223f Nursing/ ICF,315,Risk Sharing,Initially Endorsed,2023-10-25,Beasts of Beauty,Gamma Grays
+312435,308 Livingston Gardens,Pullman,PA,2008-05-26,48690208,202/8 SR,386,Risk Sharing,Initially Endorsed,2021-03-28,Rockstar Games,Dream Home Real Estate Service
+611479,1135 Leese Mews,Agawam,PA,2002-09-26,125201099,202/8 SR,497,Hospitals & Group Practice,Finally Endorsed,2023-08-22,Sears,Solution Bridge
+837612,1346 Parsons Bypass,Marshalltown,PA,1982-03-23,119567541,202/8 NC,412,Basic FHA,Initially Endorsed,2023-10-20,Emcor,Whataburger
+956468,Google,Burton,PA,2019-04-15,36493758,223(a)(7) Refi of 223f Nursing/ ICF,106,Risk Sharing,Finally Endorsed,2021-04-03,Union Pacific Railroad,Brightpoint
+770545,ONEOK,Lenoir,PA,2021-07-19,120770799,202/8 SR,435,Risk Sharing,Initially Endorsed,2023-08-05,New World,Afforda
+317268,Omni Tech Solutions,Irvine,PA,2009-10-23,106499391,202/8 SR,271,Risk Sharing,Initially Endorsed,2022-12-13,West Liberty Foods,Sky High Financial Advice
+242109,938 Perimeter Viaduct,Lancaster,PA,2015-08-11,116447491,223(a)(7) Refi of 223f ALF,113,Hospitals & Group Practice,Finally Endorsed,2021-02-28,Pantone,Copeland's
+627499,401 Upland Bend,Westmont,PA,1993-01-25,47333730,202/8 NC,44,Basic FHA,Finally Endorsed,2023-04-23,Borders Group,Netcore
+630164,51 Keith Green,Montgomery,PA,1982-06-09,45883310,223(a)(7) Refi of 223f Nursing/ ICF,155,Basic FHA,Initially Endorsed,2023-04-03,World of Fun,Planet Profit
+679691,392 Buena Vista Bypass,Wellington,PA,2008-12-04,84453312,202/8 SR,344,Risk Sharing,Initially Endorsed,2022-07-24,Electric Boat,Myspace
+666650,Realty Zone,Pharr,PA,1985-05-13,112808266,223(a)(7) Refi of 223f ALF,130,Basic FHA,Finally Endorsed,2020-03-05,Strategy Planner,Visa Inc.
+296759,212 Conservatory Access Drive,Arcadia,PA,2000-06-03,133329964,223(a)(7) Refi of 223f ALF,332,Hospitals & Group Practice,Initially Endorsed,2021-04-07,Strongbod,Airgas
+204974,Office Max,Edmonds,PA,2018-03-27,56964487,202/8 SR,178,Basic FHA,Finally Endorsed,2023-01-16,Amazon.com,Mikro Designs
+584938,732 Saint Charles Gardens,Moreno Valley,PA,1985-09-09,5089478,223(a)(7) Refi of 223f Nursing/ ICF,286,Basic FHA,Initially Endorsed,2022-09-09,Martha Stewart Living Omnimedia,XPAC
+687802,Six Flags,Staunton,PA,1992-12-07,52057683,202/8 SR,259,Hospitals & Group Practice,Initially Endorsed,2022-01-26,Facebook,Bechtel
+107435,432 Shaw Path,Oregon City,PA,1981-12-13,133912431,202/8 SR,263,Risk Sharing,Initially Endorsed,2022-08-07,QVC,CIGNA
+964109,Towers Perrin,Cuyahoga Falls,PA,2014-11-16,110931082,202/8 NC,244,Risk Sharing,Finally Endorsed,2022-11-28,Kerr-McGee,Alexander & Baldwin
+449929,Bed Bath & Beyond,Gurnee,PA,1997-01-16,25253853,202/8 NC,93,Hospitals & Group Practice,Finally Endorsed,2023-10-11,ManPower,Martel Communication
+352578,1 Bruce Circle,Belle Glade,PA,1998-09-30,138449428,202/8 SR,74,Basic FHA,Finally Endorsed,2020-02-03,Alaska Air Group,Safeway Inc.
+121025,422 Hickory Manor,Poplar Bluff,PA,2021-02-09,26857144,202/8 SR,1,Basic FHA,Initially Endorsed,2020-10-30,RCA,Fragrant Flower Lawn Services
+990277,1210 Grafton Stravenue,Palos Hills,PA,2017-09-05,145803360,223(a)(7) Refi of 223f Nursing/ ICF,480,Hospitals & Group Practice,Initially Endorsed,2021-07-28,Esselte,OSI Restaurant Partners
+094797,Flexus,Avondale,PA,1993-08-01,74018324,223(a)(7) Refi of 223f Nursing/ ICF,124,Basic FHA,Finally Endorsed,2023-11-16,Practi-Plan,Publix
+980686,Spanx,Panama City,PA,1996-04-14,18793796,202/8 NC,428,Hospitals & Group Practice,Finally Endorsed,2020-11-29,Verizon,Intercontinental Manufacturing Company
+626939,835 Santa Clara Extension,Bridgeton,PA,1993-05-12,127540106,202/8 NC,374,Hospitals & Group Practice,Initially Endorsed,2023-02-14,Rayovac,Elizabeth Arden
+733472,Baxter International,Bowling Green,PA,2012-12-17,13615693,223(a)(7) Refi of 223f ALF,434,Risk Sharing,Finally Endorsed,2021-09-23,Friendly Advice,BJ Services Company
+854469,Marsh & McLennan,Mount Vernon,PA,1982-03-05,1921206,202/8 SR,367,Risk Sharing,Initially Endorsed,2022-04-02,The Lawn Guru,Aspyr Media
+389177,406 Security Pacific Estate,Twentynine Palms,PA,1985-12-27,56548734,202/8 SR,93,Hospitals & Group Practice,Initially Endorsed,2023-12-15,Formula Gray,VIZ Media
+028885,656 Roemer Landing,Fairborn,PA,2008-07-04,31502010,223(a)(7) Refi of 223f Nursing/ ICF,339,Basic FHA,Finally Endorsed,2021-12-22,RCA,Crazy Tiger
+791129,GTECH,Atlantic City,PA,2009-03-05,123344736,223(a)(7) Refi of 223f Nursing/ ICF,124,Basic FHA,Finally Endorsed,2022-08-12,Capitalcorp,ViewSonic
+369802,1135 Mission Bay Spur,Santee,PA,1994-01-30,90642081,223(a)(7) Refi of 223f ALF,454,Hospitals & Group Practice,Finally Endorsed,2022-04-01,Star Interior Design,Universal Design Partners
+979687,974 Reed Square,Lodi,PA,2001-10-18,18264546,223(a)(7) Refi of 223f Nursing/ ICF,144,Risk Sharing,Initially Endorsed,2021-04-22,WWW Realty,First Hawaiian Bank
+297128,475 Wetmore Run,Maryland Heights,PA,1985-09-13,138588897,223(a)(7) Refi of 223f Nursing/ ICF,150,Hospitals & Group Practice,Finally Endorsed,2020-03-09,Freedom Map,Kmart
+013007,1262 Linden Freeway,Royal Oak,PA,1997-09-17,64339756,202/8 SR,12,Risk Sharing,Initially Endorsed,2023-05-28,Access Asia,eBay
+862929,Choices,Stanton,PA,2003-12-08,135823066,202/8 NC,321,Hospitals & Group Practice,Finally Endorsed,2022-03-04,Ecolab,Jarden
+753684,Maxaprofit,Sahuarita,PA,1985-08-30,124209245,223(a)(7) Refi of 223f ALF,325,Hospitals & Group Practice,Initially Endorsed,2020-03-21,STX,Goodyear Tire and Rubber Company
+780740,Naturohair,American Fork,PA,2017-03-21,130986806,202/8 SR,329,Basic FHA,Initially Endorsed,2022-06-29,Motorola,Eastman Kodak
+574590,Bosch Brewing Company,Tyler,PA,2001-04-21,89791456,202/8 SR,468,Basic FHA,Finally Endorsed,2022-06-16,Principal Financial Group,Corning Incorporated
+596306,Strength Gurus,El Centro,PA,1997-11-08,60155873,223(a)(7) Refi of 223f Nursing/ ICF,359,Risk Sharing,Initially Endorsed,2022-07-08,O'Reilly,ACCO Brands
+729959,Assurant,Lenoir,PA,1998-02-13,106379530,223(a)(7) Refi of 223f Nursing/ ICF,345,Risk Sharing,Initially Endorsed,2023-07-22,Grey Fade,Total Quality
+339836,635 Jack Micheline Road,Gary,PA,1992-05-17,118076429,202/8 SR,168,Hospitals & Group Practice,Finally Endorsed,2023-11-12,Titania,DiC Entertainment
+948858,216 Camellia Rapids,Holladay,PA,2004-08-01,99654101,202/8 SR,249,Hospitals & Group Practice,Finally Endorsed,2020-11-15,Snap-on Tools,CBS Corporation
+093208,1388 Knott Heights,Millville,PA,2008-10-23,133801979,202/8 NC,44,Hospitals & Group Practice,Finally Endorsed,2023-08-24,Cut Rite Lawn Care,"FileMaker Inc., formerly Claris Corp."
+090273,591 Gorgas Row,Parkersburg,PA,2022-05-22,125802325,223(a)(7) Refi of 223f Nursing/ ICF,444,Risk Sharing,Finally Endorsed,2023-12-27,"Wells Fargo Bank, N.A.",Valero Energy Corporation
+147302,Reliable Guidance,Hagerstown,PA,1998-04-16,29069001,223(a)(7) Refi of 223f Nursing/ ICF,374,Basic FHA,Finally Endorsed,2023-08-03,DynCorp International,Zig Zag Children Clothes
+922125,485 Galvez Lodge,Belmont,PA,2020-06-23,40002348,202/8 NC,246,Hospitals & Group Practice,Finally Endorsed,2023-05-27,Ball Corp.,E-zhe Source
+555759,Prahject Planner,Wildwood,PA,1987-10-01,64865764,223(a)(7) Refi of 223f ALF,388,Hospitals & Group Practice,Finally Endorsed,2021-05-25,NetZero,Aon Corporation
+219385,Rivera Property Maintenance,Alhambra,PA,2000-02-01,103084726,202/8 NC,296,Hospitals & Group Practice,Finally Endorsed,2020-04-19,Star Interior Design,United Technologies
+870007,Deere & Company,Ridgeland,PA,1984-10-25,41851526,223(a)(7) Refi of 223f Nursing/ ICF,384,Hospitals & Group Practice,Initially Endorsed,2023-08-17,Strength Gurus,Seksi Lady
+881328,Polaroid Corporation,Jeffersonville,PA,2011-12-19,58712638,202/8 NC,158,Basic FHA,Initially Endorsed,2023-09-19,Netcore,Orion
+541029,1383 Dutton Annex,Pomona,PA,2019-12-07,86924852,223(a)(7) Refi of 223f Nursing/ ICF,399,Risk Sharing,Finally Endorsed,2023-11-10,One-Up Realty,Total Network Development
+937624,160 Saint Marys Annex,Glendale,PA,1990-12-13,141729966,202/8 SR,112,Basic FHA,Finally Endorsed,2020-08-03,Biomet,E-zhe Source
+880263,1260 Toyon Heights,Wisconsin Rapids,PA,1989-05-28,133698659,202/8 SR,449,Basic FHA,Finally Endorsed,2022-02-11,W. R. Grace and Company,QCR Holdings
+215700,Affinity Investment Group,Avon,PA,2013-08-31,50682769,223(a)(7) Refi of 223f ALF,264,Risk Sharing,Initially Endorsed,2021-02-10,Life Plan Counselling,Plan Smart
+397230,Jack in the Box,West Valley City,PA,1989-07-02,48531462,223(a)(7) Refi of 223f Nursing/ ICF,275,Risk Sharing,Initially Endorsed,2021-07-02,KBR,Citrix
+153594,238 Custer Garden,Bethel Park,PA,1990-06-25,108380879,223(a)(7) Refi of 223f ALF,499,Risk Sharing,Initially Endorsed,2020-08-31,US Airways,Magna Solution
+231542,719 Brentwood Station,Goose Creek,PA,1998-06-24,116528062,202/8 NC,417,Risk Sharing,Finally Endorsed,2023-05-06,Human Kinetics,Quality Event Planner
+188979,A+ Investments,Carol Stream,PA,2003-05-07,83260482,223(a)(7) Refi of 223f ALF,347,Basic FHA,Finally Endorsed,2022-07-01,ConocoPhillips,E-zhe Source
+612529,348 Donahue Stravenue,Godfrey,PA,2005-01-23,112985113,202/8 NC,494,Hospitals & Group Practice,Initially Endorsed,2023-10-30,Sunburst Garden Management,Future Bright
+115704,PG&E,Tullahoma,PA,1994-02-14,62974926,202/8 NC,360,Basic FHA,Finally Endorsed,2023-06-07,Magna Wealth,ASARCO
+903576,CBS Corporation,Wadsworth,PA,1987-09-21,137443572,202/8 SR,499,Hospitals & Group Practice,Initially Endorsed,2023-02-22,Werner Enterprises,Werner Enterprises
+683675,A Plus Lawn Care,Denton,PA,2011-12-18,29052100,202/8 NC,186,Risk Sharing,Finally Endorsed,2020-04-24,Reliable Guidance,Alliant Energy
+689852,Columbia Sussex,Bend,PA,2014-07-12,92248760,223(a)(7) Refi of 223f Nursing/ ICF,377,Risk Sharing,Finally Endorsed,2022-10-09,American Home Mortgage,Anadarko Petroleum Corporation
+328625,242 Mississippi Alley,Hopkinsville,PA,2005-10-21,4186086,223(a)(7) Refi of 223f Nursing/ ICF,349,Basic FHA,Finally Endorsed,2021-06-16,Deere & Company,Lucas Oil
+889721,861 Scotland Highway,Castle Rock,PA,1986-08-13,9706746,223(a)(7) Refi of 223f Nursing/ ICF,410,Hospitals & Group Practice,Initially Endorsed,2023-06-26,Wendy's/Arby's Group,Oberweis Dairy
+604243,15 Decker Pine,Mattoon,PA,2008-07-19,10086006,223(a)(7) Refi of 223f ALF,12,Hospitals & Group Practice,Finally Endorsed,2023-10-06,"Sterling Ledet & Associates, Inc.",US Cellular
+366011,1170 Treat Street,Muskegon,PA,2017-12-24,131472141,223(a)(7) Refi of 223f Nursing/ ICF,243,Hospitals & Group Practice,Initially Endorsed,2022-10-11,Circuit Design,Verbatim Corporation
+239451,212 Douglass Terrace,Plano,PA,1990-07-06,149418553,202/8 SR,80,Basic FHA,Initially Endorsed,2020-02-19,Opticomp,The Spotted Cougar
+785352,1285 Bessie Pike,Port Hueneme,PA,2003-10-03,57287972,223(a)(7) Refi of 223f Nursing/ ICF,409,Risk Sharing,Finally Endorsed,2023-12-28,World Airways,First Choice Garden Maintenance
+011860,Honeywell,Bedford,PA,2020-11-23,68320684,202/8 SR,302,Basic FHA,Initially Endorsed,2023-02-12,The Liberty Corporation,Firestone Tire and Rubber Company
+350790,1197 Sacramento Mews,Highland Village,PA,2023-07-22,43981877,223(a)(7) Refi of 223f ALF,360,Hospitals & Group Practice,Initially Endorsed,2020-12-07,Automatic Data Processing,Destiny Realty Solutions
+676107,Vistikon,North Miami,PA,2017-06-23,5088940,202/8 SR,452,Hospitals & Group Practice,Initially Endorsed,2023-11-04,Muscle Factory,Autoliv
+950166,Ecolab,Calexico,PA,1998-06-13,139045106,202/8 NC,358,Basic FHA,Finally Endorsed,2023-01-14,Nike,Baker Hughes
+811320,653 Modoc Street,Albuquerque,PA,2011-10-14,138347939,202/8 NC,337,Risk Sharing,Finally Endorsed,2020-11-10,Bechtel,Gillette
+335698,641 Westgate Annex,Aliso Viejo,PA,1986-04-26,83941084,202/8 NC,46,Hospitals & Group Practice,Finally Endorsed,2021-04-01,Energizer Holdings,Seksi Lady
+904835,Citigroup,Texas City,PA,2010-08-18,26486100,223(a)(7) Refi of 223f ALF,457,Risk Sharing,Finally Endorsed,2023-02-16,Enrich Garden Services,Magna Wealth
+198157,NetDNA,Del City,PA,1997-10-30,36134198,202/8 SR,323,Hospitals & Group Practice,Finally Endorsed,2022-10-30,Aleris International,H&R Block
+124699,909 Massachusetts Street,Sumter,PA,2011-08-11,143695471,223(a)(7) Refi of 223f ALF,160,Risk Sharing,Finally Endorsed,2023-02-07,The Serendipity Dip,The Walt Disney Company
+060430,Quickbiz,Norwood,PA,1991-12-13,71307259,223(a)(7) Refi of 223f Nursing/ ICF,276,Risk Sharing,Initially Endorsed,2021-05-10,Bank of New York Mellon,Freedom Map
+863554,1263 Division Run,Prairie Village,PA,1989-01-25,100891330,202/8 NC,424,Risk Sharing,Initially Endorsed,2020-10-24,Suadela Investment,Growmark
+845557,379 Ship Mall,Willmar,PA,2021-10-30,39104001,202/8 SR,357,Basic FHA,Initially Endorsed,2021-06-08,L&L Hawaiian Barbecue,Morgan Stanley
+636025,137 Havenside Bridge,Moraga,PA,2001-07-13,2575355,223(a)(7) Refi of 223f ALF,319,Basic FHA,Finally Endorsed,2023-12-12,Emerson Radio,Gatorade
+459067,Monk Home Funding Services,New York,PA,1999-01-11,75575792,223(a)(7) Refi of 223f ALF,164,Risk Sharing,Initially Endorsed,2020-12-18,NetDNA,Continental Airlines
+651826,280 Cabrillo Motorway,Little Rock,PA,2015-05-20,68292798,223(a)(7) Refi of 223f Nursing/ ICF,426,Basic FHA,Initially Endorsed,2023-04-18,Idea Infinity,Asian Answers
+114415,1371 Marina Green Heights,Hopkins,PA,1990-10-16,82163298,223(a)(7) Refi of 223f ALF,264,Risk Sharing,Finally Endorsed,2023-02-04,Crazy Tiger,H-E-B
+935357,1364 Donahue Lodge,Ellensburg,PA,2013-02-12,70382572,223(a)(7) Refi of 223f Nursing/ ICF,239,Risk Sharing,Finally Endorsed,2021-06-02,Intelli Wealth Group,Signa Air
+407339,Magna Architectural Design,Melbourne,PA,1993-01-29,138360790,223(a)(7) Refi of 223f Nursing/ ICF,351,Risk Sharing,Finally Endorsed,2023-04-09,Suadela Investment,Quality Realty Service
+097689,253 Pulaski Ranch,Wildwood,PA,2019-01-05,7133809,202/8 SR,147,Risk Sharing,Initially Endorsed,2020-10-06,Agriprocessors,Freedom Map
+191598,Novellus Systems,St. Louis,PA,1993-06-10,87027393,223(a)(7) Refi of 223f Nursing/ ICF,146,Risk Sharing,Initially Endorsed,2020-10-21,Chem-Dry,NetDNA
+824926,1376 Boardman Bridge,Medford,PA,2017-01-14,142888444,202/8 SR,332,Hospitals & Group Practice,Finally Endorsed,2023-10-08,BlackRock,Destiny Realty
+581691,1234 Candlewood Bridge,Great Falls,PA,2003-03-29,117363097,202/8 NC,457,Hospitals & Group Practice,Finally Endorsed,2021-07-26,Oracle Corporation,Alladin Realty
+545174,549 Brannan Pike,Rancho Cucamonga,PA,2007-09-11,10555754,202/8 NC,288,Risk Sharing,Finally Endorsed,2023-12-25,Pinnacle Systems,American Airlines
+468422,Sexsi Senorita,Carbondale,PA,1988-05-04,118366164,202/8 SR,79,Risk Sharing,Finally Endorsed,2023-04-01,Wise Solutions,Magik Lamp
+456323,Intercontinental Manufacturing Company,La Porte,PA,2000-06-21,115094100,223(a)(7) Refi of 223f Nursing/ ICF,286,Hospitals & Group Practice,Finally Endorsed,2020-05-30,Macroserve,AMC Entertainment
+974380,1066 Arbor Rapids,Rio Rancho,PA,1985-01-10,78141451,223(a)(7) Refi of 223f ALF,471,Risk Sharing,Finally Endorsed,2021-07-22,Royal Gas,Arizona Stock Exchange
+057783,781 Lapham Square,Golden,PA,1989-02-15,2228069,223(a)(7) Refi of 223f Nursing/ ICF,341,Hospitals & Group Practice,Initially Endorsed,2020-07-20,Calista Corporation,CNET
+224493,864 Kingston Estate,Oceanside,PA,2017-11-18,10131283,202/8 NC,129,Risk Sharing,Initially Endorsed,2021-02-20,Miller Brewing,Gibson Guitar Corporation
+760687,284 Windsor Mill Estate,Niagara Falls,PA,1995-08-02,114485228,202/8 NC,212,Basic FHA,Finally Endorsed,2021-02-22,Edge Yard Service,Greyvoid
+410839,Vizio,Patterson,PA,2021-06-18,55855611,202/8 NC,207,Hospitals & Group Practice,Initially Endorsed,2020-07-08,DuPont,Dynegy
+274061,Fisker Automotive,Goshen,PA,2007-10-17,62706577,223(a)(7) Refi of 223f ALF,265,Risk Sharing,Initially Endorsed,2020-08-15,Affiliated Computer Services,Briggs & Stratton
+222903,Bristol-Myers Squibb,Tampa,PA,1991-09-12,61809523,202/8 SR,47,Hospitals & Group Practice,Initially Endorsed,2023-02-09,Amphenol Corporation,"FileMaker Inc., formerly Claris Corp."
+930851,CDI Corporation,Boynton Beach,PA,1981-11-07,8352027,223(a)(7) Refi of 223f ALF,55,Risk Sharing,Finally Endorsed,2023-04-12,Baxter International,Body Fate
+106189,Apache Software Foundation,Paso Robles,PA,1991-05-10,124317085,202/8 SR,19,Basic FHA,Initially Endorsed,2023-05-12,"Ryder System, Inc.",Fragrant Flower Lawn Services
+640621,Borders Group,Hendersonville,PA,2003-11-10,88325198,223(a)(7) Refi of 223f Nursing/ ICF,282,Hospitals & Group Practice,Finally Endorsed,2020-06-23,Exelon Corporation,American Broadcasting Company
+550584,Asian Answers,Sylvania,PA,1997-05-27,11958981,202/8 NC,188,Hospitals & Group Practice,Finally Endorsed,2023-03-13,Imation,Bank of New York Mellon
+572197,1266 Bayview Pine,Antioch,PA,1986-08-22,142479924,202/8 NC,320,Basic FHA,Finally Endorsed,2020-06-27,Kenexa Corporation,Dun Rite Lawn Maintenance
+711842,Rich and Happy,Palmetto Bay,PA,2021-05-10,137050173,223(a)(7) Refi of 223f ALF,476,Hospitals & Group Practice,Finally Endorsed,2023-10-24,Aleris International,Amkor Technology
+917713,The Polka Dot Bear Tavern,Avenal,PA,2005-01-01,134101364,223(a)(7) Refi of 223f ALF,209,Hospitals & Group Practice,Finally Endorsed,2023-09-07,Enterprise GP Holdings,Perisolution
+167725,Rockford Fosgate,Elk Grove Village,PA,1996-02-29,62020215,223(a)(7) Refi of 223f Nursing/ ICF,413,Basic FHA,Initially Endorsed,2022-02-04,UTStarcom,Better Business Ideas and Services
+929807,Acuity Brands,Mint Hill,PA,2004-01-01,41523820,223(a)(7) Refi of 223f ALF,199,Risk Sharing,Finally Endorsed,2020-05-22,General Electric,Just For Fun
+159888,BJ's Wholesale Club,Ankeny,PA,1980-10-28,6791079,202/8 SR,61,Risk Sharing,Finally Endorsed,2020-03-18,Riverdeep,Black & Decker
+181427,648 Madrid Bypass,Novato,PA,1982-04-27,46940117,202/8 NC,35,Risk Sharing,Finally Endorsed,2020-11-19,Jones Soda Co.,PepsiCo
+962221,750 Liggett Path,Gladstone,PA,1980-03-22,31623749,223(a)(7) Refi of 223f ALF,99,Hospitals & Group Practice,Finally Endorsed,2021-04-04,International Paper,THQ
+130311,49 Peabody Canyon,Springdale,PA,1990-03-21,30937557,202/8 SR,489,Risk Sharing,Finally Endorsed,2021-10-20,Listen Up,Citigroup
+740214,LinkedIn,Norwich,PA,2012-06-21,5735363,202/8 SR,95,Basic FHA,Initially Endorsed,2021-03-30,Enviro Architectural Designs,The Liberty Corporation
+858645,550 Palmetto Crescent,Menasha,PA,1988-11-14,66403429,202/8 NC,13,Basic FHA,Finally Endorsed,2022-04-08,"Ryder System, Inc.",The Hertz Corporation
+556675,Architectural Genie,Fond du Lac,PA,1998-02-27,33505814,202/8 NC,471,Hospitals & Group Practice,Initially Endorsed,2022-10-24,JN-International Medical Corporation,Benchmark Electronics
+615157,Novell,Mason,PA,1991-02-25,41111597,223(a)(7) Refi of 223f Nursing/ ICF,320,Hospitals & Group Practice,Initially Endorsed,2023-01-10,Trinity Industries Inc.,Planet Profit
+792079,Autoliv,Richfield,PA,1989-09-24,56123940,202/8 SR,21,Risk Sharing,Finally Endorsed,2021-09-29,Winnebago Industries,Carnival Cruise Lines
+231278,958 Saratoga Expressway,Huntsville,PA,1985-06-15,43159241,202/8 SR,11,Risk Sharing,Initially Endorsed,2023-05-24,Lawnscape Garden Maintenance,Viacom
+199749,Southwest Airlines,Modesto,PA,1991-03-09,98283049,202/8 SR,60,Risk Sharing,Initially Endorsed,2022-11-23,First Hawaiian Bank,Quiznos
+653910,Dillard's,Eagan,PA,2000-02-23,62583964,223(a)(7) Refi of 223f Nursing/ ICF,52,Basic FHA,Initially Endorsed,2022-02-17,Body Fate,Brinker International
+381773,491 Verna Pine,Santa Monica,PA,1988-01-04,78397578,223(a)(7) Refi of 223f ALF,191,Basic FHA,Finally Endorsed,2023-07-04,Garmin,Salem Communications
+288628,Xilinx,Danville,PA,1996-07-20,45918414,223(a)(7) Refi of 223f Nursing/ ICF,290,Basic FHA,Finally Endorsed,2022-10-25,Intel,StopGrey
+999343,452 Park Lane,Atlanta,PA,2003-10-08,92975519,223(a)(7) Refi of 223f ALF,267,Basic FHA,Initially Endorsed,2023-03-13,The Spotted Cougar,Vitagee
+292224,261 Franklin Ranch,Hastings,PA,2015-01-19,23050901,202/8 NC,296,Risk Sharing,Finally Endorsed,2023-05-05,Salem Communications,Gibson Guitar Corporation
+100499,901 Valmar Freeway,Warren,PA,2002-05-25,77401983,223(a)(7) Refi of 223f ALF,65,Basic FHA,Initially Endorsed,2020-01-14,eBay,Powerbod
+590262,800 Argonaut Drive,Green Bay,PA,2001-09-02,100372542,202/8 NC,180,Risk Sharing,Finally Endorsed,2020-03-24,Universal Studios,Gold Touch
+832082,538 Rincon Crescent,Plattsburgh,PA,1996-08-24,78945017,223(a)(7) Refi of 223f ALF,374,Risk Sharing,Initially Endorsed,2020-02-29,Kenexa Corporation,Magna Wealth
+060668,Brinker International,Champlin,PA,1984-12-23,2735667,202/8 NC,38,Basic FHA,Initially Endorsed,2023-08-31,Oberweis Dairy,Magna Solution
+317083,769 Candlestick Point Sra Place,Ashtabula,PA,1988-10-13,50894474,202/8 SR,474,Basic FHA,Finally Endorsed,2023-08-22,Limited Brands,Powerbod
+560987,Brinker International,Carlsbad,PA,1981-09-30,65447343,202/8 NC,190,Risk Sharing,Initially Endorsed,2021-05-25,StopGrey,Intuit
+367126,1096 Fifth Lodge,Rochester,PA,2021-06-16,132990135,223(a)(7) Refi of 223f ALF,46,Hospitals & Group Practice,Finally Endorsed,2021-01-31,Total Sources,Advanced Micro Devices
+758794,220 Dedman Drive,Mason,PA,1985-06-16,135160006,223(a)(7) Refi of 223f Nursing/ ICF,472,Risk Sharing,Finally Endorsed,2022-07-22,Kmart,DC Shoes
+638260,340 Bay Shore Parkway,Anchorage,PA,2021-09-22,76761615,202/8 NC,488,Risk Sharing,Initially Endorsed,2022-09-30,"Sterling Ledet & Associates, Inc.",KFC
+258872,Becton Dickinson,Ocean Springs,PA,1991-12-18,80023380,223(a)(7) Refi of 223f ALF,391,Basic FHA,Initially Endorsed,2022-04-26,Entergy,Bain Capital
+829559,520 Walkway Point,Garner,PA,1998-01-31,130468105,202/8 SR,221,Risk Sharing,Finally Endorsed,2023-08-26,Advanced Micro Devices,Marantz
+939193,Twitter,Fontana,PA,1996-08-16,118568253,202/8 NC,276,Hospitals & Group Practice,Finally Endorsed,2021-11-29,Magna Solution,PACCAR
+968017,Hi-Point Firearms,Woodstock,PA,1983-05-03,35579672,202/8 SR,314,Risk Sharing,Finally Endorsed,2020-01-13,Stratacard,Shure Incorporated
+427765,146 Heather Annex,Cornelius,PA,2015-04-19,54110092,223(a)(7) Refi of 223f Nursing/ ICF,200,Risk Sharing,Initially Endorsed,2021-01-28,The Hertz Corporation,Multi-Systems Merchant Services
+674876,1152 Rio Verde Drive,Norristown,PA,2006-12-21,85150243,223(a)(7) Refi of 223f Nursing/ ICF,101,Hospitals & Group Practice,Finally Endorsed,2021-07-06,Planet Profit,Taco Tico
+973239,1293 Austin Terrace,Johnson City,PA,2021-03-03,35097666,202/8 NC,416,Basic FHA,Finally Endorsed,2022-05-28,Citigroup,Paxton Media Group
+104758,63 Continuum Pass,Olathe,PA,1981-10-27,101964043,223(a)(7) Refi of 223f ALF,452,Hospitals & Group Practice,Initially Endorsed,2021-03-07,Johnson Controls,Frontier Airlines
+987287,Unisys,Biloxi,PA,2016-04-10,49148182,202/8 NC,399,Basic FHA,Finally Endorsed,2023-01-22,"PalmOne, Inc.",Helios Air
+907147,Sky High Financial Advice,Gardner,PA,2017-08-04,69681397,223(a)(7) Refi of 223f Nursing/ ICF,223,Risk Sharing,Finally Endorsed,2020-08-20,Dex One,Future Plan
+987739,Sonic Solutions,Grand Rapids,PA,2019-07-02,20828275,202/8 SR,257,Hospitals & Group Practice,Finally Endorsed,2022-06-19,Zappos.com,Hilton Hotels Corporation
+093697,316 East Route,Cottonwood Heights,PA,2004-06-09,43973406,223(a)(7) Refi of 223f ALF,346,Basic FHA,Initially Endorsed,2023-06-17,Newhair,Oracle Corporation
+647457,OpenMarket Inc.,Evanston,PA,1989-11-26,63248618,202/8 SR,108,Risk Sharing,Finally Endorsed,2021-06-10,Eden Lawn Service,Mauna Loa Macadamia Nut Corp.
+741823,40 La Ferrera Avenue,Seattle,PA,1998-11-29,5783943,223(a)(7) Refi of 223f ALF,289,Basic FHA,Finally Endorsed,2023-01-06,Visa Inc.,Blockbuster Inc.
+282475,618 Alana Gardens,Ramsey,PA,1997-04-04,85463671,202/8 NC,228,Risk Sharing,Initially Endorsed,2023-05-29,Perisolution,Bose Corporation
+853870,Global Insight,Spring Valley,PA,1986-05-14,54844925,202/8 SR,127,Hospitals & Group Practice,Finally Endorsed,2023-08-02,The Weinstein Company,Arctic Cat
+684794,Eureka,Parma,PA,1999-05-13,76189261,202/8 NC,282,Basic FHA,Initially Endorsed,2023-07-08,Broadcom,W. L. Gore & Associates
+586971,423 Varennes Crescent,Gilbert,PA,2011-01-21,7342443,223(a)(7) Refi of 223f ALF,405,Basic FHA,Finally Endorsed,2020-02-27,Happy Family,PG&E
+445318,AT&T,Sterling Heights,PA,2008-12-04,103506247,202/8 SR,394,Risk Sharing,Initially Endorsed,2022-05-08,AES Corporation,National Railway Equipment Company
+566842,Payless ShoeSource,Petaluma,PA,1981-06-13,127084533,202/8 SR,124,Basic FHA,Finally Endorsed,2021-10-24,VIZ Media,Safeco Corporation
+135226,78 Emerald Square,North Tonawanda,PA,2019-06-27,67193360,223(a)(7) Refi of 223f ALF,274,Basic FHA,Finally Endorsed,2020-05-06,Casco Bay Lines,AES Corporation
+103711,Allegheny Energy,San Dimas,PA,2022-05-10,47103378,202/8 SR,312,Risk Sharing,Initially Endorsed,2021-04-07,New Balance,Cogent Communications
+980237,1180 Faith Boulevard,Maywood,PA,2001-11-08,21034543,202/8 SR,201,Risk Sharing,Finally Endorsed,2020-04-08,A+ Investments,Service Corporation International
+462220,Principal Financial Group,Huntersville,PA,2000-10-06,85832869,223(a)(7) Refi of 223f ALF,444,Risk Sharing,Initially Endorsed,2022-11-13,Matrix Architectural Service,American Broadcasting Company
+955558,707 Lee Rapids,Vineland,PA,1998-01-08,40955522,202/8 SR,37,Hospitals & Group Practice,Finally Endorsed,2020-01-15,Avery Dennison,Under Armour
+709743,306 Bowman Boulevard,Palm Beach Gardens,PA,1988-05-17,21603947,223(a)(7) Refi of 223f ALF,370,Basic FHA,Initially Endorsed,2020-08-14,"DivX, Inc.",Interplay Entertainment
+439533,ABM Industries,Lombard,PA,2002-12-16,49435192,223(a)(7) Refi of 223f Nursing/ ICF,48,Basic FHA,Initially Endorsed,2020-02-12,Abbott Laboratories,Red Bears Tavern
+762557,1204 Carr Pass,Roanoke,PA,2016-03-25,70497959,202/8 SR,330,Risk Sharing,Finally Endorsed,2020-08-12,Cut Rite,"Ryder System, Inc."
+584936,Omni Realty,Sherman,PA,1990-04-18,109223897,202/8 NC,238,Hospitals & Group Practice,Initially Endorsed,2020-04-11,Tupperware Brands Corporation,Danaher
+819743,1343 Telegraph Hill Point,Papillion,PA,1989-05-04,124602840,223(a)(7) Refi of 223f ALF,493,Basic FHA,Initially Endorsed,2023-01-17,Formula Grey,W. R. Berkley
+879115,573 Fuente Canyon,Gilbert,PA,2022-02-19,106741886,223(a)(7) Refi of 223f ALF,174,Risk Sharing,Finally Endorsed,2020-01-20,Ecolab,Costco
+000589,SBC Communications,Douglas,PA,2009-08-10,43873888,202/8 NC,132,Risk Sharing,Finally Endorsed,2022-03-08,Bechtel,Anixter International
+232447,Bountiful Harvest Health Food Store,Longmont,PA,2006-05-17,1622150,223(a)(7) Refi of 223f ALF,10,Basic FHA,Finally Endorsed,2021-06-28,Autoliv,Multicerv
+621503,768 Kamille Grove,Gloucester,PA,1988-12-14,12791212,223(a)(7) Refi of 223f Nursing/ ICF,9,Hospitals & Group Practice,Initially Endorsed,2023-04-16,Ameren,El Paso Corp.
+811020,Myspace,Gilbert,PA,2023-12-18,4341360,223(a)(7) Refi of 223f Nursing/ ICF,484,Hospitals & Group Practice,Initially Endorsed,2022-03-13,Strength Gurus,Lowe's
+769546,Bain & Company,New Hope,PA,1981-05-13,40465109,202/8 SR,68,Basic FHA,Finally Endorsed,2023-05-05,Profitpros,Stewart-Warner
+567719,Strategic Profit,Brookings,PA,1995-09-20,8618901,202/8 NC,269,Risk Sharing,Finally Endorsed,2023-05-18,Barnes & Noble,Cut Rite Lawn Care
+200418,262 West Clay Lodge,Largo,PA,2023-05-19,37665284,223(a)(7) Refi of 223f ALF,138,Basic FHA,Initially Endorsed,2020-03-02,Sprint Nextel Corporation,Bath & Body Works
+881796,492 Golden Gate Avenue,Duncan,PA,2000-10-10,12550629,223(a)(7) Refi of 223f Nursing/ ICF,242,Risk Sharing,Initially Endorsed,2022-05-14,Westat,Wise Appraisals
+303590,1270 Massasoit Gardens,Country Club Hills,PA,1999-06-12,148619464,202/8 SR,403,Risk Sharing,Initially Endorsed,2023-07-06,Red Bears Tavern,Columbia Sussex
+280046,Verizon,Fremont,PA,2004-10-26,28926733,223(a)(7) Refi of 223f Nursing/ ICF,156,Hospitals & Group Practice,Initially Endorsed,2022-08-10,Human Kinetics,Gentiva Health Services
+089141,370 Galvez Mews,Mokena,PA,2019-02-24,99721555,202/8 SR,287,Basic FHA,Finally Endorsed,2021-04-11,Alcoa,Master Builder Design Services
+186107,1181 Head Row,San Fernando,PA,2016-12-23,80658153,223(a)(7) Refi of 223f Nursing/ ICF,15,Hospitals & Group Practice,Initially Endorsed,2020-11-03,Boston Scientific,Naturohair
+050456,254 Sumner Trace,Greenville,PA,1983-03-23,93983392,202/8 NC,326,Hospitals & Group Practice,Finally Endorsed,2021-11-11,Superior Interior Design,Johnson Controls
+438528,1205 Leland Path,Roanoke,PA,2021-04-30,111643352,202/8 SR,374,Hospitals & Group Practice,Finally Endorsed,2023-08-23,Copeland's,Autodesk
+120725,Netcore,Bolingbrook,PA,1982-10-19,37548368,202/8 NC,274,Hospitals & Group Practice,Initially Endorsed,2021-02-09,Vistikon,Kraft Foods
+252719,1316 Cuba Pike,Titusville,PA,2017-09-25,123292793,202/8 SR,350,Risk Sharing,Initially Endorsed,2023-04-30,Brookdale Senior Living,Vaughan & Bushnell Manufacturing
+653810,Giant Food,Venice,PA,2009-05-15,117982517,223(a)(7) Refi of 223f ALF,371,Risk Sharing,Initially Endorsed,2023-04-09,Chicago Bridge & Iron Company,Corsair Memory
+119282,Monmax,Coalinga,PA,2009-12-05,139980654,202/8 SR,346,Basic FHA,Initially Endorsed,2022-06-10,"Olan Mills, Inc.",Happy Family
+422180,971 Stark Street,National City,PA,2013-08-30,62044150,202/8 NC,488,Basic FHA,Finally Endorsed,2021-03-10,CBS Corporation,Unisys
+175263,Star Interior Design,Bountiful,PA,1994-08-16,129114540,223(a)(7) Refi of 223f Nursing/ ICF,92,Basic FHA,Initially Endorsed,2021-03-07,L.L.Bean,Advanced Micro Devices
+035263,39 Amber Circle,Rochester,PA,2006-11-19,102139162,202/8 SR,132,Hospitals & Group Practice,Finally Endorsed,2020-12-18,KPMG,Perisolution
+173116,Applebee's,Crystal,PA,2000-12-06,18190976,202/8 NC,364,Risk Sharing,Finally Endorsed,2023-10-16,Group O,Advanced Processing & Imaging
+387073,166 Larch Motorway,Bethany,PA,1980-02-26,40172249,223(a)(7) Refi of 223f Nursing/ ICF,89,Hospitals & Group Practice,Finally Endorsed,2020-06-25,Watco Companies,Publix
+704853,556 Havens Pass,Amarillo,PA,2007-01-09,146636113,202/8 NC,295,Basic FHA,Initially Endorsed,2020-01-04,First Choice Yard Help,"DivX, Inc."
+091259,Vaughan & Bushnell Manufacturing,Naples,PA,1989-10-31,82139096,223(a)(7) Refi of 223f Nursing/ ICF,89,Basic FHA,Finally Endorsed,2021-08-31,Dream Home Real Estate Service,Trinity Industries Inc.
+316586,312 Friendship Turnpike,Ocean Springs,PA,2020-11-04,147147233,223(a)(7) Refi of 223f ALF,261,Basic FHA,Finally Endorsed,2021-10-13,"Wells Fargo Bank, N.A.",Anchor Bay Entertainment
+267843,Nutri G,Los Altos,PA,2017-04-27,62191008,202/8 SR,148,Hospitals & Group Practice,Initially Endorsed,2020-01-06,Frontier Airlines,Locost Accessories
+555564,Spherion,Vineland,PA,2023-09-08,149351065,223(a)(7) Refi of 223f ALF,313,Basic FHA,Initially Endorsed,2022-10-08,"PalmOne, Inc.",Silicon Image
+203104,Asiatic Solutions,Walnut,PA,1998-01-07,139640509,223(a)(7) Refi of 223f ALF,171,Basic FHA,Initially Endorsed,2023-11-14,Air Products & Chemicals,AirTran Holdings
+776428,Bank of New York Mellon,Corona,PA,2023-03-13,114964450,223(a)(7) Refi of 223f ALF,305,Hospitals & Group Practice,Initially Endorsed,2020-08-09,B/E Aerospace,Harman International Industries
+780910,Strength Gurus,Bay City,PA,2022-08-30,87063220,202/8 NC,468,Risk Sharing,Finally Endorsed,2023-03-13,Doculabs,Omni Source
+725720,Matrix Architectural Service,University Place,PA,1996-06-01,124903605,202/8 NC,270,Hospitals & Group Practice,Finally Endorsed,2020-11-22,Alcoa,The Pink Pig Tavern
+913116,Russell Investment Group,Salina,PA,1988-04-14,118204766,223(a)(7) Refi of 223f Nursing/ ICF,215,Hospitals & Group Practice,Finally Endorsed,2020-06-10,Johnson Controls,Columbia Sussex
+178972,Ubu Productions,Lincoln Park,PA,2006-06-06,88640200,202/8 SR,65,Risk Sharing,Finally Endorsed,2021-03-18,Auto-Owners Insurance,"Staples, Inc."
+086484,402 Sunnyside Rapids,New Britain,PA,1996-01-20,2277704,202/8 SR,287,Risk Sharing,Finally Endorsed,2022-12-10,Garden Master,JCPenney
+569263,854 Weldon Highway,Goshen,PA,2013-05-06,48695015,202/8 NC,280,Risk Sharing,Initially Endorsed,2021-09-09,Monk Home Improvements,Best Buy
+561855,McConn & Company,Jeffersonville,PA,1992-05-30,113005788,223(a)(7) Refi of 223f Nursing/ ICF,250,Risk Sharing,Initially Endorsed,2020-08-07,PG&E,Sauer-Danfoss
+726513,938 Williar Rapids,Orland Park,PA,2021-03-25,134786235,202/8 NC,295,Risk Sharing,Initially Endorsed,2020-10-23,ACCO Brands,Ameren
+054126,Zig Zag Children Clothes,Cicero,PA,2013-09-12,48576727,202/8 NC,202,Basic FHA,Finally Endorsed,2023-05-11,Peterbilt,Dean Foods
+450912,Testor Corporation,Hattiesburg,PA,1986-02-23,133176211,223(a)(7) Refi of 223f Nursing/ ICF,190,Risk Sharing,Initially Endorsed,2021-12-19,Strategy Planner,Mission You
+041672,403 Hawes Parkway,Paterson,PA,2000-11-04,120732950,223(a)(7) Refi of 223f Nursing/ ICF,353,Risk Sharing,Finally Endorsed,2021-04-06,Gateway Computers,H&R Block
+735505,Advanced Micro Devices,Lindenhurst,PA,2011-11-26,20352713,202/8 NC,240,Hospitals & Group Practice,Finally Endorsed,2022-06-29,Integra Investment Plan,Konsili
+522969,NetDNA,Sherman,PA,1980-05-12,143934874,223(a)(7) Refi of 223f ALF,104,Risk Sharing,Initially Endorsed,2020-10-13,Apache Software Foundation,Konsili
+821665,813 Forest View Center,Elmwood Park,PA,2016-06-10,101022400,202/8 NC,441,Basic FHA,Finally Endorsed,2023-12-09,World of Fun,Soyo Group
+891009,456 Pinto Heights,Enterprise,PA,2006-05-08,48212037,202/8 SR,20,Hospitals & Group Practice,Finally Endorsed,2021-01-08,Newhair,Martin Marietta Materials
+876679,The White Rabbit,Plainfield,PA,1992-02-27,96119618,202/8 NC,254,Basic FHA,Initially Endorsed,2022-02-17,Las Vegas Yard Management,TransDigm Group
+002164,MegaSolutions,Gladstone,PA,2023-02-21,70754244,223(a)(7) Refi of 223f ALF,436,Basic FHA,Initially Endorsed,2020-02-05,Tempur-Pedic,Monlinks
+021373,ABX Air,Kannapolis,PA,2012-12-14,121232126,202/8 NC,467,Risk Sharing,Initially Endorsed,2021-09-11,Emcor,Bushmaster Firearms International
+173766,1124 Cloud Landing,East Ridge,PA,2011-10-25,30820824,202/8 NC,416,Hospitals & Group Practice,Finally Endorsed,2021-11-23,Gatorade,OpenMarket Inc.
+470574,127 Tenny Creek,Waco,PA,2015-08-09,98400693,202/8 SR,284,Basic FHA,Initially Endorsed,2020-04-24,Suadela Investment,Interstate Batteries
+879779,Maxaprofit,Johnstown,PA,2007-07-23,101310840,202/8 SR,325,Risk Sharing,Finally Endorsed,2023-12-09,Citigroup,Accuquote
+267705,550 Sunrise Path,Greenbelt,PA,2008-02-11,101314019,202/8 NC,78,Risk Sharing,Finally Endorsed,2021-05-28,Dollar Tree,Precision Castparts Corporation
+280241,486 Iowa Canyon,Sahuarita,PA,2022-04-24,133996536,202/8 SR,279,Basic FHA,Finally Endorsed,2023-08-22,Lockheed Martin,Integra Investment Plan
+167715,670 West View Path,Radcliff,PA,2007-11-26,52395881,202/8 SR,70,Hospitals & Group Practice,Finally Endorsed,2021-08-07,"Wells Fargo Bank, N.A.",Advanced Processing & Imaging
+089695,Nordstrom,Indian Trail,PA,1997-12-09,80112330,223(a)(7) Refi of 223f ALF,434,Risk Sharing,Finally Endorsed,2022-05-09,CKE Restaurants,Bucyrus International
+164159,Chevron,Wilson,PA,2003-08-09,119752793,223(a)(7) Refi of 223f Nursing/ ICF,206,Hospitals & Group Practice,Finally Endorsed,2023-06-02,Arbitron,Acme Brick Company
+176130,The Jolly Farmer,Erlanger,PA,2001-11-23,28810936,202/8 SR,2,Basic FHA,Finally Endorsed,2020-03-13,Overcast Media,Express Scripts Incorporated
+810840,914 Crane Circle,North Platte,PA,1992-03-03,116671865,202/8 NC,436,Hospitals & Group Practice,Finally Endorsed,2020-06-26,Medimix International,Fisker Automotive
+819101,Eureka,Greeley,PA,2013-11-17,117900158,223(a)(7) Refi of 223f Nursing/ ICF,28,Risk Sharing,Finally Endorsed,2022-06-19,New Era Tickets,W. R. Berkley
+957853,1216 Northern Center,Gretna,PA,1994-10-21,141619798,223(a)(7) Refi of 223f ALF,498,Risk Sharing,Finally Endorsed,2021-05-31,Zapata,Gateway Computers
+767758,Parallel Px,Muncie,PA,1980-10-11,89833142,223(a)(7) Refi of 223f Nursing/ ICF,281,Hospitals & Group Practice,Finally Endorsed,2022-09-09,Eddie Bauer,Quickbiz
+525238,Quanta Services,Hallandale Beach,PA,2008-11-15,123850670,223(a)(7) Refi of 223f ALF,459,Risk Sharing,Initially Endorsed,2021-10-13,Wendy's/Arby's Group,Alienware
+369530,Briggs & Stratton,Grove City,PA,2010-08-03,21765506,223(a)(7) Refi of 223f ALF,121,Hospitals & Group Practice,Finally Endorsed,2023-04-24,Kingston Technology,NBC Universal
+718213,609 Stanford Manor,Haverhill,PA,2023-04-21,102538036,202/8 NC,374,Hospitals & Group Practice,Initially Endorsed,2022-12-15,AES Corporation,Creative Wealth
+955085,FedEx,Mauldin,PA,2012-08-22,12908484,202/8 NC,316,Basic FHA,Initially Endorsed,2020-03-17,Netobill,Zephyr Investments
+348564,Buena Vista Realty Service,Oklahoma City,PA,2022-11-19,16932748,223(a)(7) Refi of 223f Nursing/ ICF,317,Risk Sharing,Finally Endorsed,2020-02-11,Macro Design,Intel
+632619,Dollar General,Donna,PA,2016-04-12,94242435,202/8 SR,380,Basic FHA,Initially Endorsed,2020-06-28,Crowley Maritime Corporation,Federal Home Loan Mortgage Corporation
+001356,Spherion,West Des Moines,PA,2010-04-17,73138266,202/8 NC,449,Risk Sharing,Finally Endorsed,2022-02-23,YASH Technologies,Freedom Map
+627277,OPOWER,Fairborn,PA,2010-07-29,66401415,202/8 SR,424,Hospitals & Group Practice,Initially Endorsed,2023-11-16,Realty Depot,CNA
+509246,Wise Solutions,Hercules,PA,2003-10-18,134407364,202/8 SR,101,Basic FHA,Initially Endorsed,2022-06-15,"Wells Fargo Bank, N.A.",SkyWest Airlines
+233377,Monk House Maker,Oak Creek,PA,2009-06-30,8019475,202/8 NC,209,Hospitals & Group Practice,Initially Endorsed,2020-03-07,Midway Games,Listen Up
+288413,676 Lake Merced Turnpike,Orlando,PA,2009-11-29,45068582,223(a)(7) Refi of 223f Nursing/ ICF,14,Hospitals & Group Practice,Finally Endorsed,2023-03-11,Capitalcorp,Agriprocessors
+609658,483 Gillette Shore,Chesterfield,PA,2023-07-16,140835446,202/8 NC,338,Hospitals & Group Practice,Finally Endorsed,2021-11-29,Northern Star,Ejecta
+714170,General Mills,New Port Richey,PA,2018-07-02,131749061,223(a)(7) Refi of 223f Nursing/ ICF,120,Risk Sharing,Initially Endorsed,2022-02-04,Beasts of Beauty,State Street Corporation
+340549,380 Jackson Canyon,Des Plaines,PA,1984-11-30,111515986,223(a)(7) Refi of 223f Nursing/ ICF,4,Risk Sharing,Finally Endorsed,2020-09-13,Castle Realty,Citrix
+071029,Payless ShoeSource,Naperville,PA,1992-01-26,61676851,202/8 SR,441,Basic FHA,Finally Endorsed,2020-05-06,Burlington Coat Factory,W. R. Grace and Company
+381151,Rockstar Games,Wauwatosa,PA,1986-01-03,102526455,223(a)(7) Refi of 223f Nursing/ ICF,365,Hospitals & Group Practice,Initially Endorsed,2021-11-22,The Polka Dot Bear Tavern,Network Air
+418381,H-E-B,Norwalk,PA,1981-12-02,65683127,223(a)(7) Refi of 223f Nursing/ ICF,110,Hospitals & Group Practice,Finally Endorsed,2021-10-15,DiC Entertainment,Solution Bridge
+921073,1333 Allen Path,Leavenworth,PA,1986-12-01,83572719,202/8 SR,301,Hospitals & Group Practice,Finally Endorsed,2021-06-06,Ariba,Chem-Dry
+558394,Golden Joy,Normal,PA,1994-09-26,128925532,223(a)(7) Refi of 223f ALF,343,Risk Sharing,Initially Endorsed,2023-02-08,Full Color,Salary.com
+814870,462 Ottawa Gardens,Hazelwood,PA,1997-02-23,107859603,202/8 NC,25,Basic FHA,Finally Endorsed,2021-02-09,Fender Musical Instruments Corporation,BlueLinx Holdings
+827672,House of Gas,South Burlington,PA,1997-01-07,116582538,202/8 NC,139,Hospitals & Group Practice,Finally Endorsed,2021-03-26,Formula Gray,Jackhammer Technologies
+964380,ManCharm,Napa,PA,1984-12-29,115538852,223(a)(7) Refi of 223f ALF,245,Risk Sharing,Initially Endorsed,2023-04-12,Atlas Realty,Vizio
+094767,300 Reed Extension,Southaven,PA,2015-10-04,10588747,223(a)(7) Refi of 223f Nursing/ ICF,407,Hospitals & Group Practice,Initially Endorsed,2023-09-13,One-Up Realtors,Creative Wealth Management
+906337,1353 Paper Manor,Jefferson City,PA,1984-07-05,19382710,223(a)(7) Refi of 223f Nursing/ ICF,392,Hospitals & Group Practice,Initially Endorsed,2021-12-08,The Vanguard Group,Datacorp
+511718,Full Color,Opelousas,PA,2006-06-07,40937156,223(a)(7) Refi of 223f Nursing/ ICF,430,Hospitals & Group Practice,Initially Endorsed,2023-10-30,Deere & Company,QuickTrip
+234186,Omni Tech Solutions,Loma Linda,PA,1993-11-03,82320956,223(a)(7) Refi of 223f ALF,229,Basic FHA,Initially Endorsed,2021-06-24,WWE,Johnson Controls
+746485,238 Claude Trail,Barnstable Town,PA,1987-05-14,68014801,202/8 NC,8,Basic FHA,Initially Endorsed,2022-04-14,Golden Joy,United Services Automobile Association
+852089,986 Panama Drive,Oviedo,PA,2012-06-29,112407379,223(a)(7) Refi of 223f Nursing/ ICF,297,Hospitals & Group Practice,Initially Endorsed,2022-02-19,LinkedIn,Hardee's
+504953,422 Martha Stravenue,Carrollton,PA,1994-09-13,20150379,202/8 SR,137,Hospitals & Group Practice,Finally Endorsed,2022-10-04,UTStarcom,Pilgrim's Pride
+743510,552 Westside Mall,Las Cruces,PA,2000-08-31,62872067,202/8 NC,110,Hospitals & Group Practice,Finally Endorsed,2020-03-08,Prestigabiz,Amphenol Corporation
+940875,Gibson Guitar Corporation,Norwich,PA,2008-08-18,68519224,202/8 SR,19,Risk Sharing,Finally Endorsed,2020-03-20,Multicerv,Creative Wealth
+101182,Magik Grey,Oakland,PA,1995-01-09,105180512,223(a)(7) Refi of 223f ALF,48,Risk Sharing,Finally Endorsed,2022-03-23,Seattle's Best Coffee,NBC Universal
+877689,1088 Ecker Glen,Hilton Head Island,PA,2007-05-15,90886266,202/8 NC,293,Hospitals & Group Practice,Finally Endorsed,2023-07-14,The Spotted Cougar,Webcom Business Services
+837588,211 Oneida Expressway,Elmwood Park,PA,1981-06-23,30857501,202/8 SR,137,Risk Sharing,Finally Endorsed,2020-07-21,System Star,Atlas Realty
+192607,Arkeia Software,Palm Beach Gardens,PA,1987-08-25,18088585,202/8 NC,311,Basic FHA,Finally Endorsed,2023-02-07,Anadarko Petroleum Corporation,Warner Bros. Entertainment
+134224,Future Plan,Green,PA,1983-05-24,127104524,202/8 NC,116,Hospitals & Group Practice,Finally Endorsed,2020-12-08,Destiny Realty,Belle Lady
+624885,851 Lincoln Path,Gilbert,PA,2002-04-09,9261189,223(a)(7) Refi of 223f ALF,479,Hospitals & Group Practice,Finally Endorsed,2020-06-07,BlackRock,Profitpros
+864563,483 Fair Oaks Crossing,Vallejo,PA,1982-11-29,56739135,223(a)(7) Refi of 223f ALF,190,Basic FHA,Initially Endorsed,2020-02-08,Vivitar,Goldman Sachs
+669960,718 Cross Alley,Hollywood,PA,2015-01-16,93629327,202/8 NC,150,Risk Sharing,Initially Endorsed,2021-04-08,GEICO,Kenworth
+912594,"Sterling Ledet & Associates, Inc.",Cortland,PA,2013-03-31,120124448,202/8 SR,450,Risk Sharing,Finally Endorsed,2022-04-18,Vitagee,Burlington Coat Factory
+965705,399 Wood Arcade,Annapolis,PA,2016-06-26,119658677,202/8 NC,220,Risk Sharing,Initially Endorsed,2021-11-11,Enviro Architectural Designs,Silicon Graphics
+432684,The Walt Disney Company,San Francisco,PA,2005-02-05,30869762,223(a)(7) Refi of 223f Nursing/ ICF,461,Risk Sharing,Initially Endorsed,2020-04-01,Magik Lamp,Liberty Wealth Planner
+184851,Strongbod,Bethlehem,PA,1987-01-27,127895188,202/8 SR,57,Hospitals & Group Practice,Initially Endorsed,2020-11-20,Monk Home Improvements,Electronic Data Systems
+902776,1231 Cayuga Stravenue,Temple Terrace,PA,2009-10-21,117283711,223(a)(7) Refi of 223f ALF,17,Basic FHA,Initially Endorsed,2020-02-14,Kurzweil Educational Systems,Grey Fade
+471799,Miro Technologies,American Fork,PA,2005-01-15,3578150,223(a)(7) Refi of 223f Nursing/ ICF,429,Risk Sharing,Finally Endorsed,2020-11-23,FedEx,Opticomp
+692300,1169 Valdez Crossing,Wisconsin Rapids,PA,2018-11-28,87741784,223(a)(7) Refi of 223f ALF,255,Risk Sharing,Finally Endorsed,2023-08-29,Smith and Company,Konsili
+229326,927 Jerrold Mews,Oswego,PA,2017-05-13,90721787,202/8 SR,436,Basic FHA,Finally Endorsed,2021-03-14,Peterbilt,American Express
+197244,577 Aspen Glen,Papillion,PA,1994-07-03,92696275,223(a)(7) Refi of 223f Nursing/ ICF,482,Hospitals & Group Practice,Finally Endorsed,2020-05-25,Rollins Inc.,Avon Products
+839608,Dynegy,South Portland,PA,2008-04-29,40148570,202/8 NC,314,Hospitals & Group Practice,Finally Endorsed,2022-07-01,Towers Perrin,Northrop Grumman
+738897,366 Hooker Hills,St. Joseph,PA,2020-01-03,116498374,223(a)(7) Refi of 223f Nursing/ ICF,390,Hospitals & Group Practice,Finally Endorsed,2021-03-10,Monsource,VMware
+608567,Solution Realty,Sikeston,PA,2018-02-08,33757130,202/8 SR,192,Basic FHA,Initially Endorsed,2023-02-08,Clear Channel Communications,Audiovox
+677278,YRC Worldwide Inc.,Paradise,PA,2006-09-19,64807074,223(a)(7) Refi of 223f ALF,258,Hospitals & Group Practice,Finally Endorsed,2021-09-09,BlackRock,Life's Gold
+253401,1147 Boyd Bend,Romulus,PA,2014-04-08,48609218,202/8 NC,284,Risk Sharing,Initially Endorsed,2022-02-20,Atlas Realty,"Dell, Inc."
+662046,913 Bernice Turnpike,Santa Barbara,PA,2002-01-03,101800266,223(a)(7) Refi of 223f Nursing/ ICF,387,Hospitals & Group Practice,Initially Endorsed,2020-10-16,Awthentikz,Red River Broadcasting
+810617,708 Codman Drive,Tinton Falls,PA,2023-08-11,98702209,223(a)(7) Refi of 223f Nursing/ ICF,32,Basic FHA,Initially Endorsed,2021-05-02,Matrix Interior Design,Oberweis Dairy
+757667,803 Starview Bayou,Villa Park,PA,2010-08-20,130332051,202/8 NC,189,Hospitals & Group Practice,Finally Endorsed,2022-11-20,Federal Home Loan Mortgage Corporation,Verbatim Corporation
+136199,1213 San Bruno Park,Maplewood,PA,2020-02-22,117227079,223(a)(7) Refi of 223f Nursing/ ICF,118,Hospitals & Group Practice,Finally Endorsed,2021-07-25,Muscle Factory,Butler America
+351686,Bebo,Miami,PA,2016-03-08,83555332,202/8 NC,34,Basic FHA,Initially Endorsed,2023-02-17,Superior Interior Design,Amtrak
+900068,AGCO,Dickinson,PA,1986-04-26,138581316,202/8 SR,232,Hospitals & Group Practice,Initially Endorsed,2022-09-08,Gold Leaf Garden Management,Novell
+515111,Sony Pictures Entertainment,New Brighton,PA,1999-12-10,53815309,202/8 SR,266,Hospitals & Group Practice,Initially Endorsed,2023-02-26,Storage Technology Corporation,Lawn N' Order Garden Care
+129678,Musco Lighting,Tallmadge,PA,1986-06-01,48799697,223(a)(7) Refi of 223f ALF,9,Basic FHA,Initially Endorsed,2020-03-28,Amy's Kitchen,Strength Gurus
+689247,60 Pacheco Shore,Scranton,PA,1986-04-01,1297168,202/8 SR,126,Hospitals & Group Practice,Finally Endorsed,2021-07-24,Excella,Aramark
+548541,Mission G,Xenia,PA,2009-07-11,48901335,202/8 NC,181,Hospitals & Group Practice,Finally Endorsed,2020-03-27,American International Group,Life Map
+324963,1265 Morris Pine,Santa Barbara,PA,2014-11-02,44174220,223(a)(7) Refi of 223f Nursing/ ICF,234,Hospitals & Group Practice,Finally Endorsed,2023-08-02,Omni Source,Walt Disney Company
+882100,98 Santa Fe Center,Binghamton,PA,2006-06-30,131356340,223(a)(7) Refi of 223f Nursing/ ICF,62,Hospitals & Group Practice,Finally Endorsed,2020-10-14,Sony Pictures Entertainment,Birdwell
+583349,74 Oak Grove Spur,Medina,PA,1994-04-20,44572603,223(a)(7) Refi of 223f Nursing/ ICF,368,Hospitals & Group Practice,Initially Endorsed,2023-10-20,Back To Basics Chiropractic Clinic,BMC Software
+319552,982 Bryn Mahr Trail,Kalispell,PA,1983-09-01,56641844,223(a)(7) Refi of 223f Nursing/ ICF,19,Risk Sharing,Initially Endorsed,2020-06-17,Pearl Architectural Design,Strategy Consulting
+346624,183 Minna Road,La Quinta,PA,2004-06-28,37825075,223(a)(7) Refi of 223f Nursing/ ICF,464,Hospitals & Group Practice,Finally Endorsed,2020-11-16,Barnes & Noble,"Aaron's, Inc."
+975785,603 Hillside Plaza,Oakland,PA,1989-03-23,136475523,202/8 NC,297,Risk Sharing,Finally Endorsed,2023-02-16,Bonanza Produce Stores,Kraft Foods
+959416,234 Caine Annex,St. Louis Park,PA,2018-11-16,53682052,223(a)(7) Refi of 223f ALF,207,Basic FHA,Finally Endorsed,2022-11-03,Bob Evans Restaurants,Johnson & Johnson
+858594,256 Milan Hills,Austin,PA,2007-09-11,16832660,223(a)(7) Refi of 223f Nursing/ ICF,207,Basic FHA,Finally Endorsed,2021-12-20,Just For Fun,JL Audio
+439249,1327 Argonaut Garden,Tinton Falls,PA,2002-01-03,8311928,202/8 SR,217,Risk Sharing,Finally Endorsed,2023-05-25,Briggs & Stratton,Wizards of the Coast
+162440,Friendly Interior Design,South Plainfield,PA,2006-10-11,149826903,202/8 SR,167,Basic FHA,Initially Endorsed,2020-02-06,Amgen,Mission G
+117819,Jones Soda Co.,Pleasant Prairie,PA,1986-04-29,115800365,223(a)(7) Refi of 223f ALF,387,Risk Sharing,Initially Endorsed,2022-01-03,Adapt,Quanta Services
+692378,Rite Solution,Angleton,PA,2019-11-16,11176693,223(a)(7) Refi of 223f ALF,412,Risk Sharing,Initially Endorsed,2022-01-28,Mattel,Golden Joy
+223106,688 Miley Hills,Cheyenne,PA,2018-01-15,19061653,223(a)(7) Refi of 223f ALF,425,Risk Sharing,Finally Endorsed,2022-11-04,Goodyear Tire and Rubber Company,Columbia Pictures
+781962,641 Park Hill Stravenue,Albuquerque,PA,2013-12-12,5248862,223(a)(7) Refi of 223f ALF,51,Hospitals & Group Practice,Finally Endorsed,2020-01-10,Novell,ViewSonic
+196571,724 Douglass Stravenue,Elyria,PA,1987-11-25,68991820,223(a)(7) Refi of 223f Nursing/ ICF,459,Basic FHA,Initially Endorsed,2023-09-30,Omni Realty,"ZOMM, LLC"
+948234,433 Britton Motorway,Bothell,PA,1997-12-02,138010531,223(a)(7) Refi of 223f Nursing/ ICF,86,Hospitals & Group Practice,Initially Endorsed,2022-11-10,Quickbiz,Zaxby's
+849683,Wise Solutions,Banning,PA,1996-08-13,32594918,202/8 NC,280,Hospitals & Group Practice,Initially Endorsed,2020-11-25,Seagate Technology,Solution Bridge
+161936,359 Idora Field,Mercer Island,PA,2019-01-18,41525951,202/8 SR,187,Hospitals & Group Practice,Initially Endorsed,2020-09-12,Automatic Data Processing,Convergys Corp.
+230375,1023 Bigelow Path,Erie,PA,2015-06-04,64395743,223(a)(7) Refi of 223f Nursing/ ICF,375,Risk Sharing,Finally Endorsed,2022-04-14,Sony Pictures Entertainment,Walmart
+445201,1198 San Andreas Row,South Plainfield,PA,2005-04-06,71300979,202/8 NC,103,Risk Sharing,Initially Endorsed,2021-11-24,JL Audio,Gamma Grays
+326137,1298 Persia Square,Laurel,PA,2018-08-20,98162279,202/8 SR,39,Hospitals & Group Practice,Finally Endorsed,2021-04-23,Alladin Realty,UTStarcom
+347858,1180 Ruckman Expressway,Huntington,PA,1999-07-16,3010367,223(a)(7) Refi of 223f Nursing/ ICF,467,Risk Sharing,Finally Endorsed,2022-02-24,Gemini Sound Products,Antec
+307966,1236 Auto Square,Kirksville,PA,2005-11-20,20131413,202/8 NC,180,Hospitals & Group Practice,Initially Endorsed,2023-01-20,Pearl Architectural Design,Seksi Lady
+684099,Zoo York,Kansas City,PA,1980-06-30,59974741,202/8 NC,57,Risk Sharing,Finally Endorsed,2020-08-22,Brunswick Corporation,Zoom Technologies
+987842,489 Lomita Annex,Alamogordo,PA,2023-03-12,82839616,223(a)(7) Refi of 223f ALF,275,Hospitals & Group Practice,Initially Endorsed,2020-09-03,Star Interior Design,Sexy Babe
+445295,208 Amador Junction,Holly Springs,PA,1984-09-22,148471863,202/8 SR,491,Risk Sharing,Finally Endorsed,2020-07-05,Brinker International,JetBlue Airways
+084418,1221 Croaker Ferry,East Providence,PA,2002-11-17,11196412,202/8 NC,445,Risk Sharing,Finally Endorsed,2022-02-10,National Railway Equipment Company,Eastman Chemical Company
+156093,CVS Pharmacy,Carmel,PA,2007-09-21,131468338,223(a)(7) Refi of 223f Nursing/ ICF,94,Risk Sharing,Initially Endorsed,2023-12-30,Sunny Real Estate Investments,Komerci
+901293,420 Sickles Ferry,Gardner,PA,1980-01-13,31061224,202/8 SR,348,Basic FHA,Finally Endorsed,2022-11-06,Stratagee,Liz Claiborne
+446299,Northrop Grumman,Rahway,PA,2004-03-10,126635028,202/8 NC,388,Risk Sharing,Finally Endorsed,2021-08-08,The Serendipity Dip,Cartoon Network Studios
+550777,1174 Washington Crossing,Algonquin,PA,1981-02-02,29843768,202/8 SR,227,Hospitals & Group Practice,Initially Endorsed,2020-12-21,Colgate-Palmolive,Salary.com
+101769,1016 Randall Hills,Plymouth,PA,1992-07-05,39913769,202/8 NC,494,Basic FHA,Finally Endorsed,2023-05-05,Kingston Technology,Chevron
+704477,1231 Del Monte Cove,Yuma,PA,2010-09-15,124540061,223(a)(7) Refi of 223f Nursing/ ICF,420,Basic FHA,Initially Endorsed,2021-04-03,Mikro Designs,OPOWER
+980265,Pantone,Bozeman,PA,2016-08-12,130501611,223(a)(7) Refi of 223f Nursing/ ICF,461,Hospitals & Group Practice,Initially Endorsed,2020-03-30,Fox Film Corporation,Parts and Pieces
+832527,Monlinks,Victorville,PA,2021-12-28,113980391,223(a)(7) Refi of 223f Nursing/ ICF,330,Basic FHA,Initially Endorsed,2023-10-24,Creative Wealth Management,Seagate Technology
+559633,304 Stratford Trace,Newburgh,PA,2016-08-02,4287218,202/8 NC,210,Hospitals & Group Practice,Initially Endorsed,2020-06-24,Jackhammer Technologies,"Springfield Armory, Inc."
+380070,426 Mars Highway,Winter Garden,PA,1992-05-17,28241959,202/8 NC,419,Hospitals & Group Practice,Finally Endorsed,2020-10-07,VF Corporation,Amkor Technology
+011861,1076 Bob Kaufman Station,Bell,PA,1984-10-30,6634158,223(a)(7) Refi of 223f Nursing/ ICF,379,Risk Sharing,Finally Endorsed,2023-10-03,Electronic Geek,Wise Solutions
+509207,658 Deming Bypass,Chesapeake,PA,1984-01-06,125979903,202/8 SR,363,Basic FHA,Initially Endorsed,2020-04-06,Koch Industries,Dow Chemical Company
+747824,UPS,Barstow,PA,2003-04-08,37405283,202/8 NC,252,Basic FHA,Initially Endorsed,2023-07-20,Schoep's Ice Cream,Destiny Realty
+378351,301 Holly Court,Mukilteo,PA,1997-07-17,74066162,223(a)(7) Refi of 223f Nursing/ ICF,141,Risk Sharing,Finally Endorsed,2020-11-16,Protean,Total Sources
+944827,NetZero,Harker Heights,PA,2008-08-24,41584810,202/8 SR,371,Risk Sharing,Finally Endorsed,2022-03-06,PC Power and Cooling,Sur La Table
+473641,Yahoo!,Rancho Santa Margarita,PA,2023-06-28,62533495,223(a)(7) Refi of 223f ALF,227,Basic FHA,Finally Endorsed,2021-12-06,Houlihan's,Google
+106455,Orion,Tulsa,PA,1981-03-10,52856454,223(a)(7) Refi of 223f ALF,47,Basic FHA,Initially Endorsed,2023-06-28,Armstrong World Industries,Plan Future
+590230,"Cisco Systems, Inc.",Olathe,PA,2019-09-15,137271459,223(a)(7) Refi of 223f ALF,178,Risk Sharing,Initially Endorsed,2021-09-24,Energy East,Baxter International
+286276,1052 Blanche Pike,Marshalltown,PA,1998-03-12,26013005,223(a)(7) Refi of 223f ALF,11,Basic FHA,Initially Endorsed,2022-02-24,United Services Automobile Association,Mars Incorporated
+037713,567 Balance Avenue,Tucson,PA,2009-10-08,71050137,202/8 SR,390,Risk Sharing,Finally Endorsed,2020-03-06,Smith and Company,Adaptaz
+752605,221 Bannan Annex,Munster,PA,1988-10-30,95115401,223(a)(7) Refi of 223f Nursing/ ICF,407,Risk Sharing,Finally Endorsed,2021-02-24,Fisker Automotive,Welch's
+905092,146 Imperial Mews,Charlottesville,PA,2009-04-05,77624436,223(a)(7) Refi of 223f ALF,438,Basic FHA,Finally Endorsed,2021-03-21,VitaGrey,Bold Ideas
+912100,1379 Burnside Terrace,Little Rock,PA,2008-08-08,137326506,202/8 SR,302,Risk Sharing,Initially Endorsed,2022-06-30,AmerisourceBergen,Master Builder Design Services
+813624,1088 Omar Parkway,Takoma Park,PA,1981-08-16,51681678,223(a)(7) Refi of 223f Nursing/ ICF,89,Basic FHA,Initially Endorsed,2023-10-30,Sunny Delight Beverages,First Choice Garden Maintenance
+578373,Doculabs,Newnan,PA,2008-06-22,24775438,223(a)(7) Refi of 223f Nursing/ ICF,328,Hospitals & Group Practice,Finally Endorsed,2020-05-13,Casco Bay Lines,The Independent Planners
+303905,113 Continuum Park,Opelousas,PA,2009-09-25,18494260,223(a)(7) Refi of 223f Nursing/ ICF,103,Hospitals & Group Practice,Finally Endorsed,2022-01-17,Dream Home Real Estate Service,Vulcan Corporation
+076175,947 Green Highway,Mesa,PA,1984-04-10,78684702,202/8 SR,245,Hospitals & Group Practice,Initially Endorsed,2022-09-08,Techo Solutions,Fisher Electronics
+556758,387 Lucky Motorway,New Albany,PA,2012-05-11,70090319,223(a)(7) Refi of 223f Nursing/ ICF,332,Hospitals & Group Practice,Initially Endorsed,2021-08-07,Integra Investment Service,Omni Tech Solutions
+948884,144 Niagara Pike,Westerville,PA,2012-08-10,52836525,223(a)(7) Refi of 223f ALF,291,Hospitals & Group Practice,Initially Endorsed,2023-04-01,Eli Lilly and Company,Columbia Sussex
+282347,The White Swan,Tiffin,PA,1995-07-23,34613691,223(a)(7) Refi of 223f ALF,126,Hospitals & Group Practice,Initially Endorsed,2021-08-16,The Coca-Cola Company,Fruit of the Loom
+817141,Xerox,Carrollton,PA,1996-03-13,5073658,223(a)(7) Refi of 223f ALF,121,Hospitals & Group Practice,Finally Endorsed,2020-12-27,Success Is Yours,Casco Bay Lines
+187783,Solution Realty,Bowie,PA,1980-07-17,133844226,202/8 NC,341,Risk Sharing,Finally Endorsed,2023-06-20,Stratagee,Victoria's Secret
+521194,102 Monte Vista Path,West Chester,PA,2000-07-31,147080233,223(a)(7) Refi of 223f ALF,245,Basic FHA,Initially Endorsed,2022-01-03,Time Warner Cable,Fellowship Investments
+328631,1372 Tomaso Lake,Southlake,PA,2015-04-15,11626201,223(a)(7) Refi of 223f ALF,311,Basic FHA,Initially Endorsed,2021-10-19,International Game Technology,Silicon Graphics
+174234,664 Clarkson Arcade,Angleton,PA,2013-05-30,110639678,223(a)(7) Refi of 223f Nursing/ ICF,11,Basic FHA,Initially Endorsed,2021-09-24,Arrow Electronics,Brookdale Senior Living
+429996,1129 Key Turnpike,Mayfield Heights,PA,2001-12-21,135567319,202/8 NC,382,Hospitals & Group Practice,Initially Endorsed,2022-06-23,Berry Plastics,Walmart
+634245,Rayovac,Compton,PA,2005-07-04,66246990,202/8 NC,288,Basic FHA,Initially Endorsed,2023-11-29,Elizabeth Arden,Anixter International
+274435,Verbatim Corporation,Ada,PA,2017-12-20,104997821,202/8 SR,149,Hospitals & Group Practice,Finally Endorsed,2021-06-21,Big Lots,DaVita
+509896,Formula Gray,Fort Smith,PA,2013-02-18,3725828,223(a)(7) Refi of 223f Nursing/ ICF,494,Risk Sharing,Initially Endorsed,2022-04-27,Clear Channel Communications,United Airlines
+799297,424 Bartlett Row,Godfrey,PA,1997-03-07,132572111,202/8 NC,404,Hospitals & Group Practice,Initially Endorsed,2020-02-15,Magnavox,Fiserv
+231046,Seksi Lady,Oak Forest,PA,1980-02-21,14318486,202/8 NC,235,Hospitals & Group Practice,Finally Endorsed,2023-06-17,Estée Lauder Companies,AGCO
+807582,Target Corporation,Rancho Mirage,PA,1989-05-31,130388634,223(a)(7) Refi of 223f ALF,279,Basic FHA,Initially Endorsed,2023-10-26,Auto-Owners Insurance,American International Group
+984941,Testor Corporation,Delano,PA,2019-11-09,77161981,223(a)(7) Refi of 223f Nursing/ ICF,270,Risk Sharing,Initially Endorsed,2022-07-14,Ubu Productions,Planet Profit
+956205,Netgear,Weatherford,PA,1993-06-29,23073185,202/8 SR,198,Basic FHA,Finally Endorsed,2020-06-10,Adaptabiz,Georgia Pacific
+480361,ArvinMeritor,Garland,PA,1989-06-16,48483153,223(a)(7) Refi of 223f ALF,346,Risk Sharing,Initially Endorsed,2021-04-19,Quiznos,Merrymaking
+961201,160 Sterling Crossing,Bismarck,PA,1985-12-25,121300677,223(a)(7) Refi of 223f Nursing/ ICF,387,Risk Sharing,Finally Endorsed,2022-07-19,The Weinstein Company,Capital One
+270690,882 Levant Glen,Rosemount,PA,1991-07-14,127361882,202/8 SR,383,Hospitals & Group Practice,Finally Endorsed,2021-12-20,IBM,SkyWest Airlines
+580629,Plan Future,Huntsville,PA,2015-01-04,7532985,223(a)(7) Refi of 223f Nursing/ ICF,170,Risk Sharing,Finally Endorsed,2020-10-26,FedEx,UPS
+707514,Polaroid Corporation,South St. Paul,PA,1987-06-30,104905169,202/8 NC,276,Hospitals & Group Practice,Finally Endorsed,2020-12-20,Progressive Corporation,Arrow Electronics
+273820,Halliburton,Altus,PA,1993-03-29,83918218,223(a)(7) Refi of 223f ALF,382,Basic FHA,Initially Endorsed,2020-06-13,Lawn N' Order Garden Care,Newhair
+070822,Omni Group,Wentzville,PA,2002-10-14,20487117,223(a)(7) Refi of 223f Nursing/ ICF,479,Risk Sharing,Finally Endorsed,2023-01-06,Elizabeth Arden,Freedom Map
+602400,1116 Ross Bend,Glendora,PA,1999-04-22,149220399,223(a)(7) Refi of 223f ALF,442,Risk Sharing,Initially Endorsed,2020-10-05,Monmax,Smith and Company
+481158,321 Lathrop Crescent,Downers Grove,PA,1998-12-07,31250252,202/8 NC,230,Risk Sharing,Initially Endorsed,2021-11-11,Miller Brewing,H-E-B
+739427,Magna Wealth,Massapequa Park,PA,1983-11-30,78115041,202/8 NC,2,Hospitals & Group Practice,Finally Endorsed,2022-03-22,Complete Tech,Enviro Architectural Designs
+730528,AGCO,Georgetown,PA,1994-10-31,125443857,202/8 NC,345,Basic FHA,Finally Endorsed,2023-12-10,Multi-Systems Merchant Services,AND1
+841169,356 Coralino Lane,Pasco,PA,2022-07-01,48652179,202/8 NC,351,Risk Sharing,Finally Endorsed,2023-12-27,Harley-Davidson,Big Lots
+244056,Magna Consulting,Issaquah,PA,2005-05-11,112941723,223(a)(7) Refi of 223f ALF,238,Basic FHA,Initially Endorsed,2021-06-22,Prahject Planner,Golden Joy
+399326,807 Vista View Boulevard,Coralville,PA,2005-08-10,109544778,202/8 NC,248,Basic FHA,Finally Endorsed,2021-11-30,Vizio,Ashland Inc.
+893566,State Street Corporation,Raleigh,PA,2018-09-02,118221105,202/8 NC,204,Risk Sharing,Finally Endorsed,2021-07-16,H&R Block,Schoep's Ice Cream
+551084,Chevron,Klamath Falls,PA,1982-12-17,90254210,223(a)(7) Refi of 223f Nursing/ ICF,38,Hospitals & Group Practice,Finally Endorsed,2022-09-07,Steinway & Sons,Crazy Eddie
+235787,Musco Lighting,Millville,PA,2020-11-27,111220331,223(a)(7) Refi of 223f Nursing/ ICF,240,Basic FHA,Initially Endorsed,2022-04-13,Big Lots,Lumencraft
+434697,Northrop Grumman,Mesa,PA,1995-06-06,101452424,202/8 SR,180,Basic FHA,Initially Endorsed,2021-08-17,Snap-on Tools,Best Buy
+411095,Desert Garden Help,Summit,PA,2011-03-07,117579013,202/8 SR,169,Risk Sharing,Finally Endorsed,2020-10-14,Lockheed Martin,OSI Restaurant Partners
+889491,Vitamax Health Food Center,Edina,PA,2010-09-06,62910558,202/8 NC,93,Risk Sharing,Finally Endorsed,2022-12-19,Polaroid Corporation,SAIC
+957089,1164 Avenue Of The Palms Row,Nicholasville,PA,2013-06-26,64611197,223(a)(7) Refi of 223f Nursing/ ICF,93,Basic FHA,Finally Endorsed,2023-12-17,Dream Home Improvements,ION Media Networks
+369664,927 Westwood Hill,McKinney,PA,1999-03-29,125913030,223(a)(7) Refi of 223f Nursing/ ICF,466,Hospitals & Group Practice,Finally Endorsed,2023-10-02,BearingPoint,E-zhe Source
+488562,1246 Oakhurst Drive,La Vergne,PA,1995-03-06,58823803,202/8 NC,248,Hospitals & Group Practice,Finally Endorsed,2023-07-29,Specific Appraisals,Planet Profit
+459173,Warner Bros. Entertainment,Santa Clarita,PA,1980-02-08,7548148,223(a)(7) Refi of 223f ALF,425,Hospitals & Group Practice,Initially Endorsed,2020-11-02,Star Interior Design,Discover Financial Services
+551428,446 Mountview Crossing,West Palm Beach,PA,1981-05-03,9929737,202/8 SR,278,Basic FHA,Initially Endorsed,2020-01-16,Uwajimaya,Equifax
+921339,Goldman Sachs,Mountain Brook,PA,1993-11-07,142153776,223(a)(7) Refi of 223f ALF,19,Hospitals & Group Practice,Initially Endorsed,2021-02-18,A+ Electronics,Laserfiche
+069383,1289 Dixie Alley,Buffalo,PA,1991-08-31,55093407,223(a)(7) Refi of 223f ALF,478,Basic FHA,Finally Endorsed,2021-06-07,Body Fate,Wealthy Ideas
+707037,1181 Ohlone Loop,Willoughby,PA,1988-02-18,121157808,202/8 NC,367,Basic FHA,Finally Endorsed,2021-08-22,Salary.com,Gentiva Health Services
+032838,AskMeNow,Asheville,PA,2010-05-20,132805365,202/8 NC,68,Risk Sharing,Finally Endorsed,2022-08-13,Gas Zone,Aleris International
+730097,969 Thomas Mellon Garden,Fountain Hills,PA,2016-04-03,100493897,223(a)(7) Refi of 223f ALF,327,Basic FHA,Finally Endorsed,2020-11-14,Mozilla Foundation,The Vanguard Group
+655201,953 Palace Of Fine Arts Junction,Monrovia,PA,1984-03-06,71611489,202/8 NC,267,Hospitals & Group Practice,Initially Endorsed,2022-04-23,Gillette,Lazysize
+608580,OpenMarket Inc.,Oakland Park,PA,1998-11-29,18623349,202/8 NC,131,Risk Sharing,Finally Endorsed,2022-06-29,Adaptabiz,Liberty Wealth Planners
+341054,1105 Warren Crossing,Woburn,PA,1993-09-01,135339927,223(a)(7) Refi of 223f ALF,129,Hospitals & Group Practice,Initially Endorsed,2023-04-10,GEICO,The White Rabbit
+854777,Megatronic Mux,Lawndale,PA,1987-12-26,2914338,223(a)(7) Refi of 223f Nursing/ ICF,307,Risk Sharing,Initially Endorsed,2022-02-20,CIGNA,Berkshire Hathaway
+825636,NBC Universal,Duarte,PA,2000-09-20,105249335,202/8 SR,212,Hospitals & Group Practice,Initially Endorsed,2023-11-21,ABM Industries,Intelli Wealth Group
+283075,73 Sacramento Ranch,Renton,PA,1993-06-16,31033443,202/8 SR,430,Basic FHA,Initially Endorsed,2020-04-11,System Star Solutions,World Financial Group
+678964,1121 Tacoma Freeway,Brook Park,PA,2018-08-11,95391088,223(a)(7) Refi of 223f Nursing/ ICF,40,Basic FHA,Finally Endorsed,2020-09-15,Fluor Corp,Deere & Company
+771810,McConn & Company,Gainesville,PA,2015-03-28,109113263,202/8 SR,29,Risk Sharing,Initially Endorsed,2023-12-06,United Airlines,Konsili
+932921,680 Blairwood Bayou,Hopkinsville,PA,2013-11-04,136957853,223(a)(7) Refi of 223f Nursing/ ICF,401,Hospitals & Group Practice,Initially Endorsed,2023-06-20,AGL Resources,The Coca-Cola Company
+972304,1090 Chinook Rapids,Auburn Hills,PA,2017-08-11,149212542,223(a)(7) Refi of 223f Nursing/ ICF,68,Risk Sharing,Initially Endorsed,2023-07-13,Birdwell,Dynatronics Accessories
+953341,American Express,Tullahoma,PA,1989-11-15,53771722,223(a)(7) Refi of 223f Nursing/ ICF,469,Hospitals & Group Practice,Initially Endorsed,2023-10-30,System Star,JN-International Medical Corporation
+255478,Komerci,South Salt Lake,PA,1993-01-05,144693898,202/8 NC,266,Risk Sharing,Initially Endorsed,2023-04-17,US Cellular,Applebee's
+608657,1204 Bayview Park Junction,Madison,PA,2012-10-09,52674075,223(a)(7) Refi of 223f ALF,376,Basic FHA,Initially Endorsed,2023-08-13,Arizona Stock Exchange,Bose Corporation
+735065,QCR Holdings,Newark,PA,2016-06-09,49584853,223(a)(7) Refi of 223f ALF,118,Hospitals & Group Practice,Initially Endorsed,2023-01-25,Magna Consulting,Visa Inc.
+463159,1108 Crestmont Point,Round Lake,PA,1985-01-05,111665012,202/8 SR,273,Risk Sharing,Finally Endorsed,2020-11-28,Enterprise GP Holdings,Applied Industrial Technologies
+394790,1300 Rice Bridge,Englewood,PA,1994-12-12,136964034,223(a)(7) Refi of 223f Nursing/ ICF,243,Risk Sharing,Finally Endorsed,2023-12-05,Home Depot,Amazon.com
+844271,932 Kirkham Crescent,Cudahy,PA,2012-08-04,96944056,202/8 NC,386,Hospitals & Group Practice,Initially Endorsed,2021-04-16,Road Runner Lawn Services,Southwest Airlines
+913782,Control Data Corporation,Skokie,PA,1981-05-24,113314726,223(a)(7) Refi of 223f Nursing/ ICF,324,Risk Sharing,Finally Endorsed,2022-01-24,Houlihan's,Silicon Image
+361675,722 Justin Shore,Ashtabula,PA,1996-09-02,86050329,223(a)(7) Refi of 223f Nursing/ ICF,133,Risk Sharing,Finally Endorsed,2021-03-24,Boston Acoustics,Silicon Image
+410458,Afforda Merchant Services,Erie,PA,2017-06-17,73220927,202/8 SR,15,Basic FHA,Finally Endorsed,2021-11-22,eBay,Intuit
+303472,702 Woolsey Path,Utica,PA,2017-02-04,139780090,202/8 SR,435,Risk Sharing,Finally Endorsed,2023-10-26,W. L. Gore & Associates,Rite Aid Corporation
+912502,1306 Letterman Hospital Access Bend,Nashua,PA,2003-09-13,119421882,202/8 NC,500,Basic FHA,Finally Endorsed,2023-08-10,Mauna Loa Macadamia Nut Corp.,Total Sources
+925961,152 Addison Bend,Bellwood,PA,1996-03-16,79290502,223(a)(7) Refi of 223f Nursing/ ICF,496,Hospitals & Group Practice,Finally Endorsed,2020-02-22,Crowley Maritime Corporation,Stratacard
+343330,168 Beckett Gardens,Rolling Meadows,PA,2012-05-11,144504339,223(a)(7) Refi of 223f Nursing/ ICF,114,Basic FHA,Initially Endorsed,2023-01-21,The Hertz Corporation,Multicerv
+364147,356 Ashwood Grove,Lawrence,PA,1998-10-04,36363717,202/8 SR,490,Risk Sharing,Finally Endorsed,2023-07-26,News Corporation,Bellwether Technology Corporation
+519401,Signa Air,Fairfield,PA,2016-02-21,57968984,202/8 NC,408,Hospitals & Group Practice,Initially Endorsed,2023-09-10,Farnod,Xilinx
+018668,"DivX, Inc.",Renton,PA,2012-08-25,142235467,223(a)(7) Refi of 223f Nursing/ ICF,66,Risk Sharing,Initially Endorsed,2022-12-01,Brilliant Home Designs,Practi-Plan Mapping
+836254,Kurzweil Educational Systems,Shelby,PA,1994-02-12,70005154,223(a)(7) Refi of 223f Nursing/ ICF,87,Risk Sharing,Initially Endorsed,2020-05-25,One-Up Realtors,Aon Corporation
+180046,563 Salmon Pike,Baltimore,PA,2003-03-09,46811445,202/8 NC,136,Basic FHA,Finally Endorsed,2021-03-15,Stratacard,Archer Daniels Midland
+472673,725 Maynard Grove,Parkland,PA,1988-12-26,140532420,223(a)(7) Refi of 223f Nursing/ ICF,323,Risk Sharing,Initially Endorsed,2023-03-23,Life Map Planners,Klipsch Audio Technologies
+696820,1291 Burlwood Bayou,Forest Park,PA,2017-07-06,143041052,223(a)(7) Refi of 223f Nursing/ ICF,320,Hospitals & Group Practice,Finally Endorsed,2022-05-20,ADC Telecommunications,Fisher Electronics
+315802,Imation,Honolulu,PA,2011-08-09,42495030,223(a)(7) Refi of 223f ALF,87,Risk Sharing,Initially Endorsed,2021-11-01,Zig Zag Children Clothes,Total Serve
+722254,Steinway & Sons,Oswego,PA,2020-04-12,37487627,223(a)(7) Refi of 223f Nursing/ ICF,317,Hospitals & Group Practice,Finally Endorsed,2022-07-23,Autoliv,Cerner Corporation
+089716,649 Dr Carlton B Goodlett Grove,Martinsburg,PA,1999-05-14,41596350,223(a)(7) Refi of 223f ALF,315,Basic FHA,Initially Endorsed,2021-09-19,Ann Taylor,Delta Air Lines
+148157,349 Rebecca Estate,Charlotte,PA,1987-09-12,36324712,223(a)(7) Refi of 223f ALF,241,Risk Sharing,Initially Endorsed,2022-07-30,Hallmark Cards,NBC Universal
+395451,KFC,Salisbury,PA,1993-07-30,69835503,223(a)(7) Refi of 223f ALF,162,Hospitals & Group Practice,Initially Endorsed,2023-09-07,Cartoon Network Studios,Hunt Petroleum
+171436,Dow Jones & Company,Olympia,PA,1986-11-06,37060869,202/8 NC,14,Basic FHA,Initially Endorsed,2020-03-29,Acuserv,Johnson Controls
+766361,AmerisourceBergen,Ozark,PA,2005-06-07,3118208,202/8 NC,275,Basic FHA,Initially Endorsed,2021-03-20,Naturohair,Pointers
+209772,Advanced Micro Devices,Roy,PA,1989-11-27,8909156,223(a)(7) Refi of 223f ALF,171,Hospitals & Group Practice,Finally Endorsed,2022-10-23,Sterling Commerce,Deere & Company
+290004,703 Gorham Crossing,Pleasanton,PA,1984-01-16,78729573,202/8 SR,35,Hospitals & Group Practice,Initially Endorsed,2022-10-25,New World,EnviroSource Design
+545080,Practi-Plan,La Mesa,PA,2001-12-02,76992466,223(a)(7) Refi of 223f ALF,229,Hospitals & Group Practice,Finally Endorsed,2021-02-22,Mission You,Marshall Pottery
+672557,Netcordia,Revere,PA,1986-06-02,29981488,223(a)(7) Refi of 223f Nursing/ ICF,467,Risk Sharing,Finally Endorsed,2022-08-02,Cut Above,Esselte
+997509,RadioShack,Mokena,PA,2019-02-22,6845941,202/8 NC,256,Risk Sharing,Initially Endorsed,2023-12-22,Ultimate Software,Simply Save
+800722,823 Sibert Viaduct,Cortland,PA,1985-10-09,115128593,223(a)(7) Refi of 223f Nursing/ ICF,82,Basic FHA,Finally Endorsed,2022-09-20,Vocera Communications,Taco Tico
+902660,Qwest,South Elgin,PA,2005-05-30,37101042,223(a)(7) Refi of 223f ALF,275,Hospitals & Group Practice,Initially Endorsed,2021-09-04,Barnes & Noble,Adaptas
+485054,Dun & Bradstreet,Stanton,PA,1998-06-14,12627720,223(a)(7) Refi of 223f Nursing/ ICF,85,Risk Sharing,Finally Endorsed,2021-02-11,DC Comics,Electronic Arts
+396226,944 Waterloo Pass,Wadsworth,PA,1985-10-05,131936719,202/8 SR,246,Hospitals & Group Practice,Finally Endorsed,2020-10-28,Hi-Point Firearms,Biomet
+948549,American International Group,Edwardsville,PA,1981-06-10,84841305,202/8 SR,234,Hospitals & Group Practice,Finally Endorsed,2020-05-27,Westat,Allergan
+894571,577 Bay Parkway,McKeesport,PA,2013-08-03,9953187,202/8 NC,324,Risk Sharing,Initially Endorsed,2022-10-21,Dereon,Better Business Ideas and Services
+652555,Altria Group,Homer Glen,PA,2017-05-26,13648000,223(a)(7) Refi of 223f ALF,210,Basic FHA,Initially Endorsed,2023-03-15,Atlas Realty,Microcat
+627523,The White Rabbit,Harrisburg,PA,2003-07-05,113074800,202/8 SR,21,Risk Sharing,Finally Endorsed,2021-10-19,Affinity Investment Group,AMC Entertainment
+766584,562 Crestmont Trail,Crystal Lake,PA,1980-03-15,80458932,223(a)(7) Refi of 223f ALF,246,Risk Sharing,Finally Endorsed,2021-11-18,Beasts of Beauty,The Weinstein Company
+941128,The Liberty Corporation,Chaska,PA,2009-08-03,8126306,223(a)(7) Refi of 223f ALF,63,Risk Sharing,Finally Endorsed,2021-01-11,Electronic Arts,PACCAR
+166225,822 Cuvier Lake,Keller,PA,2013-11-02,27071871,223(a)(7) Refi of 223f ALF,75,Basic FHA,Initially Endorsed,2021-08-05,Eastman Kodak,Gas Depot
+865039,Konsili,Hinesville,PA,1988-05-06,64999428,223(a)(7) Refi of 223f Nursing/ ICF,210,Hospitals & Group Practice,Finally Endorsed,2021-06-08,Discover Financial Services,Beckman Coulter
+335857,40 Crown Manor,Renton,PA,1986-06-14,97725752,202/8 SR,342,Basic FHA,Initially Endorsed,2022-01-06,Sauer-Danfoss,O'Reilly
+800354,Twitter,Hempstead,PA,2007-06-26,4920034,223(a)(7) Refi of 223f Nursing/ ICF,328,Hospitals & Group Practice,Finally Endorsed,2021-08-27,The Walt Disney Company,Qpass
+400625,152 Ivy Street,Lincoln,PA,2021-09-15,138448678,223(a)(7) Refi of 223f Nursing/ ICF,233,Risk Sharing,Finally Endorsed,2023-02-02,Watco Companies,Payless ShoeSource
+951129,Dun Rite Lawn Maintenance,San Bruno,PA,1996-08-12,98255087,202/8 SR,221,Hospitals & Group Practice,Finally Endorsed,2021-09-24,Future Bright,Sunoco
+375664,American Airlines,Helena,PA,2003-01-30,18970372,202/8 SR,100,Hospitals & Group Practice,Initially Endorsed,2021-08-29,Textron Inc.,Kerr-McGee
+476876,Monk Home Loans,South Lake Tahoe,PA,1982-05-29,137229734,202/8 NC,231,Hospitals & Group Practice,Initially Endorsed,2020-03-29,Science Applications International Corporation,Dillard's
+791637,256 Touchard Mews,Downers Grove,PA,2019-06-16,86144162,202/8 NC,174,Risk Sharing,Finally Endorsed,2021-07-15,Creative Wealth Management,Hardee's
+027034,860 Tiffany Field,Westminster,PA,2005-02-15,11507866,223(a)(7) Refi of 223f Nursing/ ICF,191,Basic FHA,Initially Endorsed,2022-07-16,Mattel,Asian Junction
+198052,918 Havelock Trace,Napa,PA,2012-04-23,51828043,223(a)(7) Refi of 223f Nursing/ ICF,500,Risk Sharing,Initially Endorsed,2021-02-11,Starbucks,PACCAR
+018182,ManCharm,Leander,PA,2014-01-18,66780437,223(a)(7) Refi of 223f ALF,306,Basic FHA,Finally Endorsed,2021-02-16,"Fred Meyer, Inc.",Adaptec
+958382,799 Battery Chamberlin Route,Oak Park,PA,2013-08-18,81390599,202/8 SR,61,Risk Sharing,Finally Endorsed,2023-07-08,Northern Star,VMware
+431446,328 Saroyan Path,Lynbrook,PA,1995-09-29,145779145,223(a)(7) Refi of 223f ALF,108,Risk Sharing,Finally Endorsed,2020-06-10,Georgia Pacific,Idea Infinity
+916986,838 Mission Circle,Bartlesville,PA,1991-09-23,136229012,202/8 SR,43,Risk Sharing,Initially Endorsed,2020-04-06,Alliant Techsystems,The Happy Bear
+318933,Washburn Guitars,Coral Gables,PA,2022-03-19,110609917,202/8 SR,195,Basic FHA,Finally Endorsed,2021-02-16,LinkedIn,Platinum Interior Design
+116342,1345 Church Shore,San Clemente,PA,1991-12-17,110182642,202/8 SR,207,Risk Sharing,Initially Endorsed,2023-04-13,Prestigabiz,Symantec
+191295,768 Farnum Ranch,Knoxville,PA,1988-08-22,35127055,223(a)(7) Refi of 223f Nursing/ ICF,152,Hospitals & Group Practice,Finally Endorsed,2022-06-26,NetApp,WWE
+332875,566 Oriole Road,Laguna Woods,PA,2013-11-15,145995236,202/8 SR,158,Basic FHA,Finally Endorsed,2020-11-16,Total Sources,Adapt
+426725,Delta Air Lines,Fishers,PA,1997-03-09,48583803,223(a)(7) Refi of 223f Nursing/ ICF,320,Basic FHA,Finally Endorsed,2020-03-23,Matrix Architectural Service,Gemini Sound Products
+836626,457 Brumiss Path,Moreno Valley,PA,1993-05-22,94643681,223(a)(7) Refi of 223f Nursing/ ICF,212,Hospitals & Group Practice,Finally Endorsed,2021-12-19,Electric Boat,Bushmaster Firearms International
+241477,681 Mccormick Shore,Buffalo,PA,1991-03-03,8107211,202/8 SR,75,Basic FHA,Finally Endorsed,2020-01-07,Suadela Investment,Sunoco
+124590,1033 Ridge Shore,Kiryas Joel,PA,1993-04-24,19974970,223(a)(7) Refi of 223f ALF,210,Basic FHA,Finally Endorsed,2023-04-15,Hornbeck Offshore Services,Environ Architectural Design
+415198,Crowley Maritime Corporation,Spartanburg,PA,2004-12-07,113636151,223(a)(7) Refi of 223f Nursing/ ICF,363,Hospitals & Group Practice,Initially Endorsed,2023-08-01,Harman International Industries,Rockwell Collins
+474955,87 Genebern Shore,Edinburg,PA,1997-10-08,130636214,202/8 NC,107,Basic FHA,Finally Endorsed,2020-12-16,Cognizant Technology Solutions,Lazysize
+347160,Agriprocessors,Calabasas,PA,1988-07-01,71725081,202/8 NC,258,Hospitals & Group Practice,Finally Endorsed,2022-05-14,Dun Rite Lawn Care,PG&E
+990399,STX,Eustis,PA,1989-05-09,123710805,202/8 SR,21,Basic FHA,Finally Endorsed,2021-08-08,Exact Solutions,Fairchild Semiconductor
+053372,412 Dicha Path,Vero Beach,PA,1994-07-14,46525241,223(a)(7) Refi of 223f ALF,300,Basic FHA,Finally Endorsed,2023-07-14,Ameren,Diebold
+391983,Magik Grey,Stephenville,PA,1987-05-31,62454104,223(a)(7) Refi of 223f Nursing/ ICF,231,Hospitals & Group Practice,Initially Endorsed,2023-12-20,Discovery Communications,Calpine
+304696,World of Fun,Mission,PA,1981-12-30,147344491,223(a)(7) Refi of 223f Nursing/ ICF,19,Hospitals & Group Practice,Finally Endorsed,2022-01-04,Arryx,Aetna
+342514,JCPenney,Westlake,PA,1984-09-28,16579316,202/8 NC,30,Basic FHA,Finally Endorsed,2020-01-01,DaVita,Solution Realty
+667474,1219 Jack Micheline Stravenue,Dinuba,PA,2017-02-24,22442765,223(a)(7) Refi of 223f ALF,257,Basic FHA,Finally Endorsed,2022-07-20,International Game Technology,Practi-Plan Mapping
+099430,Dillard's,Del Rio,PA,2015-01-03,78834115,223(a)(7) Refi of 223f ALF,400,Risk Sharing,Finally Endorsed,2021-05-15,Wizards of the Coast,Dippin' Dots
+389248,General Motors,Post Falls,PA,1995-02-11,110527148,202/8 NC,400,Basic FHA,Finally Endorsed,2021-01-28,Vectren,SAIC
+889762,Monit,Anaheim,PA,2017-01-17,148792072,202/8 SR,448,Basic FHA,Finally Endorsed,2021-08-20,AmerisourceBergen,Louisiana Pacific
+000983,293 Paul Run,Nacogdoches,PA,2015-10-07,50102233,202/8 NC,98,Hospitals & Group Practice,Initially Endorsed,2021-09-10,AMC Entertainment,CDI Corporation
+343603,AMR Corporation,Mount Prospect,PA,2005-10-22,87984273,202/8 NC,17,Hospitals & Group Practice,Finally Endorsed,2023-09-05,Regis Corporation,Alliant Techsystems
+734144,240 Geneva Point,Port Hueneme,PA,2013-02-12,70985039,202/8 NC,422,Basic FHA,Finally Endorsed,2021-10-25,Idea Infinity,General Dynamics
+901222,Alcoa,Roanoke,PA,1992-05-05,10764216,202/8 NC,233,Risk Sharing,Initially Endorsed,2021-05-06,Sauer-Danfoss,Applebee's
+313285,262 Isadora Duncan Landing,South San Francisco,PA,2015-08-30,4683102,202/8 SR,375,Risk Sharing,Initially Endorsed,2021-07-27,Xerox,Monk Real Estate Service
+679367,489 Gateview Junction,Parma,PA,2005-06-13,52218385,202/8 NC,279,Risk Sharing,Initially Endorsed,2023-05-20,Intel,JN-International Medical Corporation
+139667,428 Russian Hill Avenue,Edmond,PA,2018-10-24,131687702,223(a)(7) Refi of 223f Nursing/ ICF,338,Hospitals & Group Practice,Finally Endorsed,2022-01-04,Destiny Planners,Raytheon
+845808,Johnson & Johnson,Marana,PA,2020-04-06,47730568,223(a)(7) Refi of 223f ALF,371,Basic FHA,Finally Endorsed,2022-09-19,Profitpros,Grass Roots Yard Services
+351920,Gibson Guitar Corporation,Middletown,PA,2019-09-03,41523678,202/8 SR,261,Hospitals & Group Practice,Initially Endorsed,2023-04-27,Quickbiz,Ocean Spray
+678855,936 Stillings Viaduct,Ridgecrest,PA,2000-08-08,64964649,223(a)(7) Refi of 223f Nursing/ ICF,462,Basic FHA,Initially Endorsed,2023-11-28,Devon Energy,TLC
+698313,961 Milton I Ross Station,Lee's Summit,PA,1988-04-23,38886812,223(a)(7) Refi of 223f Nursing/ ICF,80,Basic FHA,Finally Endorsed,2021-04-11,Conseco,The Serendipity Dip
+256928,Go Daddy,West Fargo,PA,1984-04-23,36783294,202/8 NC,241,Basic FHA,Initially Endorsed,2022-10-05,Bristol-Myers Squibb,Vitagee
+154995,115 Colin Canyon,Weslaco,PA,1994-04-14,55808001,223(a)(7) Refi of 223f Nursing/ ICF,50,Risk Sharing,Finally Endorsed,2023-12-24,Beasts of Beauty,Agilent Technologies
+600363,Hyland Software,El Reno,PA,1980-05-29,26940309,202/8 NC,163,Hospitals & Group Practice,Initially Endorsed,2020-08-11,Informix,Omni Tech
+642821,Zoo York,Aberdeen,PA,1982-02-17,129613839,223(a)(7) Refi of 223f Nursing/ ICF,46,Basic FHA,Initially Endorsed,2023-08-11,Tropicana Products,Medimix International
+679225,697 Allen Alley,Ankeny,PA,2008-03-16,51976876,202/8 NC,138,Basic FHA,Finally Endorsed,2020-12-11,Alladin Realty,Chevron
+258573,186 Marengo Viaduct,Tiffin,PA,2006-04-26,85978020,223(a)(7) Refi of 223f Nursing/ ICF,209,Risk Sharing,Initially Endorsed,2020-10-24,Intercontinental Manufacturing Company,Happy Bear Investment
+762704,366 Amherst Freeway,Los Banos,PA,1987-09-30,18179878,202/8 SR,401,Hospitals & Group Practice,Finally Endorsed,2022-10-03,Sprint Nextel Corporation,Martha Stewart Living Omnimedia
+860679,898 Curtis Pike,Allen,PA,1997-05-23,82373708,202/8 NC,321,Hospitals & Group Practice,Initially Endorsed,2022-03-24,Cognizant Technology Solutions,Quickbiz
+719888,Sequoia Voting Systems,Walker,PA,2007-02-08,76804371,202/8 NC,4,Risk Sharing,Initially Endorsed,2020-11-18,Las Vegas Yard Management,Lowe's
+910563,Bebo,Gladstone,PA,2003-05-10,140883890,202/8 NC,76,Hospitals & Group Practice,Initially Endorsed,2020-08-23,Integra Wealth Planners,Take-Two Interactive
+001247,442 Summit Station,Corsicana,PA,2023-09-02,69548568,223(a)(7) Refi of 223f Nursing/ ICF,465,Hospitals & Group Practice,Finally Endorsed,2021-03-25,Lumencraft,Qualcomm
+141189,189 Lakewood Expressway,Fairfax,PA,1981-04-24,99439162,223(a)(7) Refi of 223f Nursing/ ICF,278,Basic FHA,Initially Endorsed,2022-02-17,Stewart-Warner,Dun & Bradstreet
+088884,"FileMaker Inc., formerly Claris Corp.",East St. Louis,PA,1991-02-25,21615584,202/8 SR,42,Risk Sharing,Initially Endorsed,2023-09-22,Chargepal,General Dynamics
+432054,463 Pueblo Bridge,Southaven,PA,2016-07-10,28790973,202/8 SR,343,Hospitals & Group Practice,Initially Endorsed,2020-02-05,Cole Haan,Netcom Business Services
+594893,309 Rolph Plaza,Plantation,PA,1999-11-15,52731251,202/8 SR,165,Hospitals & Group Practice,Finally Endorsed,2020-12-28,Superior Appraisals,General Motors
+345974,Local Matters,Hendersonville,PA,2009-10-20,32702252,202/8 NC,147,Basic FHA,Initially Endorsed,2021-04-11,Go Daddy,J. P. Morgan Chase and Co.
+366322,13 Icehouse Circle,Lauderhill,PA,1980-12-15,15904578,223(a)(7) Refi of 223f Nursing/ ICF,132,Hospitals & Group Practice,Initially Endorsed,2021-02-09,Exact Realty,Albertsons LLC
+264909,Boston Acoustics,Ossining,PA,2003-03-28,103829895,223(a)(7) Refi of 223f ALF,388,Risk Sharing,Finally Endorsed,2023-06-28,Texas Instruments,Total Yard Management
+084408,1325 Marne Garden,Maple Heights,PA,2022-04-20,124940080,223(a)(7) Refi of 223f Nursing/ ICF,143,Basic FHA,Initially Endorsed,2023-01-05,OCZ Technology,Open Interface
+207301,Regis Corporation,Faribault,PA,2015-04-18,20456440,202/8 NC,172,Risk Sharing,Initially Endorsed,2021-01-07,Dow Chemical Company,Road Runner Lawn Services
+000961,"Olan Mills, Inc.",Topeka,PA,1992-11-23,91950723,223(a)(7) Refi of 223f ALF,104,Hospitals & Group Practice,Initially Endorsed,2021-07-18,Garmin,Eli Lilly and Company
+590432,Allstate,Watauga,PA,1981-05-03,56714451,202/8 SR,349,Basic FHA,Initially Endorsed,2021-03-29,AGL Resources,Aon Corporation
+887432,Ideal Industries,West Memphis,PA,2018-09-13,90138952,223(a)(7) Refi of 223f ALF,413,Basic FHA,Initially Endorsed,2020-08-11,Avnet,Precision Castparts Corporation
+880227,65 Mark Circle,Sycamore,PA,2003-07-05,17404266,223(a)(7) Refi of 223f Nursing/ ICF,274,Basic FHA,Finally Endorsed,2022-11-03,Network Air,Victoria's Secret
+611153,Belkin,Myrtle Beach,PA,2022-09-11,126698842,202/8 SR,447,Basic FHA,Initially Endorsed,2021-10-16,Sexsi Senorita,Titania
+948040,728 Entrada Mews,Novato,PA,2017-01-14,57281492,202/8 SR,65,Risk Sharing,Finally Endorsed,2020-09-18,Fit Tonic,American Financial Group
+772636,92 Fifth Bridge,Gillette,PA,2013-10-28,102980319,223(a)(7) Refi of 223f ALF,312,Risk Sharing,Initially Endorsed,2023-12-20,Marsh & McLennan,Steinway & Sons
+582251,710 Vasquez Expressway,Pinellas Park,PA,1980-04-24,132379656,202/8 SR,265,Basic FHA,Initially Endorsed,2023-11-06,Magik Gray,Zappos.com
+054899,Happy Family,Grandview,PA,2004-04-13,69949182,223(a)(7) Refi of 223f ALF,315,Hospitals & Group Practice,Initially Endorsed,2020-07-25,Veramons,Qwest
+098312,47 Icehouse Stravenue,Cooper City,PA,1989-05-10,126323246,202/8 SR,456,Basic FHA,Initially Endorsed,2020-03-19,S3 Graphics,Quality Realty Service
+634713,Cut Above,Port Orange,PA,2019-12-12,70623810,202/8 NC,5,Hospitals & Group Practice,Finally Endorsed,2020-07-12,CIGNA,Jack in the Box
+311263,Testor Corporation,La Mesa,PA,1997-08-09,63011060,223(a)(7) Refi of 223f ALF,155,Risk Sharing,Initially Endorsed,2023-02-21,W. R. Grace and Company,Quincy Newspapers
+674961,Fox Film Corporation,Redwood City,PA,2004-07-13,52394056,202/8 NC,294,Risk Sharing,Finally Endorsed,2020-09-13,Popeyes Chicken & Biscuits,Wise Appraisals
+494877,446 Mirando Heights,Weirton,PA,2000-01-06,57141902,223(a)(7) Refi of 223f ALF,187,Hospitals & Group Practice,Initially Endorsed,2020-10-25,The Weinstein Company,American Apparel
