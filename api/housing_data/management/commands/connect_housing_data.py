@@ -61,6 +61,11 @@ class Command(BaseCommand):
         """.lstrip())
 
         with connection.cursor() as cursor:
+            print(f"""CREATE SCHEMA IF NOT EXISTS maps""")
+            print(f"""DROP MATERIALIZED VIEW IF EXISTS {view_name}""")
+            print(f"""CREATE MATERIALIZED VIEW {view_name} AS {view_query}""")
+            print(f"""GRANT SELECT ON {view_name} TO {os.environ.get('MAPS_DB_USER')};""")
+
             cursor.execute(f"""CREATE SCHEMA IF NOT EXISTS maps""")
             cursor.execute(f"""DROP MATERIALIZED VIEW IF EXISTS {view_name}""")
             cursor.execute(f"""CREATE MATERIALIZED VIEW {view_name} AS {view_query}""")
