@@ -73,6 +73,48 @@ type IgnoredFields =
 
 export type ComplexItems = Omit<ProjectIndexDetails, IgnoredFields>;
 
+interface FHLBProperties {
+  fhlbFundingId?: string | null;
+  hudPropertyName?: string | null;
+  applicationTypeName?: string | null;
+  propertyStreetAddress?: string | null;
+  city?: string | null;
+  county?: string | null;
+  state?: string | null;
+  zipCode?: string | null;
+  assistedUnits?: number | null;
+  units?: number | null;
+  retentionExpiration?: number | null;
+  '50PercentAmiLimit'?: number | null;
+  '60PercentAmiLimit'?: number | null;
+  '80PercentAmiLimit'?: number | null;
+  greaterThan80Ami?: number | null;
+  latitude?: number | null;
+  longitude?: number | null;
+}
+
+interface FHLBProjects {
+  fhlbFundingId?: string | null;
+  parcelCount?: string | null;
+  hudPropertyName?: string | null;
+  applicationTypeName?: string | null;
+  addressLine1List?: string | null;
+  propertyStreetAddress?: string | null;
+  city?: string | null;
+  county?: string | null;
+  state?: string | null;
+  zipCode?: string | null;
+  '50PercentAmiLimit'?: number | null;
+  '60PercentAmiLimit'?: number | null;
+  '80PercentAmiLimit'?: number | null;
+  greaterThan80Ami?: number | null;
+  assistedUnits?: number | null;
+  units?: number | null;
+  retentionExpiration?: string | null;
+  latitude?: number | null;
+  longitude?: number | null;
+}
+
 export interface HousingSchema
   extends Record<keyof ComplexItems, SchemaSection<any>> {
   activeHudMultifamilyInsuredMortgages: SchemaSection<ActiveHUDMultifamilyInsuredMortgages>;
@@ -89,6 +131,8 @@ export interface HousingSchema
   lihtcDataFromPhfa: SchemaSection<LIHTCDataFromPHFA>;
   demographicsByHousingProjectFromPhfa: SchemaSection<DemographicsByHousingProjectFromPHFA>;
   phfaStats: SchemaSection<PHFAStats>;
+  fhlbProperties: SchemaSection<FHLBProperties>;
+  fhlbProjects: SchemaSection<FHLBProjects>;
 }
 
 export const affordableHousingSchema: HousingSchema = {
@@ -540,6 +584,62 @@ export const affordableHousingSchema: HousingSchema = {
         accessor: 'unitsWUncategorizedSubsidy',
         label: 'Units w/ Uncategorized Subsidy',
       },
+    ],
+  },
+
+  fhlbProjects: {
+    title: 'FHLB Projects',
+    items: [
+      { accessor: 'fhlbFundingId', label: 'FHLB Funding ID' },
+      { accessor: 'parcelCount', label: 'Number of Parcels' },
+      { accessor: 'hudPropertyName', label: 'HUD Property Name' },
+      { accessor: 'applicationTypeName', label: 'Application Type' },
+      { accessor: 'units', label: '# of Units' },
+      { accessor: 'assistedUnits', label: '# of Assisted Units' },
+      {
+        accessor: '50PercentAmiLimit',
+        label: '# occupied by residents with income within 50% AMI Limit',
+      },
+      {
+        accessor: '60PercentAmiLimit',
+        label: '# occupied by residents with income within 60% AMI Limit',
+      },
+      {
+        accessor: '80PercentAmiLimit',
+        label: '# occupied by residents with income within 80% AMI Limit',
+      },
+      {
+        accessor: 'greaterThan80Ami',
+        label: '# occupied by residents with income above 80% AMI Limit',
+      },
+      { accessor: 'retentionExpiration', label: 'Retention Expiration Date' },
+    ],
+  },
+  fhlbProperties: {
+    title: 'FHLB Property Records',
+    items: [
+      { accessor: 'fhlbFundingId', label: 'FHLB Funding ID' },
+      { accessor: 'hudPropertyName', label: 'HUD Property Name' },
+      { accessor: 'applicationTypeName', label: 'Application Type' },
+      { accessor: 'units', label: '# of Units' },
+      { accessor: 'assistedUnits', label: '# of Assisted Units' },
+      {
+        accessor: '50PercentAmiLimit',
+        label: '# occupied by residents with income within 50% AMI Limit',
+      },
+      {
+        accessor: '60PercentAmiLimit',
+        label: '# occupied by residents with income within 60% AMI Limit',
+      },
+      {
+        accessor: '80PercentAmiLimit',
+        label: '# occupied by residents with income within 80% AMI Limit',
+      },
+      {
+        accessor: 'greaterThan80Ami',
+        label: '# occupied by residents with income above 80% AMI Limit',
+      },
+      { accessor: 'retentionExpiration', label: 'Retention Expiration Date' },
     ],
   },
 };

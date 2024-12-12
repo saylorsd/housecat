@@ -611,9 +611,8 @@ class PHFAStats(HousingDataset):
 
 
 class FHLBRentalProperties(HousingDataset):
-    fhlb_funding_id = models.IntegerField(blank=True, null=True)
+    fhlb_funding_id = models.TextField(blank=True, null=True)
 
-    full_text = models.TextField(db_column='_full_text', blank=True, null=True)
     hud_property_name = models.TextField(blank=True, null=True)
     application_type_name = models.TextField(blank=True, null=True)
     property_street_address = models.TextField(blank=True, null=True)
@@ -639,13 +638,11 @@ class FHLBRentalProperties(HousingDataset):
 
     class Meta:
         managed = False
-        db_table = 'afba564f-cc68-42f0-b37b-fc8d70e8ef47'
+        db_table = 'ecdbf89a-bbe7-4e82-b902-d6b774758d3a'
 
 
 class FHLBRentalProjects(HousingDataset):
-    fhlb_funding_id = models.IntegerField(blank=True, null=True)
-
-    full_text = models.TextField(db_column='_full_text', blank=True, null=True)
+    fhlb_funding_id = models.TextField(blank=True, null=True)
 
     parcel_count = models.IntegerField(blank=True, null=True)
     hud_property_name = models.TextField(blank=True, null=True)
@@ -674,4 +671,5 @@ class FHLBRentalProjects(HousingDataset):
 
     class Meta:
         managed = False
-        db_table = 'ecdbf89a-bbe7-4e82-b902-d6b774758d3a'
+        db_table = 'afba564f-cc68-42f0-b37b-fc8d70e8ef47'
+
