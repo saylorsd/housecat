@@ -10,6 +10,7 @@ import { HiChevronDown, HiChevronUp } from 'react-icons/hi';
 interface Props {
   protect?: boolean;
 }
+const ENV = process.env.NODE_ENV || 'development';
 
 export default function Navbar({ protect = true }) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -20,7 +21,9 @@ export default function Navbar({ protect = true }) {
   }
 
   const onError = () => {
-    if (protect) router.push(LOGIN_URL);
+    if (ENV !== 'development') {
+      if (protect) router.push(LOGIN_URL);
+    }
   };
   const { data: currentUser } = useLoggedIn(onError);
 

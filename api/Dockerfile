@@ -1,4 +1,4 @@
-FROM python:3 as build
+FROM python:3 AS build
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY . /code/
 
 
-FROM build as migrate
+FROM build AS migrate
 
 COPY ./docker-entrypoint.sh /code/
 

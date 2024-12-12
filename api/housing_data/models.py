@@ -33,7 +33,7 @@ from housing_data.housing_datasets import (
     NormalizeStateID,
     PMIndx,
     LookupTable,
-    HouseCatSubsidyListing,
+    HouseCatSubsidyListing, FHLBFundingID, FHLBRentalProperties, FHLBRentalProjects,
 )
 
 DATASETS: list[Type[HousingDataset]] = [
@@ -387,6 +387,10 @@ class ProjectIndex(DatastoreDataset):
         return get_fkeys(PMIndx, self.id)
 
     @property
+    def fhlb_funding_id_set(self) -> list[str]:
+        return get_fkeys(FHLBFundingID, self.id)
+
+    @property
     def property_id_set(self) -> list[str]:
         return [self.property_id]
 
@@ -472,6 +476,14 @@ class ProjectIndex(DatastoreDataset):
     @property
     def subsidy_info(self):
         return self.get_related_data(HouseCatSubsidyListing)
+
+    @property
+    def fhlb_properties(self):
+        return self.get_related_data(FHLBRentalProperties)
+
+    @property
+    def fhlb_projects(self):
+        return self.get_related_data(FHLBRentalProjects)
 
     def __str__(self):
         return f'{self.id}: {self.hud_property_name}'

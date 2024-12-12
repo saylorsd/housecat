@@ -47,6 +47,12 @@ class PMIndx(LookupTable):
         db_table = '6234dd27-79f4-43d3-b098-19f12692ce55'
 
 
+class FHLBFundingID(LookupTable):
+    class Meta:
+        managed = False
+        db_table = 'c1d26547-f13f-40bd-8363-e7fcc4584508'
+
+
 # These are directly tied to datasets on the datacenter's CKAN datastore
 # The table names are the datasets' CKAN resource IDs.
 class HousingDataset(DatastoreDataset):
@@ -602,3 +608,70 @@ class PHFAStats(HousingDataset):
     class Meta:
         managed = False
         db_table = 'a6b93b7b-e04e-42c9-96f9-ee788e4f0978'
+
+
+class FHLBRentalProperties(HousingDataset):
+    fhlb_funding_id = models.IntegerField(blank=True, null=True)
+
+    full_text = models.TextField(db_column='_full_text', blank=True, null=True)
+    hud_property_name = models.TextField(blank=True, null=True)
+    application_type_name = models.TextField(blank=True, null=True)
+    property_street_address = models.TextField(blank=True, null=True)
+    city = models.TextField(blank=True, null=True)
+    county = models.TextField(blank=True, null=True)
+    state = models.TextField(blank=True, null=True)
+    zip_code = models.TextField(blank=True, null=True)
+
+    assisted_units = models.IntegerField(blank=True, null=True)
+    units = models.IntegerField(blank=True, null=True)
+
+    retention_expiration = models.DateField(blank=True, null=True)
+
+    _50_percent_ami_limit = models.IntegerField(db_column="50_percent_ami_limit", blank=True, null=True)
+    _60_percent_ami_limit = models.IntegerField(db_column="60_percent_ami_limit", blank=True, null=True)
+    _80_percent_ami_limit = models.IntegerField(db_column="80_percent_ami_limit", blank=True, null=True)
+    greater_than_80_ami = models.IntegerField(blank=True, null=True)
+
+    latitude = models.FloatField(blank=True, null=True)
+    longitude = models.FloatField(blank=True, null=True)
+
+    hc_index_fields = ('fhlb_funding_id',)
+
+    class Meta:
+        managed = False
+        db_table = 'afba564f-cc68-42f0-b37b-fc8d70e8ef47'
+
+
+class FHLBRentalProjects(HousingDataset):
+    fhlb_funding_id = models.IntegerField(blank=True, null=True)
+
+    full_text = models.TextField(db_column='_full_text', blank=True, null=True)
+
+    parcel_count = models.IntegerField(blank=True, null=True)
+    hud_property_name = models.TextField(blank=True, null=True)
+    application_type_name = models.TextField(blank=True, null=True)
+
+    address_line_1_list = models.TextField(blank=True, null=True)
+    property_street_address = models.TextField(blank=True, null=True)
+    city = models.TextField(blank=True, null=True)
+    county = models.TextField(blank=True, null=True)
+    state = models.TextField(blank=True, null=True)
+    zip_code = models.TextField(blank=True, null=True)
+
+    _50_percent_ami_limit = models.IntegerField(db_column="50_percent_ami_limit", blank=True, null=True)
+    _60_percent_ami_limit = models.IntegerField(db_column="60_percent_ami_limit", blank=True, null=True)
+    _80_percent_ami_limit = models.IntegerField(db_column="80_percent_ami_limit", blank=True, null=True)
+    greater_than_80_ami = models.IntegerField(blank=True, null=True)
+
+    assisted_units = models.IntegerField(blank=True, null=True)
+    units = models.IntegerField(blank=True, null=True)
+    retention_expiration = models.DateField(blank=True, null=True)
+
+    latitude = models.FloatField(blank=True, null=True)
+    longitude = models.FloatField(blank=True, null=True)
+
+    hc_index_fields = ('fhlb_funding_id',)
+
+    class Meta:
+        managed = False
+        db_table = 'ecdbf89a-bbe7-4e82-b902-d6b774758d3a'

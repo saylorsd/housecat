@@ -8,7 +8,7 @@ from housing_data.housing_datasets import PHFAStats, ActiveHUDMultifamilyInsured
     HUDPublicHousingDevelopments, HUDPublicHousingBuildings, SubsidyExtractFromHUDInsuredMultifamilyProperties, \
     SubsidyExtractFromMultifamilyAssistanceAndSection8Contracts, MultifamilyAssistanceAndSection8Contracts, \
     HUDInsuredMultifamilyProperties, HUDMultifamilyInspectionScores, LIHTCDataFromPHFA, \
-    DemographicsByHousingProjectFromPHFA, HouseCatSubsidyListing
+    DemographicsByHousingProjectFromPHFA, HouseCatSubsidyListing, FHLBRentalProperties, FHLBRentalProjects
 from housing_data.models import ProjectIndex
 
 
@@ -478,6 +478,57 @@ class HouseCatSubsidyListingSerializer(serializers.ModelSerializer):
         )
 
 
+class FHLBRentalPropertiesSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = FHLBRentalProperties
+        fields = (
+            "fhlb_funding_id",
+            "hud_property_name",
+            "application_type_name",
+            "property_street_address",
+            "city",
+            "county",
+            "state",
+            "zip_code",
+            "assisted_units",
+            "units",
+            "retention_expiration",
+            "_50_percent_ami_limit",
+            "_60_percent_ami_limit",
+            "_80_percent_ami_limit",
+            "greater_than_80_ami",
+            "latitude",
+            "longitude",
+        )
+
+
+
+class FHLBRentalProjectsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = FHLBRentalProjects
+        fields = (
+            'fhlb_funding_id',
+            'parcel_count',
+            'hud_property_name',
+            'application_type_name',
+            'address_line_1_list',
+            'property_street_address',
+            'city',
+            'county',
+            'state',
+            'zip_code',
+            '_50_percent_ami_limit',
+            '_60_percent_ami_limit',
+            '_80_percent_ami_limit',
+            'greater_than_80_ami',
+            'assisted_units',
+            'units',
+            'retention_expiration',
+            'latitude',
+            'longitude',
+        )
+
+
 ###################
 # Project Index
 
@@ -500,6 +551,9 @@ class ProjectIndexSerializer(serializers.ModelSerializer):
     demographics_by_housing_project_from_phfa = DemographicsByHousingProjectFromPHFASerializer(many=True)
     phfa_stats = PHFAStatsSerializer(many=True)
     subsidy_info = HouseCatSubsidyListingSerializer(many=True)
+    fhlb_properties = FHLBRentalPropertiesSerializer(many=True)
+    fhlb_projects = FHLBRentalProjectsSerializer(many=True)
+
 
     class Meta:
         model = ProjectIndex
@@ -545,6 +599,9 @@ class ProjectIndexSerializer(serializers.ModelSerializer):
             'demographics_by_housing_project_from_phfa',
             'phfa_stats',
             'subsidy_info',
+
+            'fhlb_properties',
+            'fhlb_projects'
         )
 
 
