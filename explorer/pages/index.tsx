@@ -34,14 +34,6 @@ function HousecatHome() {
                   </div>
                 </button>
               </Link>
-              {/*<Link href="/watchlist">*/}
-              {/*  <button className={styles.bigButton}>*/}
-              {/*    <div className={styles.buttonTitle}>✔️ Watchlist</div>*/}
-              {/*    <div className={styles.buttonText}>*/}
-              {/*      Limit to selected projects*/}
-              {/*    </div>*/}
-              {/*  </button>*/}
-              {/*</Link>*/}
               <Link href="/search">
                 <button className={styles.bigButton}>
                   <div className={styles.buttonTitle}>🔍 Search</div>

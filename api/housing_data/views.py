@@ -30,7 +30,10 @@ def get_filtered_project_indices(request: Request) -> QuerySet[ProjectIndex]:
         .all()
 
     # Match filter form items from app's map page
-    watchlist = request.query_params.get('watchlist')
+    recent_sale = request.query_params.get('recent-sale')
+    recent_foreclosure = request.query_params.get('recent-foreclosure')
+    recent_code_violation = request.query_params.get('recent-code-violation')
+
     risk_level = request.query_params.get('risk-level')
     lihtc_compliance = request.query_params.get('lihtc-compliance')
     reac_score = request.query_params.get('reac-score')
@@ -38,10 +41,16 @@ def get_filtered_project_indices(request: Request) -> QuerySet[ProjectIndex]:
     funding_category = request.query_params.get('funding-category')
     status = request.query_params.get('status')
 
+    print(recent_sale)
+
     # run all the filters
-    if watchlist:
-        wl = Watchlist.objects.get(slug=watchlist)
-        queryset = ProjectIndex.objects.filter(property_id__in=wl.items)
+    if recent_sale:
+        queryset = ProjectIndex.filter_by_recent_sale(queryset, months=int(recent_sale))
+    if recent_foreclosure:
+        queryset = ProjectIndex.filter_by_recent_foreclosure(queryset, months=int(recent_foreclosure))
+    if recent_code_violation:
+        queryset = ProjectIndex.filter_by_recent_code_violation(queryset, months=int(recent_code_violation))
+
     if risk_level:
         queryset = ProjectIndex.filter_by_risk_level(queryset, lvl=risk_level)
     if lihtc_compliance:

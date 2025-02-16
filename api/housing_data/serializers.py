@@ -502,7 +502,6 @@ class FHLBRentalPropertiesSerializer(serializers.ModelSerializer):
         )
 
 
-
 class FHLBRentalProjectsSerializer(serializers.ModelSerializer):
     class Meta:
         model = FHLBRentalProjects
@@ -554,7 +553,6 @@ class ProjectIndexSerializer(serializers.ModelSerializer):
     fhlb_properties = FHLBRentalPropertiesSerializer(many=True)
     fhlb_projects = FHLBRentalProjectsSerializer(many=True)
 
-
     class Meta:
         model = ProjectIndex
         fields = (
@@ -601,7 +599,13 @@ class ProjectIndexSerializer(serializers.ModelSerializer):
             'subsidy_info',
 
             'fhlb_properties',
-            'fhlb_projects'
+            'fhlb_projects',
+
+            'groups',
+            'parcels',
+
+            "longitude",
+            "latitude",
         )
 
 

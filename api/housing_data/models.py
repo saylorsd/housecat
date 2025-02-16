@@ -5,8 +5,9 @@ from typing import Type, Union
 from django.contrib.auth.models import User
 from django.contrib.gis.db import models
 from django.contrib.gis.geos import Point
-from django.contrib.postgres.fields import ArrayField
+from django.db import connections
 from django.db.models import QuerySet, Q
+from django.db.models.fields import CharField
 
 from housecat.abstract_models import DatastoreDataset, Described
 from housing_data.housing_datasets import (
@@ -76,6 +77,24 @@ def get_fkeys(model: Type['LookupTable'], origin_id: int):
 TODAY = datetime.now().date()
 
 
+class GroupIndex(DatastoreDataset):
+    house_cat_id = CharField(max_length=100)
+    group_id = CharField(max_length=100)
+
+    class Meta:
+        managed = False
+        db_table = '0b6a109e-b1f1-4064-8f42-eeb5355dc9df'
+
+
+class ParcelIndex(DatastoreDataset):
+    parcel_id = CharField(max_length=100)
+    group_id = CharField(max_length=100)
+
+    class Meta:
+        managed = False
+        db_table = "e82411f8-623d-4336-b714-ecdded80703d"
+
+
 class ProjectIndex(DatastoreDataset):
     """
     Index of projects.
@@ -111,6 +130,14 @@ class ProjectIndex(DatastoreDataset):
     class Meta:
         managed = False
         db_table = '1885161c-65f3-4cb2-98aa-4402487ae888'
+
+    @property
+    def groups(self) -> list[str]:
+        return [g.group_id for g in GroupIndex.objects.filter(house_cat_id=self.house_cat_id)]
+
+    @property
+    def parcels(self) -> list[str]:
+        return [p.parcel_id for p in ParcelIndex.objects.filter(group_id__in=self.groups)]
 
     @property
     def subsidy_expiration_date(self):
@@ -152,6 +179,55 @@ class ProjectIndex(DatastoreDataset):
             return dict(reversed(sorted(unsorted.items())))
 
         return None
+
+    def has_parcel(self, parcel_ids: list[str]) -> bool:
+        """Checks if this project has a parcel in the set of parcels in `parcel_ids` """
+        project_parcels = set(self.parcels)
+        search_parcels = set(parcel_ids)
+        result = project_parcels.intersection(search_parcels)
+        return bool(len(result))
+
+    @staticmethod
+    def filter_by_recent_sale(queryset: QuerySet['ProjectIndex'], months=6):
+        """ Finds projects that have had a parcel sell within the past `months` months """
+        conn = connections['datastore']
+        with conn.cursor() as cursor:
+            cursor.execute(
+                f"""SELECT "PARID" FROM "5bbe6c55-bce6-4edb-9d04-68edeb6bf7b1" WHERE "SALEDATE" > ('now'::timestamp - '{months} month'::interval)""")
+            parcels = [row[0] for row in cursor.fetchall()]
+
+        groups = [p.group_id for p in ParcelIndex.objects.filter(parcel_id__in=parcels)]
+        housecat_ids = [g.house_cat_id for g in GroupIndex.objects.filter(group_id__in=groups)]
+
+        return queryset.filter(house_cat_id__in=housecat_ids)
+
+    @staticmethod
+    def filter_by_recent_foreclosure(queryset: QuerySet['ProjectIndex'], months=6):
+        """ Finds projects that have had a foreclosure within the past `months` months """
+        conn = connections['datastore']
+        with conn.cursor() as cursor:
+            cursor.execute(
+                f"""SELECT "pin" FROM "859bccfd-0e12-4161-a348-313d734f25fd" WHERE "filing_date" > ('now'::timestamp - '{months} month'::interval)""")
+            parcels = [row[0] for row in cursor.fetchall()]
+
+        groups = [p.group_id for p in ParcelIndex.objects.filter(parcel_id__in=parcels)]
+        housecat_ids = [g.house_cat_id for g in GroupIndex.objects.filter(group_id__in=groups)]
+
+        return queryset.filter(house_cat_id__in=housecat_ids)
+
+    @staticmethod
+    def filter_by_recent_code_violation(queryset: QuerySet['ProjectIndex'], months=6):
+        """ Finds projects that have had a PLI violation within the past `months` months """
+        conn = connections['datastore']
+        with conn.cursor() as cursor:
+            cursor.execute(
+                f"""SELECT "parcel_id" FROM "70c06278-92c5-4040-ab28-17671866f81c" WHERE "investigation_date" > ('now'::timestamp - '{months} month'::interval)""")
+            parcels = [row[0] for row in cursor.fetchall()]
+
+        groups = [p.group_id for p in ParcelIndex.objects.filter(parcel_id__in=parcels)]
+        housecat_ids = [g.house_cat_id for g in GroupIndex.objects.filter(group_id__in=groups)]
+
+        return queryset.filter(house_cat_id__in=housecat_ids)
 
     @staticmethod
     def filter_by_risk_level(
@@ -487,5 +563,3 @@ class ProjectIndex(DatastoreDataset):
 
     def __str__(self):
         return f'{self.id}: {self.hud_property_name}'
-
-

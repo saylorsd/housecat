@@ -137,9 +137,12 @@ def activate(request, uidb64, token):
 @api_view(['GET'])
 @permission_classes([permissions.IsAuthenticated])
 def check_login(request: Request):
+    print('😼', request.user)
     try:
         profile = UserProfile.objects.get(user=request.user)
+
     except UserProfile.DoesNotExist:
+        print("missing")
         return Response({'details': 'not logged in'}, status=status.HTTP_403_FORBIDDEN)
     if profile.approved:
         return Response(UserProfileSerializer(profile).data)

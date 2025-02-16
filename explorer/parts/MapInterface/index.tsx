@@ -70,6 +70,8 @@ export function MapInterface({
 
   const { source, layers } = mapData || { extras: {} };
 
+  console.log(source);
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.menuSection}>

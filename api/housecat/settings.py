@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False').lower() in ['true', '1']
 
-ALLOWED_HOSTS = json.loads(os.environ.get('ALLOWED_HOSTS', '["www.housecatpgh.org", "localhost"]'))
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost'] # sjson.loads(os.environ.get('ALLOWED_HOSTS', '["www.housecatpgh.org", "localhost", "127.0.0.1"]'))
 
 # Application definition
 INSTALLED_APPS = [
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_gis',
+    'rest_framework.authtoken',
 
     'housing_data',
     'accounts'
@@ -155,7 +156,9 @@ TIME_TO_STALE = 60  # days
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
         'rest_framework.authentication.SessionAuthentication',
+
     ],
 
     'DEFAULT_RENDERER_CLASSES': (

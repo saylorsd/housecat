@@ -115,7 +115,9 @@ class Command(BaseCommand):
                             "fcb7cd5d-71f6-4f38-bb78-a3002be47ed6",
                             "a6b93b7b-e04e-42c9-96f9-ee788e4f0978",
                             "afba564f-cc68-42f0-b37b-fc8d70e8ef47",
-                            "ecdbf89a-bbe7-4e82-b902-d6b774758d3a"
+                            "ecdbf89a-bbe7-4e82-b902-d6b774758d3a",
+                            "0b6a109e-b1f1-4064-8f42-eeb5355dc9df",
+                            "e82411f8-623d-4336-b714-ecdded80703d"
                             )
                             FROM SERVER datastore INTO datastore;
 
