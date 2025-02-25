@@ -157,8 +157,6 @@ TIME_TO_STALE = 60  # days
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
-
     ],
 
     'DEFAULT_RENDERER_CLASSES': (
@@ -174,6 +172,7 @@ REST_FRAMEWORK = {
     'JSON_UNDERSCOREIZE': {
         'no_underscore_before_number': True,
     },
+
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 100,
 
